@@ -21,6 +21,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(DisabilitasTipeSeeder::class);
         $this->call(UserSeeder::class);
+        $this->call(ComCodeSeeder::class);
+        $this->call(RegionSeeder::class);
         
     }
 }
