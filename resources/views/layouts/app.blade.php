@@ -20,7 +20,7 @@
   <link href="{{ asset('snacked/ltr/assets/css/icons.css')}}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  
+
   <!-- loader-->
 <link href="{{ asset('snacked/ltr/assets/css/pace.min.css')}}" rel="stylesheet" />
 
@@ -43,7 +43,7 @@
   <!--start wrapper-->
   <div class="wrapper">
     <!--start top header-->
-      <header class="top-header">        
+      <header class="top-header">
         <nav class="navbar navbar-expand gap-3 align-items-center">
           <div class="mobile-toggle-icon fs-3">
               <i class="bi bi-list"></i>
@@ -62,7 +62,7 @@
                     </div>
                   </a>
               </li>
-              
+
               <li class="nav-item dropdown dropdown-large">
                 <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
                   <div class="projects">
@@ -465,6 +465,7 @@
        @include('layouts.sidebar')
 
        @yield('content')
+       {{ $slot }}
 
        <!--start overlay-->
         <div class="overlay nav-toggle-icon"></div>
@@ -558,11 +559,8 @@
    <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
   <!--app-->
   <script src="{{ asset('snacked/ltr/assets/js/app.js')}}"></script>
-  <script src="{{ asset('snacked/ltr/assets/js/index.js')}}"></script>
-  <script>
-    new PerfectScrollbar(".review-list")
-    new PerfectScrollbar(".chat-talk")
- </script>
+  {{-- <script src="{{ asset('snacked/ltr/assets/js/index.js')}}"></script> --}}
+
 
  @stack('js')
  @livewireScripts

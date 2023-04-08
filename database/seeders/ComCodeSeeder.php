@@ -39,6 +39,12 @@ class ComCodeSeeder extends Seeder
             ['code_cd' => 'SEKOLAH_TP_02', 'code_nm' => 'Sekolah Non Formal (Kejar Paket)', 'code_group' => 'SEKOLAH_TP', 'code_value' => ''],
             ['code_cd' => 'PENDIDIKAN_TP_01', 'code_nm' => 'SD/Sederajat', 'code_group' => 'PENDIDIKAN_TP', 'code_value' => ''],
             ['code_cd' => 'PENDIDIKAN_TP_02', 'code_nm' => 'SMP/Sederajat', 'code_group' => 'PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'ATS_ST_01', 'code_nm' => 'Ya', 'code_group' => 'ATS_ST', 'code_value' => ''],
+            ['code_cd' => 'ATS_ST_02', 'code_nm' => 'Tidak', 'code_group' => 'ATS_ST', 'code_value' => ''],
+            ['code_cd' => 'MINAT_SEKOLAH_ST_01', 'code_nm' => 'Ya', 'code_group' => 'MINAT_SEKOLAH_ST', 'code_value' => ''],
+            ['code_cd' => 'MINAT_SEKOLAH_ST_02', 'code_nm' => 'Tidak', 'code_group' => 'MINAT_SEKOLAH_ST', 'code_value' => ''],
+            ['code_cd' => 'DISABILITAS_ST_01', 'code_nm' => 'Ya', 'code_group' => 'DISABILITAS_ST', 'code_value' => ''],
+            ['code_cd' => 'DISABILITAS_ST_02', 'code_nm' => 'Tidak', 'code_group' => 'DISABILITAS_ST', 'code_value' => ''],
         ];
 
         foreach ($data as $datum) {
