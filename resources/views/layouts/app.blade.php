@@ -465,7 +465,7 @@
        @include('layouts.sidebar')
 
        @yield('content')
-       {{ $slot }}
+       {{ $slot??"" }}
 
        <!--start overlay-->
         <div class="overlay nav-toggle-icon"></div>
