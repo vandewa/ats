@@ -5,7 +5,7 @@
       <img src="{{ asset('snacked/ltr/assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">
     </div>
     <div>
-      <h4 class="logo-text">Snacked</h4>
+      <h4 class="logo-text">ATS</h4>
     </div>
     <div class="toggle-icon ms-auto"> <i class="bi bi-list"></i>
     </div>
@@ -25,20 +25,12 @@
         </li>
       </ul>
     </li>
-    <li>
-      <a class="has-arrow" href="javascript:;">
-        <div class="parent-icon"><i class="bi bi-file-earmark-spreadsheet-fill"></i>
+    <li class="{{ Request::segment(1) == 'data-ats' ? 'mm-active' : '' }}">
+      <a href="{{ route('data-ats.index') }}">
+        <div class="parent-icon"><i class="lni lni-users"></i>
         </div>
-        <div class="menu-title">Tables</div>
+        <div class="menu-title">Data ATS</div>
       </a>
-      <ul>
-        <li> <a href="table-basic-table.html"><i class="bi bi-circle"></i>Basic Table</a>
-        </li>
-        <li> <a href="table-advance-tables.html"><i class="bi bi-circle"></i>Advance Tables</a>
-        </li>
-        <li> <a href="table-datatable.html"><i class="bi bi-circle"></i>Data Table</a>
-        </li>
-      </ul>
     </li>
   </ul>
   <!--end navigation-->
