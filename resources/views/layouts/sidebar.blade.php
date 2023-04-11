@@ -12,7 +12,7 @@
   </div>
   <!--navigation-->
   <ul class="metismenu" id="menu">
-    <li>
+    {{-- <li>
       <a href="javascript:;" class="has-arrow">
         <div class="parent-icon"><i class="bi bi-house-fill"></i>
         </div>
@@ -24,7 +24,7 @@
         <li> <a href="index2.html"><i class="bi bi-circle"></i>Alternate</a>
         </li>
       </ul>
-    </li>
+    </li> --}}
     <li class="{{ Request::segment(1) == 'data-ats' ? 'mm-active' : '' }}">
       <a href="{{ route('data-ats.index') }}">
         <div class="parent-icon"><i class="lni lni-users"></i>

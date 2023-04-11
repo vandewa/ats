@@ -256,12 +256,5 @@
         </div>
         <!--end row-->
 
-        @if (session()->has('success'))
-        <div class="alert alert-success alert-styled-left alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
-            Data berhasil disimpan
-        </div>
-        @endif
-
     </main>
 </div>

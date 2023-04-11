@@ -89,8 +89,8 @@
                            <div class="ms-3"><span>Logout</span></div>
                          </div>
                          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                          @csrf
-                      </form>
+                            @csrf
+                        </form>
                        </a>
                     </li>
                 </ul>
@@ -255,7 +255,7 @@
     window.addEventListener('Update', event => {
         Swal.fire(
           'Good job!',
-        'Data has been updated.',
+          'Data has been updated.',
           'success'
         )
     });

@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class ListDataAts extends DataTableComponent
 {
-    public $delete_id;
+    public $delete_id, $no;
     protected $listeners = ['deleteConfirmed' => 'rowsDeleted'];
     protected $model = Ats::class;
 
@@ -40,7 +40,6 @@ class ListDataAts extends DataTableComponent
     public function columns(): array
     {
         return [
-            // Column::make("#", "id"),
             Column::make("Nama", "nama")
                 ->sortable()
                 ->searchable(),
