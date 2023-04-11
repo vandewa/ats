@@ -112,8 +112,7 @@ class AtsPage extends Component
 
             $ats->pendataan()->create($this->atsPendataans);
 
-            $this->emit('refreshDatatable');
-            session()->flash('success', 'Data berhasil disimpan.');
+            $this->dispatchBrowserEvent('Success');
 
             redirect()->to(route('data-ats.index'));
         }
@@ -124,10 +123,9 @@ class AtsPage extends Component
         Ats::find($this->idnya)->update($this->dataAts);
         AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
         AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
-        session()->flash('success', 'Data berhasil Update.');
+        $this->dispatchBrowserEvent('Update');
 
         redirect()->to(route('data-ats.index'));
-
     }
 
 

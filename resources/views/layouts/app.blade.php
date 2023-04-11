@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{csrf_token()}}">
-  <link rel="icon" href="{{ asset('snacked/ltr/assets/images/favicon-32x32.png')}}" type="image/png" />
+  <link rel="icon" href="{{ asset('snacked/ltr/assets/images/favicon/favicon-32x32.png')}}" type="image/png" />
 
   <!--plugins-->
   <link href="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet"/>
@@ -35,7 +35,7 @@
 
   @vite([])
 
-  <title>ATS</title>
+  <title>Sistem Informasi ATS</title>
 </head>
 
 <body>
@@ -66,14 +66,14 @@
               <li class="nav-item dropdown dropdown-user-setting">
                 <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
                   <div class="user-setting d-flex align-items-center">
-                    <img src="{{ asset('snacked/ltr/assets/images/avatars/avatar-1.png')}}" class="user-img" alt="">
+                    <img src="{{ asset('snacked/ltr/assets/images/favicon/android-chrome-512x512.png')}}" class="user-img" alt="">
                   </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                   <li>
                      <a class="dropdown-item" href="#">
                        <div class="d-flex align-items-center">
-                          <img src="{{ asset('snacked/ltr/assets/images/avatars/avatar-1.png')}}" alt="" class="rounded-circle" width="54" height="54">
+                          <img src="{{ asset('snacked/ltr/assets/images/favicon/android-chrome-512x512.png')}}" alt="" class="rounded-circle" width="54" height="54">
                           <div class="ms-3">
                             <h6 class="mb-0 dropdown-user-name">{{ auth()->user()->name }}</h6>
                           </div>
@@ -199,6 +199,67 @@
   <!--app-->
   <script src="{{ asset('snacked/ltr/assets/js/app.js')}}"></script>
   {{-- <script src="{{ asset('snacked/ltr/assets/js/index.js')}}"></script> --}}
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  {{-- Toastr Script for Livewire --}}
+  <script>
+    $(document).ready(function(){
+          toastr.options = {
+              "progressBar": true,
+              "positionClass": "toast-top-right"
+          }
+      });
+      window.addEventListener('success', event => {
+          toastr.success(event.detail.message);
+      });
+      window.addEventListener('warning', event => {
+          toastr.warning(event.detail.message);
+      });
+      window.addEventListener('error', event => {
+          toastr.error(event.detail.message);
+      });
+  </script>
+
+  {{-- Sweet Alert Delete Script --}}
+  <script>
+    window.addEventListener('show-delete-confirmation', event => {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, Delete'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Livewire.emit('deleteConfirmed')
+                }
+        })
+    });
+    window.addEventListener('Delete', event => {
+        Swal.fire(
+            'Deleted!',
+            'Data has been deleted.',
+            'success'
+        )
+    });
+    window.addEventListener('Success', event => {
+        Swal.fire(
+          'Good job!',
+          'Data has been added.',
+          'success'
+        )
+    });
+    window.addEventListener('Update', event => {
+        Swal.fire(
+          'Good job!',
+        'Data has been updated.',
+          'success'
+        )
+    });
+</script>
 
  @include('sweetalert::alert')
  @stack('js')

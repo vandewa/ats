@@ -10,12 +10,14 @@ use Illuminate\Database\Eloquent\Builder;
 
 class ListDataAts extends DataTableComponent
 {
+    public $delete_id;
+    protected $listeners = ['deleteConfirmed' => 'rowsDeleted'];
     protected $model = Ats::class;
 
     public function configure(): void
     {
         $this->setPrimaryKey('id');
-        $this->setDefaultSort('nama', 'desc');
+        $this->setDefaultSort('nama', 'asc');
     }
 
     public function query(): Builder
@@ -23,39 +25,41 @@ class ListDataAts extends DataTableComponent
         return Ats::with(['pendidikan', 'alamatnya']);
     }
 
-    public function hapus( $var)
+    public function hapus($var)
     {
-        Ats::destroy($var);
-        $this->emitUp('sessionSuccess');
+        $this->delete_id = $var;
+        $this->dispatchBrowserEvent('show-delete-confirmation');
     }
 
+    public function rowsDeleted()
+    {
+       Ats::where('id', $this->delete_id)->first()->delete();
+       $this->dispatchBrowserEvent('Delete');
+    }
+    
     public function columns(): array
     {
         return [
-            Column::make("Id", "id")
-                ->sortable(),
+            // Column::make("#", "id"),
             Column::make("Nama", "nama")
-                ->sortable(),
+                ->sortable()
+                ->searchable(),
             Column::make("NIK", "nik")
-                ->sortable(),
+                ->sortable()
+                ->searchable(),
             Column::make("Alamat", "alamatnya.dusun")
-                ->sortable(),
+                ->sortable()
+                ->searchable(),
             Column::make('Action', 'id')
             ->format(
                 function ($value, $row, Column $column) {
-                    return '<div>
-                    <div class="list-icons">
-                        <div class="dropdown">
-                            <a href="#" class="list-icons-item" data-toggle="dropdown" aria-expanded="false">
-                                <i class="icon-menu9"></i>
-                            </a>
-    
-                            <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(22px, 1px, 0px);">
-                                <button class="dropdown-item" wire:click="hapus('.$row->id.')"><i class="icon-pencil"></i> Hapus</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>';
+                    return '
+                             <div class="gap-3 table-actions d-flex align-items-center fs-6">
+                               <a href="'.route('data-ats', $row->id).'" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit" type="button"><i class="bi bi-pencil-fill"></i>
+                               </a>
+                               <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete" wire:click.prevent="hapus('.$row->id.')" type="button"><i class="bi bi-trash-fill"></i></a>
+                             </div>
+                            ';
                 }
 
             )

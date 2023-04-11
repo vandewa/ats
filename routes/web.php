@@ -17,7 +17,7 @@ use App\Http\Livewire\Pages\Ats\DaftarAts;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('docs', function () {
