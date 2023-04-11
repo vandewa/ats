@@ -23,7 +23,7 @@ return new class extends Migration
             $table->date('tanggal_lahir_kk')->nullable();
             $table->string('pendidikan_tp')->nullable()->comment("pendidikan terakhir");
             $table->string('kelas')->nullable()->comment("kelas terakhir");
-            $table->unsignedBigInteger('creator_id');
+            $table->unsignedBigInteger('creator_id')->nullable();
             $table->timestamps();
         });
     }

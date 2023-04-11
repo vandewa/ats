@@ -13,9 +13,18 @@
         </nav>
         </div>
     </div>
+    <div class="mt-4 mb-3">
+      <a href="{{ route('data-ats') }}"><button class="px-5 btn btn-primary radius-30"><i class="mr-1 bx bx-plus-circle"></i>Add Data</button></a>
+  </div>
     <!--end breadcrumb-->
     <div class="card">
         <div class="card-body">
+          @if (session()->has('success'))
+          <div class="alert alert-success alert-styled-left alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
+              {{ session('success') }}
+          </div>
+          @endif
           <div class="d-flex align-items-center">
           </div>
           <livewire:pages.ats.list-data-ats />

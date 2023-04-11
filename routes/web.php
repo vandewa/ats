@@ -30,7 +30,7 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::get('data-ats', AtsPage::class)->name('data-ats');
+    Route::get('data-ats/{id?}', AtsPage::class)->name('data-ats');
     Route::get('data-ats-index', DaftarAts::class)->name('data-ats.index');
     Route::get('/logout', [DashboardController::class, 'logout'])->name('logout');
 

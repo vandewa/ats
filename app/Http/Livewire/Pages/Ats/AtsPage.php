@@ -2,12 +2,16 @@
 
 namespace App\Http\Livewire\Pages\Ats;
 
+use App\Models\Ats;
+use App\Models\AtsAddress;
+use App\Models\AtsPendataan;
 use App\Models\ComCode;
 use App\Models\ComRegion;
 use Livewire\Component;
 
 class AtsPage extends Component
 {
+    public $idnya;
     public $usia = 0;
     public $pendidikanTpList;
     public $listKecamatan;
@@ -54,6 +58,13 @@ class AtsPage extends Component
         "creator_id" => ""
     ];
 
+    protected $listeners = ['sessionSuccess'];
+
+    public function sessionSuccess()
+    {
+        session()->flash('success', 'Data berhasil dihapus');
+    }
+
     public function updatedDataAtsTanggalLahir()
     {
         $this->usia = date_diff(date_create($this->dataAts['tanggal_lahir']), date_create('now'))->y;
@@ -75,15 +86,63 @@ class AtsPage extends Component
             $this->atsAddres['rt'] = str_pad($this->atsAddres['rt'],3,"0", STR_PAD_LEFT);
         }
     }
+    public function updatedAtsPendataansAtsSt()
+    {
+        if( $this->atsPendataans['ats_st'] == "ATS_ST_02"){
+            $this->atsPendataans['alasan_tp'] = "";
+            $this->atsPendataans['minat_sekolah_st'] = "";
+            $this->atsPendataans['nama_sekolah'] = "";
+            $this->atsPendataans['kelas'] = "";
+            $this->atsPendataans['disabilitas_st'] = "";
+            $this->atsPendataans['note'] = "";
+        }
+    }
 
     public function simpanData()
     {
-        # code...
+        if ($this->idnya) {
+            $this->patchData();
+        } else {
+            $this->validate([
+                'dataAts.nama' => 'required'
+            ]);
+            $ats = Ats::create($this->dataAts);
+
+            $ats->alamatnya()->create($this->atsAddres);
+
+            $ats->pendataan()->create($this->atsPendataans);
+
+            $this->emit('refreshDatatable');
+            session()->flash('success', 'Data berhasil disimpan.');
+
+            redirect()->to(route('data-ats.index'));
+        }
+    }
+
+    public function patchData()
+    {
+        Ats::find($this->idnya)->update($this->dataAts);
+        AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
+        AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
+        session()->flash('success', 'Data berhasil Update.');
+
+        redirect()->to(route('data-ats.index'));
+
     }
 
 
-    public function mount()
+    public function mount($id = "")
     {
+        if($id != ""){
+            $data = Ats::with(['pendidikan', 'alamatnya', 'pendataan'])->find($id);
+            if($data){
+                $this->dataAts = collect($data)->except(['pendidikan', 'alamatnya', 'pendataan', 'created_at', 'updated_at'])->toArray();
+                $this->atsAddres = collect($data->alamatnya)->except(['created_at', 'updated_at'])->toArray();
+                $this->updatedAtsAddresRegionKec();
+                $this->atsPendataans = collect($data->pendataan)->except(['created_at', 'updated_at'])->toArray();
+            }
+        }
+        $this->idnya = $id;
         $this->listKecamatan = ComRegion::where('region_level', 3)->get();
         $this->pendidikanTpList = ComCode::where('code_group', "PENDIDIKAN_TP")->get();
         $this->listAtsSt = ComCode::where('code_group', "ATS_ST")->get();

@@ -23,7 +23,10 @@ return new class extends Migration
             $table->string('disabilitas_st')->nullable()->comment("Jika anak disabilitas");
             $table->string('jenis_disabilitas_tp')->nullable()->comment("Jika anak disabilitas");
             $table->longText('note')->nullable();
+            $table->unsignedBigInteger('creator_id')->nullable();
             $table->timestamps();
+            $table->foreign('ats_id')->references('id')->on('ats')->onUpdate('cascade')
+            ->onDelete('cascade');
         });
     }
 

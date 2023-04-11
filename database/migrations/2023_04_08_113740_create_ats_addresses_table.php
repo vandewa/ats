@@ -19,8 +19,10 @@ return new class extends Migration
             $table->string('dusun')->nullable();
             $table->string('rw')->nullable();
             $table->string('rt')->nullable();
-            $table->unsignedBigInteger('creator_id');
+            $table->unsignedBigInteger('creator_id')->nullable();
             $table->timestamps();
+            $table->foreign('ats_id')->references('id')->on('ats')->onUpdate('cascade')
+            ->onDelete('cascade');
         });
     }
 

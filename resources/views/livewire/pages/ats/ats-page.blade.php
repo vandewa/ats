@@ -1,12 +1,10 @@
 <div>
     <main class="page-content">
-
-
-         <div class="row">
+        <div class="row">
             <div class="col-12 col-lg-12 col-xl-12 d-flex">
                <div class="card w-100 rounded-4">
                 <div class="card-body">
-                    <div class="border p-4 rounded">
+                    <div class="p-4 border rounded">
                         <div class="text-center">
                             <h5 class="card-title">Pendataan Anak Tidak Sekolah</h5>
                           </div>
@@ -16,7 +14,7 @@
                                 <h5 class="card-title">Data Diri Anak Tidak Sekolah</h5>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Nama Lengkap</label>
@@ -30,7 +28,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">NIK</label>
@@ -44,7 +42,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Tempat Lahir</label>
@@ -58,7 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Tanggal Lahir</label>
@@ -72,7 +70,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-12">
                                 <label class="form-label">Usia</label>
                                 <div class="input-group">
@@ -80,7 +78,7 @@
 								</div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Pendidikan Terakhir</label>
@@ -105,7 +103,7 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Kecamatan</label>
@@ -130,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-md-6">
                                 <div class="col-12">
                                     <label class="form-label">Dusun</label>
@@ -156,7 +154,7 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-4 col-form-label">Apakah benar Ats?</label>
                             <div class="col-sm-8">
                                 <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.ats_st">
@@ -168,7 +166,7 @@
                             </div>
                         </div>
                         @if($atsPendataans['ats_st']=="ATS_ST_01")
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-4 col-form-label">Alasan Tidak Sekolah?</label>
                             <div class="col-sm-8">
                                 <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.alasan_tp">
@@ -179,7 +177,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-4 col-form-label">Apakah ATS berminat sekolah kembali?</label>
                             <div class="col-sm-8">
                                 <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.minat_sekolah_st">
@@ -191,7 +189,7 @@
                             </div>
                         </div>
                         @if($atsPendataans['minat_sekolah_st']=="MINAT_SEKOLAH_ST_01")
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-4 col-form-label">Jika berminat sekolah kembali, ingin bersekolah dimana?</label>
                             <div class="col-sm-8">
                                 <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.sekolah_tp">
@@ -202,7 +200,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-2 col-form-label">Sebutkan</label>
                             <div class="col-sm-4">
                                 <input type="text" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
@@ -213,7 +211,7 @@
                             </div>
                         </div>
                         @endif
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <label for="inputEnterYourName" class="col-sm-4 col-form-label">Apakah ATS merupakan penyandang disabilitas?</label>
                             <div class="col-sm-8">
                                 <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.disabilitas_st">
@@ -225,7 +223,7 @@
                             </div>
                         </div>
                         @if($atsPendataans["disabilitas_st"] == "DISABILITAS_ST_01")
-                            <div class="row mb-3">
+                            <div class="mb-3 row">
                                 <label for="inputEnterYourName" class="col-sm-4 col-form-label">Jenis disabilitas?</label>
                                 <div class="col-sm-8">
                                     <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.jenis_disabilitas_tp">
@@ -237,7 +235,7 @@
                                 </div>
                             </div>
                         @endif
-                        <div class="row mb-3">
+                        <div class="mb-3 row">
                             <div class="col-12">
                                 <label class="form-label">Keterangan</label>
                                 <textarea name="" id="" class="form-control"  rows="5"></textarea>
@@ -247,7 +245,7 @@
                         <div class="row">
                             <label class="col-sm-3 col-form-label"></label>
                             <div class="col-sm-8 text-end">
-                                <button type="button" wire:click="simpanData" class="btn btn-primary px-5">Simpan</button>
+                                <button type="button" wire:click="simpanData" class="px-5 btn btn-primary">Simpan</button>
                             </div>
                         </div>
 
@@ -255,8 +253,15 @@
                 </div>
                </div>
             </div>
-         </div>
-         <!--end row-->
+        </div>
+        <!--end row-->
+
+        @if (session()->has('success'))
+        <div class="alert alert-success alert-styled-left alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
+            Data berhasil disimpan
+        </div>
+        @endif
 
     </main>
 </div>

@@ -102,7 +102,7 @@
        <!--end top header-->
 
        @include('layouts.sidebar')
-
+       
        @yield('content')
        {{ $slot??"" }}
 
@@ -194,13 +194,13 @@
   <script src="{{ asset('snacked/ltr/assets/plugins/chartjs/js/Chart.extension.js')}}"></script>
   <script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apexcharts.min.js')}}"></script>
    <!-- Vector map JavaScript -->
-   <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js')}}"></script>
-   <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
+  <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js')}}"></script>
+  <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
   <!--app-->
   <script src="{{ asset('snacked/ltr/assets/js/app.js')}}"></script>
   {{-- <script src="{{ asset('snacked/ltr/assets/js/index.js')}}"></script> --}}
 
-
+ @include('sweetalert::alert')
  @stack('js')
  @livewireScripts
 
