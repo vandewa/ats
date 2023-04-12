@@ -19,10 +19,19 @@ class AtsAddress extends Model
         );
     }
 
-
     public function atsnya()
     {
         return $this->belongsTo(Ats::class, 'ats_id');
+    }
+
+    public function namaKelurahan()
+    {
+        return $this->belongsTo(ComRegion::class, 'region_kel');
+    }
+
+    public function namaKecamatan()
+    {
+        return $this->belongsTo(ComRegion::class, 'region_kec');
     }
 
 }

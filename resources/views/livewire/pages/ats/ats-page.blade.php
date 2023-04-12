@@ -65,11 +65,25 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="col-12">
                                         <label class="form-label">Tempat Lahir di KK</label>
                                         <input type="text" class="form-control" wire:model.lazy="dataAts.tempat_lahir_kk">
                                         @error('dataAts.tempat_lahir_kk')
+                                            <span class="form-text text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="col-12">
+                                        <label class="form-label">Jenis Kelamin</label>
+                                        <select name="" id="" class="form-control" wire:model.lazy="dataAts.jenis_kelamin_tp">
+                                            <option value="">Pilih Jenis Kelamin</option>
+                                            @foreach ($listJenisKelamin as $item)
+                                                <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
+                                            @endforeach
+                                        </select>
+                                        @error('dataAts.jenis_kelamin_tp')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
@@ -96,13 +110,40 @@
                                 </div>
                             </div>
                             <div class="mb-3 row">
-                                <div class="col-12">
-                                    <label class="form-label">Usia</label>
-                                    <div class="input-group">
-                                        <input type="text" wire:model.lazy="usia" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"> <span class="input-group-text" id="basic-addon2">Tahun</span>
-                                        @error('usia')
+                                <div class="col-md-6">
+                                    <div class="col-12">
+                                        <label class="form-label">Nomor KK</label>
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.kk">
+                                        @error('dataAts.kk')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="col-12">
+                                        <label class="form-label">Usia</label>
+                                        <div class="input-group">
+                                            <input type="text" wire:model.lazy="usia" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"> <span class="input-group-text" id="basic-addon2">Tahun</span>
+                                            @error('usia')
+                                                <span class="form-text text-danger">{{ $message }}</span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="col-12">
+                                        <label class="form-label">Status</label>
+                                        <div class="input-group">
+                                            <select name="" id="" class="form-control" wire:model.lazy="dataAts.kawin_tp">
+                                                <option value="">Pilih Status</option>
+                                                @foreach ($listKawin as $item)
+                                                    <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
+                                                @endforeach
+                                            </select>
+                                            @error('dataAts.kawin_tp')
+                                                <span class="form-text text-danger">{{ $message }}</span>
+                                            @enderror
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -121,11 +162,25 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-3">
                                     <div class="col-12">
                                         <label class="form-label">Kelas</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.kelas">
+                                        <select name="" id="" class="form-control" wire:model.lazy="dataAts.kelas">
+                                            <option value="">Pilih Tingkat Sekolah Terakhir</option>
+                                            @foreach ($listTingkatSekolahTerakhir as $item)
+                                                <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
+                                            @endforeach
+                                        </select>
                                         @error('dataAts.kelas')
+                                            <span class="form-text text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="col-12">
+                                        <label class="form-label">NPSN Sekolah Terakhir</label>
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.npsn">
+                                        @error('dataAts.npsn')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>

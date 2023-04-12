@@ -22,6 +22,9 @@ class AtsPage extends Component
     public $listSekolahTp;
     public $listDisabilitasSt;
     public $listJenisDisabilitasTp;
+    public $listTingkatSekolahTerakhir;
+    public $listKawin;
+    public $listJenisKelamin;
     public $dataAts = [
         "nama" => "",
         "nik" => "",
@@ -33,7 +36,11 @@ class AtsPage extends Component
         "tanggal_lahir_kk" => "",
         "pendidikan_tp" => "",
         "kelas" => "",
-        "creator_id" => ""
+        "creator_id" => "",
+        "npsn" => "",
+        "kawin_tp" => "",
+        "kk" => "",
+        "jenis_kelamin_tp" => "",
     ];
 
     public $atsAddres= [
@@ -149,6 +156,9 @@ class AtsPage extends Component
         $this->listSekolahTp = ComCode::where('code_group', "sekolah_tp")->get();
         $this->listDisabilitasSt = ComCode::where('code_group', "disabilitas_st")->get();
         $this->listJenisDisabilitasTp = ComCode::where('code_group', "jenis_disabilitas_tp")->get();
+        $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
+        $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
+        $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
 
     }
     public function render()

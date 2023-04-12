@@ -6,6 +6,7 @@ use Rappasoft\LaravelLivewireTables\DataTableComponent;
 use Rappasoft\LaravelLivewireTables\Views\Column;
 use App\Models\Ats;
 use Illuminate\Database\Eloquent\Builder;
+use Carbon\Carbon;
 
 
 class ListDataAts extends DataTableComponent
@@ -22,7 +23,7 @@ class ListDataAts extends DataTableComponent
 
     public function query(): Builder
     {
-        return Ats::with(['pendidikan', 'alamatnya']);
+        return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan']);
     }
 
     public function hapus($var)
@@ -43,12 +44,24 @@ class ListDataAts extends DataTableComponent
             Column::make("Nama", "nama")
                 ->sortable()
                 ->searchable(),
+            Column::make('Tanggal Lahir', 'tanggal_lahir')
+                ->format(
+                    function ($value, $row, Column $column) {
+                        return Carbon::createFromFormat('Y-m-d', $row->tanggal_lahir)->isoFormat('D MMMM Y');
+                    }
+    
+                )
+                ->html(),
             Column::make("NIK", "nik")
                 ->sortable()
                 ->searchable(),
-            Column::make("Alamat", "alamatnya.dusun")
-                ->sortable()
-                ->searchable(),
+            Column::make('Alamat', 'id')
+                ->format(
+                    function ($value, $row, Column $column) {
+                        return $row->alamatnya->namaKelurahan->region_nm.', '.$row->alamatnya->namaKecamatan->region_nm;
+                    }
+                )
+                ->html(),
             Column::make('Action', 'id')
             ->format(
                 function ($value, $row, Column $column) {

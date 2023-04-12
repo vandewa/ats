@@ -22,9 +22,9 @@
 				<div class="mt-4 mb-0 text-center col-md-6">
 					<img src="{{ asset('pemda.png') }}" style="width: 80px;">
 					<h2 class="heading-section">
-						<span style="margin-left: 10px; font-weight: bold; font-family: 'Teko', sans-serif; color: #ffffff; font-size: 40pt">ATS</span>
+						<span style="margin-left: 10px; font-weight: bold; font-family: 'Teko', sans-serif; color: #ffffff; font-size: 40pt">VERVAL ATS</span>
 					</h2>
-					<span style="margin-left: 10px; font-weight: normal; font-family: 'Teko', sans-serif; color: #ffffff; font-size: 20pt">( Anak Tidak Sekolah )</span>	
+					<span style="margin-left: 10px; font-weight: normal; font-family: 'Teko', sans-serif; color: #ffffff; font-size: 20pt">( Verifikasi Validasi Anak Tidak Sekolah )</span>	
 				</div>
 			</div>
 			<div class="mt-4 row justify-content-center">
