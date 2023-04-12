@@ -186,7 +186,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-12">
                                     <h5 class="card-title">Alamat Anak Tidak Sekolah</h5>
                                 </div>
@@ -252,7 +252,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-12">
                                     <h5 class="card-title">Survei Anak Tidak Sekolah</h5>
                                 </div>
