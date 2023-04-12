@@ -32,6 +32,13 @@
         <div class="menu-title">Data ATS</div>
       </a>
     </li>
+    <li class="{{ Request::segment(1) == 'user' ? 'mm-active' : '' }}">
+      <a href="{{ route('user.index') }}">
+        <div class="parent-icon"><i class="lni lni-user"></i>
+        </div>
+        <div class="menu-title">User</div>
+      </a>
+    </li>
   </ul>
   <!--end navigation-->
 </aside>

@@ -5,4 +5,12 @@ if (!function_exists('get_code_group')) {
     {
         return \App\Models\ComCode::where('code_group', $code)->pluck('code_nm', 'code_cd');
     }
+
+    if (!function_exists('get_role_user')) {
+        function get_role_user()
+        {
+            return \Spatie\Permission\Models\Role::pluck('name', 'name');
+        }
+    }
+    
 }

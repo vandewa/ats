@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\File;
 use App\Http\Controllers\DashboardController;
 use App\Http\Livewire\Pages\Ats\AtsPage;
 use App\Http\Livewire\Pages\Ats\DaftarAts;
+use App\Http\Livewire\Pages\User\UserPage;
+use App\Http\Livewire\Pages\User\DaftarUser;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,8 +32,9 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/logout', [DashboardController::class, 'logout'])->name('logout');
     Route::get('data-ats/{id?}', AtsPage::class)->name('data-ats');
     Route::get('data-ats-index', DaftarAts::class)->name('data-ats.index');
-    Route::get('/logout', [DashboardController::class, 'logout'])->name('logout');
-
+    Route::get('user/{id?}', UserPage::class)->name('user');
+    Route::get('user-index', DaftarUser::class)->name('user.index');
 });
