@@ -85,6 +85,14 @@ class ComCodeSeeder extends Seeder
             ['code_cd' => 'SEKOLAH_TERAKHIR_TP_28', 'code_nm' => '#N/A', 'code_group' => 'SEKOLAH_TERAKHIR_TP', 'code_value' => ''],
             ['code_cd' => 'JENIS_KELAMIN_TP_01', 'code_nm' => 'Laki-laki', 'code_group' => 'JENIS_KELAMIN_TP', 'code_value' => ''],
             ['code_cd' => 'JENIS_KELAMIN_TP_02', 'code_nm' => 'Perempuan', 'code_group' => 'JENIS_KELAMIN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_01', 'code_nm' => 'PKBM/SKB/PONPES', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_02', 'code_nm' => 'SD/MI', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_03', 'code_nm' => 'SMP/MTS', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_04', 'code_nm' => 'SMA/MA', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_05', 'code_nm' => 'SMK/MK', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'JENJANG_PENDIDIKAN_TP_06', 'code_nm' => 'UNIVERSITAS', 'code_group' => 'JENJANG_PENDIDIKAN_TP', 'code_value' => ''],
+            ['code_cd' => 'STATUS_SEKOLAH_TP_01', 'code_nm' => 'NEGERI', 'code_group' => 'STATUS_SEKOLAH_TP', 'code_value' => ''],
+            ['code_cd' => 'STATUS_SEKOLAH_TP_02', 'code_nm' => 'SWASTA', 'code_group' => 'STATUS_SEKOLAH_TP', 'code_value' => ''],
         ];
 
         foreach ($data as $datum) {

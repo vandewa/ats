@@ -7,6 +7,7 @@ use App\Models\AtsAddress;
 use App\Models\AtsPendataan;
 use App\Models\ComCode;
 use App\Models\ComRegion;
+use App\Models\Sekolah;
 use Livewire\Component;
 
 class AtsPage extends Component
@@ -25,6 +26,7 @@ class AtsPage extends Component
     public $listTingkatSekolahTerakhir;
     public $listKawin;
     public $listJenisKelamin;
+    public $listNamaSekolah;
     public $dataAts = [
         "nama" => "",
         "nik" => "",
@@ -37,10 +39,10 @@ class AtsPage extends Component
         "pendidikan_tp" => "",
         "kelas" => "",
         "creator_id" => "",
-        "npsn" => "",
         "kawin_tp" => "",
         "kk" => "",
         "jenis_kelamin_tp" => "",
+        "npsn" => "",
     ];
 
     public $atsAddres= [
@@ -81,6 +83,12 @@ class AtsPage extends Component
     {
         $this->listKelurahan = ComRegion::where('region_root', $this->atsAddres['region_kec'])->get();
     }
+
+    public function updatedAtsPendataansSekolahTp()
+    {
+        $this->listNamaSekolah = Sekolah::where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
+    }
+
     public function updatedAtsAddresRw()
     {
         if( $this->atsAddres['rw']){
@@ -113,7 +121,7 @@ class AtsPage extends Component
             $this->validate([
                 'dataAts.nama' => 'required'
             ]);
-            $ats = Ats::create($this->dataAts);
+            $ats = Ats::create($this->dataAts + ['status' => true]);
 
             $ats->alamatnya()->create($this->atsAddres);
 
@@ -127,9 +135,10 @@ class AtsPage extends Component
 
     public function patchData()
     {
-        Ats::find($this->idnya)->update($this->dataAts);
+        Ats::find($this->idnya)->update($this->dataAts + ['status' => true]);
         AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
         AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
+
         $this->dispatchBrowserEvent('Update');
 
         redirect()->to(route('data-ats.index'));
@@ -149,7 +158,7 @@ class AtsPage extends Component
         }
         $this->idnya = $id;
         $this->listKecamatan = ComRegion::where('region_level', 3)->get();
-        $this->pendidikanTpList = ComCode::where('code_group', "PENDIDIKAN_TP")->get();
+        $this->pendidikanTpList = Sekolah::all();
         $this->listAtsSt = ComCode::where('code_group', "ATS_ST")->get();
         $this->listAlasanTp = ComCode::where('code_group', "ALASAN_TP")->get();
         $this->listMinatSekolahSt = ComCode::where('code_group', "MINAT_SEKOLAH_ST")->get();
@@ -159,6 +168,8 @@ class AtsPage extends Component
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
+
+        // dd(Sekolah::where("status_sekolah", "=","SEKOLAH_TP_01")->get());
 
     }
     public function render()

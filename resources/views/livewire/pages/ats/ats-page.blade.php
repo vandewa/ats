@@ -112,7 +112,7 @@
                             <div class="mb-3 row">
                                 <div class="col-md-6">
                                     <div class="col-12">
-                                        <label class="form-label">Nomor KK</label>
+                                        <label class="form-label">Nomor Kartu Keluarga</label>
                                         <input type="text" class="form-control" wire:model.lazy="dataAts.kk">
                                         @error('dataAts.kk')
                                             <span class="form-text text-danger">{{ $message }}</span>
@@ -150,13 +150,8 @@
                             <div class="mb-3 row">
                                 <div class="col-md-6">
                                     <div class="col-12">
-                                        <label class="form-label">Pendidikan Terakhir</label>
-                                        <select name="" id="" class="form-control" wire:model.lazy="dataAts.pendidikan_tp">
-                                            <option value="">Pilih Pendidikan Terakhir</option>
-                                            @foreach ($pendidikanTpList as $item)
-                                                <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
-                                            @endforeach
-                                        </select>
+                                        <label class="form-label">Nama Sekolah Terakhir</label>
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.pendidikan_tp">
                                         @error('dataAts.pendidikan_tp')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
@@ -179,14 +174,14 @@
                                 <div class="col-md-3">
                                     <div class="col-12">
                                         <label class="form-label">NPSN Sekolah Terakhir</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.npsn">
+                                        <input type="text" class="form-control" wire:model.lazy="npsn">
                                         @error('dataAts.npsn')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mt-5">
+                            <div class="mt-5 row">
                                 <div class="col-md-12">
                                     <h5 class="card-title">Alamat Anak Tidak Sekolah</h5>
                                 </div>
@@ -252,7 +247,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mt-5">
+                            <div class="mt-5 row">
                                 <div class="col-md-12">
                                     <h5 class="card-title">Survei Anak Tidak Sekolah</h5>
                                 </div>
@@ -319,7 +314,12 @@
                             <div class="mb-3 row">
                                 <label for="inputEnterYourName" class="col-sm-2 col-form-label">Sebutkan</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
+                                    <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
+                                        <option value="">Pilih Data</option>
+                                        @foreach ($listNamaSekolah??[] as $p)
+                                            <option value="{{ $p->id }}">{{ $p->nama }}</option>
+                                        @endforeach
+                                    </select>
                                     @error('atsPendataans.nama_sekolah')
                                         <span class="form-text text-danger">{{ $message }}</span>
                                     @enderror
