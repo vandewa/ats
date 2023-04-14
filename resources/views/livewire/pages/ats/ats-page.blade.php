@@ -10,7 +10,7 @@
                           </div>
                         <hr>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 mb-4">
                                 <h5 class="card-title">Data Diri Anak Tidak Sekolah</h5>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                                 <div class="col-md-3">
                                     <div class="col-12">
                                         <label class="form-label">NPSN Sekolah Terakhir</label>
-                                        <input type="text" class="form-control" wire:model.lazy="npsn">
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.npsn">
                                         @error('dataAts.npsn')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
@@ -243,6 +243,17 @@
                                     @enderror
                                 </div>
                             </div>
+                            @if($atsPendataans['alasan_tp']=="ALASAN_TP_07")
+                            <div class="mb-3 row">
+                                <label for="inputEnterYourName" class="col-sm-4 col-form-label">Keterangan Tidak Sekolah</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" wire:model.lazy="atsPendataans.ket_tidak_sekolah">
+                                    @error('atsPendataans.ket_tidak_sekolah')
+                                        <span class="form-text text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            @endif
                             <div class="mb-3 row">
                                 <label for="inputEnterYourName" class="col-sm-4 col-form-label">Apakah ATS berminat sekolah kembali?</label>
                                 <div class="col-sm-8">
@@ -273,7 +284,7 @@
                                 </div>
                             </div>
                             <div class="mb-3 row">
-                                <label for="inputEnterYourName" class="col-sm-2 col-form-label">Sebutkan</label>
+                                <label for="inputEnterYourName" class="col-sm-4 col-form-label">Nama Sekolah</label>
                                 <div class="col-sm-4">
                                     <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
                                         <option value="">Pilih Data</option>
@@ -285,9 +296,10 @@
                                         <span class="form-text text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                <label for="inputEnterYourName" class="col-sm-2 col-form-label">Masuk Kelas</label>
-                                <div class="col-sm-4">
+                                <label for="inputEnterYourName" class="col-sm-1 col-form-label">Kelas</label>
+                                <div class="col-sm-3">
                                     <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.kelas">
+                                        <option value="">Pilih Kelas Terakhir</option>
                                     @foreach ($listTingkatSekolahTerakhir as $item)
                                         <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
                                     @endforeach
@@ -328,17 +340,28 @@
                                     </div>
                                 </div>
                             @endif
+                            @if($atsPendataans['jenis_disabilitas_tp']=="JENIS_DISABILITAS_TP_18")
+                            <div class="mb-3 row">
+                                <label for="inputEnterYourName" class="col-sm-4 col-form-label">Keterangan Disabilitas</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" wire:model.lazy="atsPendataans.ket_disabilitas">
+                                    @error('atsPendataans.ket_disabilitas')
+                                        <span class="form-text text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            @endif
                             <div class="mb-3 row">
                                 <div class="col-12">
                                     <label class="form-label">Keterangan</label>
-                                    <textarea name="" id="" class="form-control" rows="5" wire.model="note"></textarea>
+                                    <textarea class="form-control" rows="5" wire.model="atsPendataans.note" id="atsPendataans.note"></textarea>
                                 </div>
                             </div>
                             @elseif($atsPendataans['ats_st']=="ATS_ST_02")
                             <div class="mb-3 row">
                                 <div class="col-12">
                                     <label class="form-label">Keterangan</label>
-                                    <textarea name="" id="" class="form-control" rows="5" wire.model="note"></textarea>
+                                    <textarea class="form-control" rows="5" wire.model="atsPendataans.ket_tidak_ats"></textarea>
                                 </div>
                             </div>
                             @endif

@@ -27,16 +27,12 @@ class AtsPage extends Component
     public $listKawin;
     public $listJenisKelamin;
     public $listNamaSekolah;
-    
+
     public $dataAts = [
         "nama" => "",
         "nik" => "",
         "tempat_lahir" => "",
         "tanggal_lahir" => "",
-        "nama_kk" => "",
-        "nik_kk" => "",
-        "tempat_lahir_kk" => "",
-        "tanggal_lahir_kk" => "",
         "pendidikan_tp" => "",
         "kelas" => "",
         "creator_id" => "",
@@ -46,7 +42,7 @@ class AtsPage extends Component
         "npsn" => "",
     ];
 
-    public $atsAddres= [
+    public $atsAddres = [
         "region_kec" => "",
         "region_kel" => "",
         "dusun" => "",
@@ -65,7 +61,10 @@ class AtsPage extends Component
         "disabilitas_st" => "",
         "jenis_disabilitas_tp" => "",
         "note" => "",
-        "creator_id" => ""
+        "creator_id" => "",
+        "ket_tidak_sekolah" => "",
+        "ket_disabilitas" => "",
+        "ket_tidak_ats" => ""
     ];
 
     protected $listeners = ['sessionSuccess'];
@@ -92,25 +91,29 @@ class AtsPage extends Component
 
     public function updatedAtsAddresRw()
     {
-        if( $this->atsAddres['rw']){
-        $this->atsAddres['rw'] = str_pad($this->atsAddres['rw'],3,"0", STR_PAD_LEFT);
+        if ($this->atsAddres['rw']) {
+            $this->atsAddres['rw'] = str_pad($this->atsAddres['rw'], 3, "0", STR_PAD_LEFT);
         }
     }
     public function updatedAtsAddresRt()
     {
-        if( $this->atsAddres['rt']){
-            $this->atsAddres['rt'] = str_pad($this->atsAddres['rt'],3,"0", STR_PAD_LEFT);
+        if ($this->atsAddres['rt']) {
+            $this->atsAddres['rt'] = str_pad($this->atsAddres['rt'], 3, "0", STR_PAD_LEFT);
         }
     }
     public function updatedAtsPendataansAtsSt()
     {
-        if( $this->atsPendataans['ats_st'] == "ATS_ST_02"){
+        if ($this->atsPendataans['ats_st'] == "ATS_ST_02") {
             $this->atsPendataans['alasan_tp'] = "";
             $this->atsPendataans['minat_sekolah_st'] = "";
             $this->atsPendataans['nama_sekolah'] = "";
             $this->atsPendataans['kelas'] = "";
             $this->atsPendataans['disabilitas_st'] = "";
             $this->atsPendataans['note'] = "";
+            $this->atsPendataans['ket_tidak_sekolah'] = "";
+            $this->atsPendataans['ket_disabilitas'] = "";
+        } elseif ($this->atsPendataans['ats_st'] == "ATS_ST_01") {
+            $this->atsPendataans['ket_tidak_ats'] = "";
         }
     }
 
@@ -148,13 +151,16 @@ class AtsPage extends Component
 
     public function mount($id = "")
     {
-        if($id != ""){
+        if ($id != "") {
             $data = Ats::with(['pendidikan', 'alamatnya', 'pendataan'])->find($id);
-            if($data){
+            if ($data) {
                 $this->dataAts = collect($data)->except(['pendidikan', 'alamatnya', 'pendataan', 'created_at', 'updated_at'])->toArray();
                 $this->atsAddres = collect($data->alamatnya)->except(['created_at', 'updated_at'])->toArray();
                 $this->updatedAtsAddresRegionKec();
                 $this->atsPendataans = collect($data->pendataan)->except(['created_at', 'updated_at'])->toArray();
+                $this->updatedAtsPendataansSekolahTp();
+                $this->updatedDataAtsTanggalLahir();
+                // dd($this->atsPendataans);
             }
         }
         $this->idnya = $id;
@@ -169,7 +175,7 @@ class AtsPage extends Component
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
-
+        
     }
     public function render()
     {

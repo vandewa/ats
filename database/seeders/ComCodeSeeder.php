@@ -309,7 +309,7 @@ class ComCodeSeeder extends Seeder
                 "code_cd" => "SEKOLAH_TERAKHIR_TP_41",
                 "code_nm" => "#N/A",
                 "code_value" => "#N/A",
-                "code_group" => "#N/A",
+                "code_group" => "SEKOLAH_TERAKHIR_TP",
             ]
         ];
 

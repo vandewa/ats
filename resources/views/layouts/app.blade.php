@@ -35,7 +35,7 @@
 
   @vite([])
 
-  <title>Sistem Informasi ATS</title>
+  <title>Verval ATS</title>
 </head>
 
 <body>
