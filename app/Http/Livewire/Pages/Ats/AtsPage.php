@@ -122,7 +122,7 @@ class AtsPage extends Component
             $this->validate([
                 'dataAts.nama' => 'required'
             ]);
-            $ats = Ats::create($this->dataAts + ['status' => true]);
+            $ats = Ats::create($this->dataAts + ['status' => true, 'tanggal_verval' => now()]);
 
             $ats->alamatnya()->create($this->atsAddres);
 
@@ -136,7 +136,7 @@ class AtsPage extends Component
 
     public function patchData()
     {
-        Ats::find($this->idnya)->update($this->dataAts + ['status' => true]);
+        Ats::find($this->idnya)->update($this->dataAts + ['status' => true, 'tanggal_verval' => now()]);
         AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
         AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
 
@@ -155,6 +155,7 @@ class AtsPage extends Component
                 $this->atsAddres = collect($data->alamatnya)->except(['created_at', 'updated_at'])->toArray();
                 $this->updatedAtsAddresRegionKec();
                 $this->atsPendataans = collect($data->pendataan)->except(['created_at', 'updated_at'])->toArray();
+                $this->updatedDataAtsTanggalLahir();
             }
         }
         $this->idnya = $id;
