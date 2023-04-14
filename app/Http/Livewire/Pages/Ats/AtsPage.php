@@ -27,6 +27,7 @@ class AtsPage extends Component
     public $listKawin;
     public $listJenisKelamin;
     public $listNamaSekolah;
+    
     public $dataAts = [
         "nama" => "",
         "nik" => "",
@@ -168,8 +169,6 @@ class AtsPage extends Component
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
-
-        // dd(Sekolah::where("status_sekolah", "=","SEKOLAH_TP_01")->get());
 
     }
     public function render()

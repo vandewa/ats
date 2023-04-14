@@ -18,27 +18,7 @@
                             <div class="mb-3 row">
                                 <div class="col-md-6">
                                     <div class="col-12">
-                                        <label class="form-label">Nama Lengkap</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.nama">
-                                        @error('dataAts.nama')
-                                            <span class="form-text text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="col-12">
-                                        <label class="form-label">Nama di KK</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.nama_kk">
-                                        @error('dataAts.nama_kk')
-                                            <span class="form-text text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3 row">
-                                <div class="col-md-6">
-                                    <div class="col-12">
-                                        <label class="form-label">NIK</label>
+                                        <label class="form-label">Nomor Induk Kependudukan (NIK)</label>
                                         <input type="number" class="form-control" wire:model.lazy="dataAts.nik">
                                         @error('dataAts.nik')
                                             <span class="form-text text-danger">{{ $message }}</span>
@@ -47,9 +27,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="col-12">
-                                        <label class="form-label">NIK di KK</label>
-                                        <input type="number" class="form-control" wire:model.lazy="dataAts.nik_kk">
-                                        @error('dataAts.nik_kk')
+                                        <label class="form-label">Nomor Kartu Keluarga (KK)</label>
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.kk">
+                                        @error('dataAts.kk')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
@@ -57,6 +37,15 @@
                             </div>
                             <div class="mb-3 row">
                                 <div class="col-md-6">
+                                    <div class="col-12">
+                                        <label class="form-label">Nama Lengkap <small>(*sesuai dengan KK)</small></label>
+                                        <input type="text" class="form-control" wire:model.lazy="dataAts.nama">
+                                        @error('dataAts.nama')
+                                            <span class="form-text text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
                                     <div class="col-12">
                                         <label class="form-label">Tempat Lahir</label>
                                         <input type="text" class="form-control" wire:model.lazy="dataAts.tempat_lahir">
@@ -67,14 +56,18 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="col-12">
-                                        <label class="form-label">Tempat Lahir di KK</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.tempat_lahir_kk">
-                                        @error('dataAts.tempat_lahir_kk')
+                                        <label class="form-label">Tanggal Lahir</label>
+                                        <input type="date" class="form-control" wire:model.lazy="dataAts.tanggal_lahir">
+                                        @error('dataAts.tanggal_lahir')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+               
+                            </div>
+                           
+                            <div class="mb-3 row">
+                                <div class="col-md-6">
                                     <div class="col-12">
                                         <label class="form-label">Jenis Kelamin</label>
                                         <select name="" id="" class="form-control" wire:model.lazy="dataAts.jenis_kelamin_tp">
@@ -84,37 +77,6 @@
                                             @endforeach
                                         </select>
                                         @error('dataAts.jenis_kelamin_tp')
-                                            <span class="form-text text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3 row">
-                                <div class="col-md-6">
-                                    <div class="col-12">
-                                        <label class="form-label">Tanggal Lahir</label>
-                                        <input type="date" class="form-control" wire:model.lazy="dataAts.tanggal_lahir">
-                                        @error('dataAts.tanggal_lahir')
-                                            <span class="form-text text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="col-12">
-                                        <label class="form-label">Tanggal Lahir di KK</label>
-                                        <input type="date" class="form-control" wire:model.lazy="dataAts.tanggal_lahir_kk">
-                                        @error('dataAts.tanggal_lahir_kk')
-                                            <span class="form-text text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3 row">
-                                <div class="col-md-6">
-                                    <div class="col-12">
-                                        <label class="form-label">Nomor Kartu Keluarga</label>
-                                        <input type="text" class="form-control" wire:model.lazy="dataAts.kk">
-                                        @error('dataAts.kk')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
@@ -191,7 +153,6 @@
                                 <div class="col-md-6">
                                     <div class="col-12">
                                         <label class="form-label">Kecamatan</label>
-
                                         <select name="" id="" class="form-control" wire:model.lazy="atsAddres.region_kec">
                                             <option value="">Pilih Kecamatan</option>
                                             @foreach ($listKecamatan as $item)
@@ -205,9 +166,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="col-12">
-                                        <label class="form-label">Kelurahan</label>
+                                        <label class="form-label">Kelurahan/Desa</label>
                                         <select name="" id="" class="form-control" wire:model.lazy="atsAddres.region_kel">
-                                            <option value="">Pilih Kelurahan</option>
+                                            <option value="">Pilih Kelurahan/Desa</option>
                                             @foreach ($listKelurahan??[] as $item)
                                                 <option value="{{ $item->region_cd }}">{{ $item->region_nm }}</option>
                                             @endforeach
@@ -326,7 +287,11 @@
                                 </div>
                                 <label for="inputEnterYourName" class="col-sm-2 col-form-label">Masuk Kelas</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" wire:model.lazy="atsPendataans.kelas">
+                                    <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.kelas">
+                                    @foreach ($listTingkatSekolahTerakhir as $item)
+                                        <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
+                                    @endforeach
+                                    </select>
                                     @error('atsPendataans.kelas')
                                         <span class="form-text text-danger">{{ $message }}</span>
                                     @enderror
@@ -363,6 +328,13 @@
                                     </div>
                                 </div>
                             @endif
+                            <div class="mb-3 row">
+                                <div class="col-12">
+                                    <label class="form-label">Keterangan</label>
+                                    <textarea name="" id="" class="form-control"  rows="5"></textarea>
+                                </div>
+                            </div>
+                            @elseif($atsPendataans['ats_st']=="ATS_ST_02")
                             <div class="mb-3 row">
                                 <div class="col-12">
                                     <label class="form-label">Keterangan</label>
