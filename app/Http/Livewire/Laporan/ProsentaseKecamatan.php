@@ -18,7 +18,7 @@ class ProsentaseKecamatan extends DataTableComponent
     }
     public function query(): Builder
     {
-        return Ats::select(DB::raw(" "));
+        return DB::table('ats as a')::select(DB::raw(" "))->join('ats_address as aa')->groupBy('');
     }
 
     public function columns(): array
