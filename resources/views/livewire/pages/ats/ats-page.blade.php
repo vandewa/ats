@@ -331,14 +331,14 @@
                             <div class="mb-3 row">
                                 <div class="col-12">
                                     <label class="form-label">Keterangan</label>
-                                    <textarea name="" id="" class="form-control"  rows="5"></textarea>
+                                    <textarea name="" id="" class="form-control" rows="5" wire.model="note"></textarea>
                                 </div>
                             </div>
                             @elseif($atsPendataans['ats_st']=="ATS_ST_02")
                             <div class="mb-3 row">
                                 <div class="col-12">
                                     <label class="form-label">Keterangan</label>
-                                    <textarea name="" id="" class="form-control"  rows="5"></textarea>
+                                    <textarea name="" id="" class="form-control" rows="5" wire.model="note"></textarea>
                                 </div>
                             </div>
                             @endif
@@ -356,6 +356,5 @@
             </div>
         </div>
         <!--end row-->
-
     </main>
 </div>
