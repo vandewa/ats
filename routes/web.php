@@ -7,6 +7,7 @@ use App\Http\Livewire\Pages\Ats\AtsPage;
 use App\Http\Livewire\Pages\Ats\DaftarAts;
 use App\Http\Livewire\Pages\User\UserPage;
 use App\Http\Livewire\Pages\User\DaftarUser;
+use App\Http\Livewire\Pages\Laporan;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,4 +38,5 @@ Route::middleware([
     Route::get('data-ats-index', DaftarAts::class)->name('data-ats.index');
     Route::get('user/{id?}', UserPage::class)->name('user');
     Route::get('user-index', DaftarUser::class)->name('user.index');
+    Route::get('laporan', Laporan::class)->name('laporan.index');
 });

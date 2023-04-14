@@ -58,13 +58,25 @@ class ListDataAts extends DataTableComponent
 
                 )
                 ->html(),
+            Column::make('Usia (Tahun)', 'tanggal_lahir')
+                ->format(
+                    function ($value, $row, Column $column) {
+                        return date_diff(date_create($row->tanggal_lahir), date_create('now'))->y;
+                    }
+
+                )
+                ->html(),
             Column::make("NIK", "nik")
                 ->sortable()
                 ->searchable(),
             Column::make('Alamat', 'id')
                 ->format(
                     function ($value, $row, Column $column) {
-                        return $row->alamatnya->namaKelurahan->region_nm . ', ' . $row->alamatnya->namaKecamatan->region_nm;
+                        if ($row->alamatnya->namaKelurahan->region_nm ?? "" != "") {
+                            return $row->alamatnya->namaKelurahan->region_nm . ', ' . $row->alamatnya->namaKecamatan->region_nm;
+                        } else {
+                            return ' - ,' . $row->alamatnya->namaKecamatan->region_nm;
+                        }
                     }
                 )
                 ->html(),

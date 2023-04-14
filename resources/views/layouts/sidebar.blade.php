@@ -32,6 +32,13 @@
         <div class="menu-title">Data ATS</div>
       </a>
     </li>
+    <li class="{{ Request::segment(1) == 'laporan' ? 'mm-active' : '' }}">
+      <a href="{{ route('laporan.index') }}">
+        <div class="parent-icon"><i class="lni lni-users"></i>
+        </div>
+        <div class="menu-title">Laporan </div>
+      </a>
+    </li>
     <li class="{{ Request::segment(1) == 'user' ? 'mm-active' : '' }}">
       <a href="{{ route('user.index') }}">
         <div class="parent-icon"><i class="lni lni-user"></i>
