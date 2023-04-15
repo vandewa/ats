@@ -368,8 +368,11 @@
                             <div class="row">
                                 <label class="col-sm-3 col-form-label"></label>
                                 <div class="col-sm-12 text-end">
-                                    <a href="{{ route('data-ats.index') }}" class="px-5 btn btn-secondary">Kembali</a>
-                                    <button type="submit" class="px-5 btn btn-primary">Simpan</button>
+                                    @if(Request::segment('2') != null)
+                                    <a href="{{ route('cetak') }}" class="px-5 btn btn-success mb-3">Download Formulir</a>
+                                    @endif
+                                    <a href="{{ route('data-ats.index') }}" class="px-5 btn btn-secondary mb-3">Kembali</a>
+                                    <button type="submit" class="px-5 btn btn-primary mb-3">Simpan</button>
                                 </div>
                             </div>
                         </form>

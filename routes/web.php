@@ -43,4 +43,5 @@ Route::middleware([
     Route::get('/getUser', function () {
         return response()->json(['userId' => auth()->user()->kecamatan]);
     });
+    Route::get('/cetak', [DashboardController::class, 'cetak'])->name('cetak');
 });

@@ -90,4 +90,9 @@ class DashboardController extends Controller
 
         return redirect('/');
     }
+
+    public function cetak()
+    {
+        return response()->download(public_path('template/FORMULIR-PERMOHONAN-BEASISWA-PENDIDIKAN.docx'))->deleteFileAfterSend(false);
+    }
 }

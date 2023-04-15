@@ -26,7 +26,6 @@
         <div class="menu-title">Data ATS</div>
       </a>
     </li>
-    @if (auth()->user()->hasRole('admin')) 
     <li class="{{ Request::segment(1) == 'laporan' ? 'mm-active' : '' }}">
       <a href="{{ route('laporan.index') }}">
         <div class="parent-icon"><i class="lni lni-book"></i>
@@ -34,6 +33,7 @@
         <div class="menu-title">Laporan </div>
       </a>
     </li>
+    @if (auth()->user()->hasRole('admin')) 
     <li class="{{ Request::segment(1) == 'user' ? 'mm-active' : '' }}">
       <a href="{{ route('user.index') }}">
         <div class="parent-icon"><i class="lni lni-user"></i>
