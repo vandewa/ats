@@ -19,6 +19,21 @@
 				</div>
 			</div>
         </div>
+		<div class="col">
+			<div class="card rounded-4">
+				<div class="card-body">
+					<div class="d-flex align-items-center">
+						<div class="">
+							<p class="mb-1">Total User</p>
+							<h4 class="mb-0">{{$total_user}}</h4>
+						</div>
+						<div class="ms-auto widget-icon bg-success text-white">
+							<i class="lni lni-user"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
 		@elseif(auth()->user()->hasRole('kecamatan')) 
 		<div class="col">
 			<div class="card rounded-4">
@@ -35,14 +50,13 @@
 				</div>
 			</div>
         </div>
-		@endif
-        <div class="col">
+		<div class="col">
 			<div class="card rounded-4">
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="">
-							<p class="mb-1">Total User</p>
-							<h4 class="mb-0">{{$total_user}}</h4>
+							<p class="mb-1">Total User Kecamatan {{$nama_kecamatan}}</p>
+							<h4 class="mb-0">{{$total_user_kec}}</h4>
 						</div>
 						<div class="ms-auto widget-icon bg-success text-white">
 							<i class="lni lni-user"></i>
@@ -51,6 +65,7 @@
 				</div>
 			</div>
         </div>
+		@endif
   	</div>
   	<!--end row-->
 

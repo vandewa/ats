@@ -60,6 +60,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                @if(Request::segment('2') != null)
+                                <legend style="font-size: 20px;">Ganti Password</legend><hr>
+                                @endif
                                 <div class="mb-3 row">
                                     <div class="col-md-6">
                                         <div class="col-12">
