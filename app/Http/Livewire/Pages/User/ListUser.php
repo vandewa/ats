@@ -4,7 +4,6 @@ namespace App\Http\Livewire\Pages\User;
 
 use Rappasoft\LaravelLivewireTables\DataTableComponent;
 use Rappasoft\LaravelLivewireTables\Views\Column;
-use Illuminate\Database\Eloquent\Builder;
 use App\Models\User;
 
 class ListUser extends DataTableComponent
@@ -20,10 +19,6 @@ class ListUser extends DataTableComponent
     public function configure(): void
     {
         $this->setPrimaryKey('id');
-    }
-    public function query(): Builder
-    {
-        return User::with(['namaKecamatan']);
     }
 
     public function hapus($var)

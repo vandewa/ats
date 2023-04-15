@@ -7,7 +7,6 @@ use Rappasoft\LaravelLivewireTables\Views\Column;
 use App\Models\Ats;
 use Illuminate\Database\Eloquent\Builder;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Auth;
 
 class ListDataAts extends DataTableComponent
 {
@@ -21,7 +20,7 @@ class ListDataAts extends DataTableComponent
         $this->setDefaultSort('nama', 'asc');
     }
 
-    public function query(): Builder
+    public function builder(): Builder
     {
         if (auth()->user()->kecamatan) {
             return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])->whereHas('alamatnya', function ($query) {
@@ -53,7 +52,9 @@ class ListDataAts extends DataTableComponent
             Column::make('Tanggal Lahir', 'tanggal_lahir')
                 ->format(
                     function ($value, $row, Column $column) {
-                        return Carbon::createFromFormat('Y-m-d', $row->tanggal_lahir)->isoFormat('D MMMM Y');
+                        if ($row->tanggal_lahir) {
+                            return Carbon::createFromFormat('Y-m-d', $row->tanggal_lahir)->isoFormat('D MMMM Y');
+                        }
                     }
 
                 )
@@ -61,7 +62,9 @@ class ListDataAts extends DataTableComponent
             Column::make('Usia (Tahun)', 'tanggal_lahir')
                 ->format(
                     function ($value, $row, Column $column) {
-                        return date_diff(date_create($row->tanggal_lahir), date_create('now'))->y;
+                        if ($row->tanggal_lahir) {
+                            return date_diff(date_create($row->tanggal_lahir), date_create('now'))->y;
+                        }
                     }
 
                 )
