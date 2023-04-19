@@ -76,8 +76,10 @@ class ListDataAts extends DataTableComponent
                     function ($value, $row, Column $column) {
                         if ($row->alamatnya->namaKelurahan->region_nm ?? "" != "") {
                             return $row->alamatnya->namaKelurahan->region_nm . ', ' . $row->alamatnya->namaKecamatan->region_nm;
+                        } elseif ($row->alamatnya->namaKecamatan->region_nm ?? "" != "") {
+                            return ' - ,' . $row->alamatnya->namaKecamatan->region_nm ?? '';
                         } else {
-                            return ' - ,' . $row->alamatnya->namaKecamatan->region_nm;
+                            return '-';
                         }
                     }
                 )

@@ -31,6 +31,7 @@ class AtsPage extends Component
     public $listNamaSekolah;
     public $path_file;
     public $currentUrl;
+    public $halamanCreate = false;
 
     public $dataAts = [
         "nama" => "",
@@ -111,7 +112,8 @@ class AtsPage extends Component
             $this->patchData();
         } else {
             $this->validate([
-                'dataAts.nama' => 'required'
+                'dataAts.nama' => 'required',
+                'dataAts.tanggal_lahir' => 'required',
             ]);
 
             if ($this->path_file) {
@@ -120,8 +122,7 @@ class AtsPage extends Component
                 $path = null;
             }
 
-            $ats = Ats::create($this->dataAts);
-            $ats = Ats::create(['status' => true, 'tanggal_verval' => now()]);
+            $ats = Ats::create($this->dataAts + ['status' => true, 'tanggal_verval' => now()]);
 
             $ats->alamatnya()->create($this->atsAddres);
 
@@ -133,8 +134,23 @@ class AtsPage extends Component
         }
     }
 
+    public function createPage()
+    {
+        $this->atsPendataans['ats_st'] = "ATS_ST_02";
+        $this->halamanCreate = true;
+
+    }
+    public function editPage()
+    {
+        $this->halamanCreate = false;
+    }
+
     public function patchData()
     {
+        $this->validate([
+            'dataAts.nama' => 'required'
+        ]);
+
         if ($this->path_file) {
             $path = $this->path_file->store('public/surat-rekomendasi');
         } else {
@@ -157,7 +173,6 @@ class AtsPage extends Component
         redirect()->to(route('data-ats.index'));
     }
 
-
     public function mount($id = "")
     {
         if ($id != "") {
@@ -169,8 +184,10 @@ class AtsPage extends Component
                 $this->updatedAtsAddresRegionKec();
                 $this->updatedAtsPendataansSekolahTp();
                 $this->updatedDataAtsTanggalLahir();
-
             }
+            $this->editPage();
+        } else {
+            $this->createPage();
         }
         $this->idnya = $id;
         $this->listKecamatan = ComRegion::where('region_level', 3)->get();
@@ -184,8 +201,6 @@ class AtsPage extends Component
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
-        $this->currentUrl = url()->current();
-
     }
     public function render()
     {

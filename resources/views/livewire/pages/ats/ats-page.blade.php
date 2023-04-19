@@ -6,12 +6,15 @@
                     <div class="card-body">
                         <div class="p-4 border rounded">
                             <div class="text-center">
+                                @if($halamanCreate)
                                 <h5 class="card-title mb-2">Pendataan Anak Tidak Sekolah</h5>
+                                @else
                                 <h5 class="card-title">{{ $dataAts["nama"]??'Pendataan Anak Tidak Sekolah'}}</h5>
+                                @endif
                             </div>
                             <hr>
                             <form wire:submit.prevent="simpanData" method="POST">         
-                                <div class="mb-3 row">
+                                <div class="mb-3 row" @if($halamanCreate) style="display: none;" @endif> 
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Apakah anak ini bersekolah?</label>
                                     <div class="col-sm-8">
                                         <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.ats_st">
@@ -19,12 +22,10 @@
                                             @foreach ($listAtsSt as $item)
                                                 <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
                                             @endforeach
-                                        {{-- @endif          --}}
                                         </select>
                                         @error('atsPendataans.ats_st')
                                             <span class="form-text text-danger">{{ $message }}</span>
                                         @enderror
-
                                     </div>
                                 </div>
                                 @if($atsPendataans['ats_st']=="ATS_ST_01")
@@ -69,8 +70,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                @endif
 
-                                @elseif($atsPendataans['ats_st']=="ATS_ST_02" )
+                                @if($atsPendataans['ats_st']=="ATS_ST_02" )
                                 <div class="mb-3 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Alasan Tidak Sekolah?</label>
                                     <div class="col-sm-8">
@@ -396,7 +398,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                @if(!$atsPendataans['path_file'])
+                                @if($halamanCreate)
                                 <div class="mb-3 mt-4 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Upload surat komitmen</label>
                                     <div class="col-sm-8">
@@ -409,7 +411,7 @@
                                 @endif
                                 @endif
                                 @if($atsPendataans['path_file']??'')
-                                <legend style="font-size: 20px;">Ganti Surat Komitmen</legend><hr>
+                                <legend style="font-size: 16px;">Ganti Surat Komitmen</legend><hr>
                                 <div class="mb-3 mt-4 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Upload surat komitmen</label>
                                     <div class="col-sm-8">
