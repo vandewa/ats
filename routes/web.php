@@ -8,6 +8,8 @@ use App\Http\Livewire\Pages\Ats\DaftarAts;
 use App\Http\Livewire\Pages\User\UserPage;
 use App\Http\Livewire\Pages\User\DaftarUser;
 use App\Http\Livewire\Pages\Laporan;
+use App\Http\Livewire\Pages\Master\Sekolah\DaftarSekolah;
+use App\Http\Livewire\Pages\Master\Sekolah\SekolahPage;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,4 +46,7 @@ Route::middleware([
         return response()->json(['userId' => auth()->user()->kecamatan]);
     });
     Route::get('/cetak', [DashboardController::class, 'cetak'])->name('cetak');
+    Route::get('sekolah/{id?}', SekolahPage::class)->name('data-sekolah');
+    Route::get('sekolah-index', DaftarSekolah::class)->name('sekolah.index');
+
 });

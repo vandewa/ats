@@ -66,7 +66,6 @@ class ListDataAts extends DataTableComponent
                             return date_diff(date_create($row->tanggal_lahir), date_create('now'))->y;
                         }
                     }
-
                 )
                 ->html(),
             Column::make("NIK", "nik")
@@ -83,11 +82,11 @@ class ListDataAts extends DataTableComponent
                     }
                 )
                 ->html(),
-            Column::make('Status', 'id')
+            Column::make('Status', 'status')
                 ->format(
                     function ($value, $row, Column $column) {
                         if ($row->status == true) {
-                            return '<label class=" badge bg-primary">Sudah</label>';
+                            return '<label class=" badge bg-success">Sudah</label>';
                         } else {
                             return '<label class=" badge bg-danger">Belum</label>';
                         }
@@ -97,15 +96,23 @@ class ListDataAts extends DataTableComponent
             Column::make('Action', 'id')
                 ->format(
                     function ($value, $row, Column $column) {
-                        return '
-                             <div class="gap-3 table-actions d-flex align-items-center fs-6">
-                               <a href="' . route('data-ats', $row->id) . '" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit" type="button"><i class="bi bi-pencil-fill"></i>
-                               </a>
-                               <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete" wire:click.prevent="hapus(' . $row->id . ')" type="button"><i class="bi bi-trash-fill"></i></a>
-                             </div>
-                            ';
+                        if (auth()->user()->hasRole('admin')) {
+                            return '
+                            <div class="gap-3 table-actions d-flex align-items-center fs-6">
+                              <a href="' . route('data-ats', $row->id) . '" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit" type="button"><i class="bi bi-pencil-fill"></i>
+                              </a>
+                              <a href="javascript:;" class="text-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete" wire:click.prevent="hapus(' . $row->id . ')" type="button"><i class="bi bi-trash-fill"></i></a>
+                            </div>
+                           ';
+                        } else {
+                            return '
+                            <div class=" table-actions d-flex align-items-center fs-6">
+                                <a href="' . route('data-ats', $row->id) . '" class="text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Edit" type="button"><i class="bi bi-pencil-fill"></i>
+                                </a>
+                            </div>
+                           ';
+                        }
                     }
-
                 )
                 ->html(),
         ];

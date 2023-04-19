@@ -41,6 +41,18 @@
         <div class="menu-title">User</div>
       </a>
     </li>
+    <li class = "{{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}"">
+      <a href="javascript:;" class="has-arrow">
+        <div class="parent-icon"><i class="lni lni-archive"></i>
+        </div>
+        <div class="menu-title">Master</div>
+      </a>
+      <ul>
+        <li class=" {{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}"> 
+          <a href="{{ route ('sekolah.index')}}"><i class="bi bi-circle"></i>Data Sekolah</a>
+        </li>
+      </ul>
+    </li>
     @endif
     
   </ul>
