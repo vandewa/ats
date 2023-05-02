@@ -19,16 +19,32 @@ class DashboardController extends Controller
         $total_data_ats = Ats::where('sumber', '!=', 'ATS 2022 NON IRISAN')->count();
         $total_user = User::count();
         $total_user_kec = User::where('kecamatan', auth()->user()->kecamatan)->count();
-        $sudah_verif = Ats::where('status', true)->count();
-        $blm_verif = Ats::where('status', false)->count();
-        $nama_kecamatan = User::with(['namaKecamatan'])->where('id', auth()->user()->id)->first()->namaKecamatan->region_nm ?? '';
-        $jml_ats_kec = AtsAddress::where('region_kec', auth()->user()->kecamatan)->count();
-        $sudah_verif_kec = Ats::where('status', true)->whereHas('alamatnya', function ($query) {
-            $query->where('region_kec', auth()->user()->kecamatan);
-        })->count();
-        $blm_verif_kec = Ats::where('status', false)->whereHas('alamatnya', function ($query) {
-            $query->where('region_kec', auth()->user()->kecamatan);
-        })->count();
+        $sudah_verif = Ats::where('status', true)
+            ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->count();
+        $blm_verif = Ats::where('status', false)
+            ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->count();
+        $nama_kecamatan = User::with(['namaKecamatan'])
+            ->where('id', auth()->user()->id)->first()
+            ->namaKecamatan->region_nm ?? '';
+        $jml_ats_kec = AtsAddress::where('region_kec', auth()->user()->kecamatan)
+            ->whereHas('atsnya', function ($query) {
+                $query->where('sumber', '!=', 'ATS 2022 NON IRISAN');
+            })
+            ->count();
+        $sudah_verif_kec = Ats::where('status', true)
+            ->whereHas('alamatnya', function ($query) {
+                $query->where('region_kec', auth()->user()->kecamatan);
+            })
+            ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->count();
+        $blm_verif_kec = Ats::where('status', false)
+            ->whereHas('alamatnya', function ($query) {
+                $query->where('region_kec', auth()->user()->kecamatan);
+            })
+            ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->count();
 
         return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec'));
     }
