@@ -16,7 +16,7 @@ class DashboardController extends Controller
      */
     public function index(Request $request)
     {
-        $total_data_ats = Ats::count();
+        $total_data_ats = Ats::where('sumber', '!=', 'ATS 2022 NON IRISAN')->count();
         $total_user = User::count();
         $total_user_kec = User::where('kecamatan', auth()->user()->kecamatan)->count();
         $sudah_verif = Ats::where('status', true)->count();

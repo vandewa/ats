@@ -23,11 +23,14 @@ class ListDataAts extends DataTableComponent
     public function builder(): Builder
     {
         if (auth()->user()->kecamatan) {
-            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])->whereHas('alamatnya', function ($query) {
-                $query->where('region_kec', auth()->user()->kecamatan);
-            });
+            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+                ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+                ->whereHas('alamatnya', function ($query) {
+                    $query->where('region_kec', auth()->user()->kecamatan);
+                });
         } else {
-            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan']);
+            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+                ->where('sumber', '!=', 'ATS 2022 NON IRISAN');
         }
     }
 
@@ -56,7 +59,6 @@ class ListDataAts extends DataTableComponent
                             return Carbon::createFromFormat('Y-m-d', $row->tanggal_lahir)->isoFormat('D MMMM Y');
                         }
                     }
-
                 )
                 ->html(),
             Column::make('Usia (Tahun)', 'tanggal_lahir')
