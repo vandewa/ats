@@ -91,16 +91,7 @@ class AtsPage extends Component
 
     public function updatedAtsPendataansSekolahTp()
     {
-        $this->listNamaSekolah = Sekolah::join('com_regions', 'sekolahs.kecamatan', '=', 'com_regions.region_cd')
-        ->select(DB::Raw("concat(nama,' (',region_nm,'') as opo, id"))
-        ->orderBy('nama', 'asc')
-        ->pluck('opo', 'id');
-
-
-            // $user = Sekolah::join('com_regions', 'sekolahs.kecamatan', '=', 'com_regions.region_cd')
-            // ->select(DB::Raw("concat(nama,' (',region_nm,'') as opo, id"))
-            // ->orderBy('nama', 'asc')
-            // ->pluck('opo', 'id');
+        $this->listNamaSekolah = Sekolah::where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
     }
 
     public function updatedAtsAddresRw()
