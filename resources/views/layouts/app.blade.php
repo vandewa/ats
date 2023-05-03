@@ -35,7 +35,7 @@
 
   @vite([])
 
-  <title>Sistem Informasi ATS</title>
+  <title>Verval ATS</title>
 </head>
 
 <body>
@@ -198,31 +198,14 @@
   <script src="{{ asset('snacked/ltr/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
   <script src="{{ asset('snacked/ltr/assets/plugins/select2/js/select2.min.js')}}"></script>
   <script src="{{ asset('snacked/ltr/assets/js/form-select2.js')}}"></script>
+  {{-- <script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apexcharts.min.js')}}"></script> --}}
+	<script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apex-custom.js')}}"></script>
 	
   <!--app-->
   <script src="{{ asset('snacked/ltr/assets/js/app.js')}}"></script>
   {{-- <script src="{{ asset('snacked/ltr/assets/js/index.js')}}"></script> --}}
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-  {{-- Toastr Script for Livewire --}}
-  <script>
-    $(document).ready(function(){
-          toastr.options = {
-              "progressBar": true,
-              "positionClass": "toast-top-right"
-          }
-      });
-      window.addEventListener('success', event => {
-          toastr.success(event.detail.message);
-      });
-      window.addEventListener('warning', event => {
-          toastr.warning(event.detail.message);
-      });
-      window.addEventListener('error', event => {
-          toastr.error(event.detail.message);
-      });
-  </script>
 
   {{-- Sweet Alert Delete Script --}}
   <script>

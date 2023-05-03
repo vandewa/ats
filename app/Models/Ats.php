@@ -14,8 +14,11 @@ class Ats extends Model
 
     protected function creatorId(): Attribute
     {
+        // return new Attribute(
+        //     fn($value) => auth()->user()->id
+        // );
         return Attribute::make(
-            set: fn (string $value) => auth()->user()->id,
+        set: fn($value) => auth()->user()->idd,
         );
     }
 

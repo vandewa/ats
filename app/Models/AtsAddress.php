@@ -15,7 +15,13 @@ class AtsAddress extends Model
     protected function creatorId(): Attribute
     {
         return Attribute::make(
-            set: fn (string $value) => auth()->user()->id,
+        set: fn(string $value) => auth()->user()->id,
+        );
+    }
+    protected function getPreviewFileAttribute(): Attribute
+    {
+        return Attribute::make(
+        set: fn(string $value) => asset(str_replace('public', 'storage', $this->attributes['path_file'])),
         );
     }
 

@@ -10,9 +10,11 @@ use App\Models\ComRegion;
 use App\Models\Sekolah;
 use Livewire\Component;
 use Illuminate\Support\Facades\DB;
+use Livewire\WithFileUploads;
 
 class AtsPage extends Component
 {
+    use WithFileUploads;
     public $idnya;
     public $usia = 0;
     public $pendidikanTpList;
@@ -28,15 +30,15 @@ class AtsPage extends Component
     public $listKawin;
     public $listJenisKelamin;
     public $listNamaSekolah;
+    public $path_file;
+    public $currentUrl;
+    public $halamanCreate = false;
+
     public $dataAts = [
         "nama" => "",
         "nik" => "",
         "tempat_lahir" => "",
         "tanggal_lahir" => "",
-        "nama_kk" => "",
-        "nik_kk" => "",
-        "tempat_lahir_kk" => "",
-        "tanggal_lahir_kk" => "",
         "pendidikan_tp" => "",
         "kelas" => "",
         "creator_id" => "",
@@ -46,7 +48,7 @@ class AtsPage extends Component
         "npsn" => "",
     ];
 
-    public $atsAddres= [
+    public $atsAddres = [
         "region_kec" => "",
         "region_kel" => "",
         "dusun" => "",
@@ -65,7 +67,9 @@ class AtsPage extends Component
         "disabilitas_st" => "",
         "jenis_disabilitas_tp" => "",
         "note" => "",
-        "creator_id" => ""
+        "creator_id" => "",
+        "ket_tidak_sekolah" => "",
+        "ket_disabilitas" => ""
     ];
 
     protected $listeners = ['sessionSuccess'];
@@ -101,25 +105,14 @@ class AtsPage extends Component
 
     public function updatedAtsAddresRw()
     {
-        if( $this->atsAddres['rw']){
-        $this->atsAddres['rw'] = str_pad($this->atsAddres['rw'],3,"0", STR_PAD_LEFT);
+        if ($this->atsAddres['rw']) {
+            $this->atsAddres['rw'] = str_pad($this->atsAddres['rw'], 3, "0", STR_PAD_LEFT);
         }
     }
     public function updatedAtsAddresRt()
     {
-        if( $this->atsAddres['rt']){
-            $this->atsAddres['rt'] = str_pad($this->atsAddres['rt'],3,"0", STR_PAD_LEFT);
-        }
-    }
-    public function updatedAtsPendataansAtsSt()
-    {
-        if( $this->atsPendataans['ats_st'] == "ATS_ST_02"){
-            $this->atsPendataans['alasan_tp'] = "";
-            $this->atsPendataans['minat_sekolah_st'] = "";
-            $this->atsPendataans['nama_sekolah'] = "";
-            $this->atsPendataans['kelas'] = "";
-            $this->atsPendataans['disabilitas_st'] = "";
-            $this->atsPendataans['note'] = "";
+        if ($this->atsAddres['rt']) {
+            $this->atsAddres['rt'] = str_pad($this->atsAddres['rt'], 3, "0", STR_PAD_LEFT);
         }
     }
 
@@ -129,13 +122,21 @@ class AtsPage extends Component
             $this->patchData();
         } else {
             $this->validate([
-                'dataAts.nama' => 'required'
+                'dataAts.nama' => 'required',
+                'dataAts.tanggal_lahir' => 'required',
             ]);
-            $ats = Ats::create($this->dataAts + ['status' => true]);
+
+            if ($this->path_file) {
+                $path = $this->path_file->store('public/surat-rekomendasi');
+            } else {
+                $path = null;
+            }
+
+            $ats = Ats::create($this->dataAts + ['status' => true, 'tanggal_verval' => now()]);
 
             $ats->alamatnya()->create($this->atsAddres);
 
-            $ats->pendataan()->create($this->atsPendataans);
+            $ats->pendataan()->create($this->atsPendataans + ['path_file' => $path]);
 
             $this->dispatchBrowserEvent('Success');
 
@@ -143,28 +144,60 @@ class AtsPage extends Component
         }
     }
 
+    public function createPage()
+    {
+        $this->atsPendataans['ats_st'] = "ATS_ST_02";
+        $this->halamanCreate = true;
+
+    }
+    public function editPage()
+    {
+        $this->halamanCreate = false;
+    }
+
     public function patchData()
     {
-        Ats::find($this->idnya)->update($this->dataAts + ['status' => true]);
+        $this->validate([
+            'dataAts.nama' => 'required'
+        ]);
+
+        if ($this->path_file) {
+            $path = $this->path_file->store('public/surat-rekomendasi');
+        } else {
+            $path = AtsPendataan::where('ats_id', $this->idnya)->first()->path_file;
+        }
+
+        Ats::find($this->idnya)->update($this->dataAts);
+        Ats::find($this->idnya)->update([
+            'status' => true,
+            'tanggal_verval' => now()
+        ]);
         AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
         AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
+        AtsPendataan::where('ats_id', $this->idnya)->update([
+            'path_file' => $path
+        ]);
 
         $this->dispatchBrowserEvent('Update');
 
         redirect()->to(route('data-ats.index'));
     }
 
-
     public function mount($id = "")
     {
-        if($id != ""){
+        if ($id != "") {
             $data = Ats::with(['pendidikan', 'alamatnya', 'pendataan'])->find($id);
-            if($data){
+            if ($data) {
                 $this->dataAts = collect($data)->except(['pendidikan', 'alamatnya', 'pendataan', 'created_at', 'updated_at'])->toArray();
                 $this->atsAddres = collect($data->alamatnya)->except(['created_at', 'updated_at'])->toArray();
+                $this->atsPendataans = collect($data->pendataan)->except(['id', 'created_at', 'updated_at'])->toArray();
                 $this->updatedAtsAddresRegionKec();
-                $this->atsPendataans = collect($data->pendataan)->except(['created_at', 'updated_at'])->toArray();
+                $this->updatedAtsPendataansSekolahTp();
+                $this->updatedDataAtsTanggalLahir();
             }
+            $this->editPage();
+        } else {
+            $this->createPage();
         }
         $this->idnya = $id;
         $this->listKecamatan = ComRegion::where('region_level', 3)->get();
@@ -178,9 +211,6 @@ class AtsPage extends Component
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
-
-        // dd(Sekolah::where("status_sekolah", "=","SEKOLAH_TP_01")->get());
-
     }
     public function render()
     {
