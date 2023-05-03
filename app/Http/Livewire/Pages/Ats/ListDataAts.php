@@ -24,15 +24,13 @@ class ListDataAts extends DataTableComponent
     {
         if (auth()->user()->kecamatan) {
             return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
-                ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-                ->orWhere('sumber', null)
+                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
                 ->whereHas('alamatnya', function ($query) {
                     $query->where('region_kec', auth()->user()->kecamatan);
                 });
         } else {
             return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
-                ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-                ->orWhere('sumber', null);
+                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)");
         }
     }
 
