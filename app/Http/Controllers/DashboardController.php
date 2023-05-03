@@ -16,21 +16,24 @@ class DashboardController extends Controller
      */
     public function index(Request $request)
     {
-        $total_data_ats = Ats::where('sumber', '!=', 'ATS 2022 NON IRISAN')->count();
+        $total_data_ats = Ats::where('sumber', '!=', 'ATS 2022 NON IRISAN')->orWhere('sumber', null)->count();
         $total_user = User::count();
         $total_user_kec = User::where('kecamatan', auth()->user()->kecamatan)->count();
         $sudah_verif = Ats::where('status', true)
             ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->orWhere('sumber', null)
             ->count();
         $blm_verif = Ats::where('status', false)
             ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+            ->orWhere('sumber', null)
             ->count();
         $nama_kecamatan = User::with(['namaKecamatan'])
             ->where('id', auth()->user()->id)->first()
             ->namaKecamatan->region_nm ?? '';
         $jml_ats_kec = AtsAddress::where('region_kec', auth()->user()->kecamatan)
             ->whereHas('atsnya', function ($query) {
-                $query->where('sumber', '!=', 'ATS 2022 NON IRISAN');
+                $query->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+                ->orWhere('sumber', null);
             })
             ->count();
         $sudah_verif_kec = Ats::where('status', true)
