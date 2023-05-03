@@ -91,7 +91,7 @@ class AtsPage extends Component
 
     public function updatedAtsPendataansSekolahTp()
     {
-        $this->listNamaSekolah = Sekolah::where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
+        $this->listNamaSekolah = Sekolah::with(['namaKecamatan'])->where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
     }
 
     public function updatedAtsAddresRw()

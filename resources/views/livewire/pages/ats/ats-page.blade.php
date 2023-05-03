@@ -7,7 +7,7 @@
                         <div class="p-4 border rounded">
                             <div class="text-center">
                                 @if($halamanCreate)
-                                <h5 class="card-title mb-2">Pendataan Anak Tidak Sekolah</h5>
+                                <h5 class="mb-2 card-title">Pendataan Anak Tidak Sekolah</h5>
                                 @else
                                 <h5 class="card-title">{{ $dataAts["nama"]??'Pendataan Anak Tidak Sekolah'}}</h5>
                                 @endif
@@ -50,7 +50,7 @@
                                             <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
                                                 <option value="">Pilih Data</option>
                                                 @foreach ($listNamaSekolah??[] as $p)
-                                                    <option value="{{ $p->id }}">{{ $p->nama }}</option>
+                                                    <option value="{{ $p->id }}">{{ $p->nama }}{{ $p->namaKecamatan->region_nm??'---' }}</option>
                                                 @endforeach
                                             </select>
                                             @error('atsPendataans.nama_sekolah')
@@ -133,7 +133,7 @@
                                         <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
                                             <option value="">Pilih Data</option>
                                             @foreach ($listNamaSekolah??[] as $p)
-                                                <option value="{{ $p->id }}">{{ $p->nama }}</option>
+                                                <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'--' }})</option>
                                             @endforeach
                                         </select>
                                         @error('atsPendataans.nama_sekolah')
@@ -202,7 +202,7 @@
                                     </div>
                                 </div>  
                                 <div class="row">
-                                    <div class="col-md-12 mb-4">
+                                    <div class="mb-4 col-md-12">
                                         <h5 class="card-title">Data Diri Anak Tidak Sekolah</h5>
                                     </div>
                                 </div>
@@ -399,7 +399,7 @@
                                     </div>
                                 </div>
                                 @if($halamanCreate)
-                                <div class="mb-3 mt-4 row">
+                                <div class="mt-4 mb-3 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Upload surat komitmen</label>
                                     <div class="col-sm-8">
                                         <input type="file" wire:model="path_file" class="form-control" >
@@ -412,7 +412,7 @@
                                 @endif
                                 @if($atsPendataans['path_file']??'')
                                 <legend style="font-size: 16px;">Ganti Surat Komitmen</legend><hr>
-                                <div class="mb-3 mt-4 row">
+                                <div class="mt-4 mb-3 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Upload surat komitmen</label>
                                     <div class="col-sm-8">
                                         <input type="file" wire:model="path_file" class="form-control" >
@@ -427,10 +427,10 @@
                                     <label class="col-sm-3 col-form-label"></label>
                                     <div class="col-sm-12 text-end">
                                         @if($atsPendataans['path_file']??'')
-                                            <a href="{{ asset(str_replace('public', 'storage', $atsPendataans['path_file']))}}" class="px-5 btn btn-success mb-3" target="_blank">Lihat Surat</a>
+                                            <a href="{{ asset(str_replace('public', 'storage', $atsPendataans['path_file']))}}" class="px-5 mb-3 btn btn-success" target="_blank">Lihat Surat</a>
                                         @endif
-                                        <a href="{{ route('data-ats.index') }}" class="px-5 btn btn-secondary mb-3">Kembali</a>
-                                        <button type="submit" class="px-5 btn btn-primary mb-3">Simpan</button>
+                                        <a href="{{ route('data-ats.index') }}" class="px-5 mb-3 btn btn-secondary">Kembali</a>
+                                        <button type="submit" class="px-5 mb-3 btn btn-primary">Simpan</button>
                                     </div>
                                 </div>
                             </form>
