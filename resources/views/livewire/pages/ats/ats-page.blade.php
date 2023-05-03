@@ -50,7 +50,7 @@
                                             <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
                                                 <option value="">Pilih Data</option>
                                                 @foreach ($listNamaSekolah??[] as $p)
-                                                    <option value="{{ $p->id }}">{{ $p->nama }}{{ $p->namaKecamatan->region_nm??'---' }}</option>
+                                                    <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'' }})</option>
                                                 @endforeach
                                             </select>
                                             @error('atsPendataans.nama_sekolah')
