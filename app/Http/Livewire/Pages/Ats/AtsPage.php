@@ -9,6 +9,7 @@ use App\Models\ComCode;
 use App\Models\ComRegion;
 use App\Models\Sekolah;
 use Livewire\Component;
+use Illuminate\Support\Facades\DB;
 
 class AtsPage extends Component
 {
@@ -86,7 +87,16 @@ class AtsPage extends Component
 
     public function updatedAtsPendataansSekolahTp()
     {
-        $this->listNamaSekolah = Sekolah::where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
+        $this->listNamaSekolah = Sekolah::join('com_regions', 'sekolahs.kecamatan', '=', 'com_regions.region_cd')
+        ->select(DB::Raw("concat(nama,' (',region_nm,'') as opo, id"))
+        ->orderBy('nama', 'asc')
+        ->pluck('opo', 'id');
+
+
+            // $user = Sekolah::join('com_regions', 'sekolahs.kecamatan', '=', 'com_regions.region_cd')
+            // ->select(DB::Raw("concat(nama,' (',region_nm,'') as opo, id"))
+            // ->orderBy('nama', 'asc')
+            // ->pluck('opo', 'id');
     }
 
     public function updatedAtsAddresRw()
