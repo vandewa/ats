@@ -26,6 +26,13 @@
         <div class="menu-title">Data ATS</div>
       </a>
     </li>
+    <li class="">
+      <a href="#">
+        <div class="parent-icon"><i class="lni lni-download"></i>
+        </div>
+        <div class="menu-title">Download Surat Pernyataan</div>
+      </a>
+    </li>
     {{-- <li class="{{ Request::segment(1) == 'laporan' ? 'mm-active' : '' }}">
       <a href="{{ route('laporan.index') }}">
         <div class="parent-icon"><i class="lni lni-book"></i>
@@ -41,7 +48,7 @@
         <div class="menu-title">User</div>
       </a>
     </li>
-    <li class = "{{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}"">
+    <li class = "{{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}">
       <a href="javascript:;" class="has-arrow">
         <div class="parent-icon"><i class="lni lni-archive"></i>
         </div>
