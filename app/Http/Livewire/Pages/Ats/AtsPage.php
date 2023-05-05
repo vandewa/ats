@@ -15,6 +15,7 @@ use Livewire\WithFileUploads;
 class AtsPage extends Component
 {
     use WithFileUploads;
+    public $tai;
     public $idnya;
     public $usia = 0;
     public $pendidikanTpList;

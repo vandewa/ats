@@ -21,7 +21,25 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
           </div>
-          <livewire:pages.ats.list-data-ats />
+          <table class="table">
+              <thead>
+                <th>Kecamatan</th>
+                <th>Jumlah</th>
+                <th>Tervalidasi</th>
+                <th>Prosentase</th>
+              </thead>
+              <tbody>
+                @foreach ($report??[] as $item)
+                <tr>
+                  <td>{{ $item->region_nm }}</td>
+                  <td>{{ $item->jumlah }}</td>
+                  <td>{{  $item->tervalidasi  }}</td>
+                  <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
+                </tr>
+                @endforeach
+               
+              </tbody>
+          </table>
         </div>
       </div>
     </main>

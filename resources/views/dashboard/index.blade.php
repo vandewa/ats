@@ -105,6 +105,7 @@
 <!--end page main-->
 
 @push('js')
+{{-- <script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apex-custom.js')}}"></script> --}}
 <script>
 	var userId;
 	var a;

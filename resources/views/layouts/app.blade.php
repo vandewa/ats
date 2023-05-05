@@ -30,10 +30,21 @@
   <link href="{{ asset('snacked/ltr/assets/css/semi-dark.css')}}" rel="stylesheet" />
   <link href="{{ asset('snacked/ltr/assets/css/header-colors.css')}}" rel="stylesheet" />
 
+  <!-- Styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+<!-- Or for RTL support -->
+
+<!-- Scripts -->
+
+
   @stack('css')
   @livewireStyles
 
   @vite([])
+
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
 
   <title>Verval ATS</title>
 </head>
@@ -217,7 +228,7 @@
   <script src="{{ asset('snacked/ltr/assets/plugins/select2/js/select2.min.js')}}"></script>
   <script src="{{ asset('snacked/ltr/assets/js/form-select2.js')}}"></script>
   {{-- <script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apexcharts.min.js')}}"></script> --}}
-	<script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apex-custom.js')}}"></script>
+
 	
   <!--app-->
   <script src="{{ asset('snacked/ltr/assets/js/app.js')}}"></script>

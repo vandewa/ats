@@ -33,6 +33,17 @@
         <div class="menu-title">Download Surat Pernyataan</div>
       </a>
     </li>
+    <li class = "{{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}">
+      <a href="javascript:;" class="has-arrow">
+        <div class="parent-icon"><i class="lni lni-archive"></i>
+        </div>
+        <div class="menu-title">Laporan</div>
+      </a>
+      <ul>
+        <li class=" {{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}"> 
+          <a href="{{ route ('laporan.index')}}"><i class="bi bi-circle"></i>Kecamatan</a>
+        </li>
+      </ul>
     {{-- <li class="{{ Request::segment(1) == 'laporan' ? 'mm-active' : '' }}">
       <a href="{{ route('laporan.index') }}">
         <div class="parent-icon"><i class="lni lni-book"></i>

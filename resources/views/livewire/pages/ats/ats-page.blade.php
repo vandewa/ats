@@ -47,7 +47,7 @@
                                     <div class="col-md-5">
                                         <div class="col-12">
                                             <label class="form-label">Nama Sekolah</label>
-                                            <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
+                                            <select name="" id="" class="form-control select2 ats-pendataan-nama_sekolah"  wire:model.defer="atsPendataans.nama_sekolah">
                                                 <option value="">Pilih Data</option>
                                                 @foreach ($listNamaSekolah??[] as $p)
                                                     <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'' }})</option>
@@ -130,7 +130,7 @@
                                 <div class="mb-3 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Nama Sekolah</label>
                                     <div class="col-sm-4">
-                                        <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.nama_sekolah">
+                                        <select name="" id="" class="form-control select2 atsPendataans-nama_sekolah" wire:model.defer="atsPendataans.nama_sekolah">
                                             <option value="">Pilih Data</option>
                                             @foreach ($listNamaSekolah??[] as $p)
                                                 <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'--' }})</option>
@@ -303,7 +303,7 @@
                                     <div class="col-md-6">
                                         <div class="col-12">
                                             <label class="form-label">Nama Sekolah Terakhir</label>
-                                            <input type="text" class="form-control" wire:model.lazy="dataAts.pendidikan_tp">
+                                            <input type="text" class="form-control select2 dataAts-pendidikan_tp" wire:model.defer="dataAts.pendidikan_tp">
                                             @error('dataAts.pendidikan_tp')
                                                 <span class="form-text text-danger">{{ $message }}</span>
                                             @enderror
@@ -442,3 +442,24 @@
         <!--end row-->
     </main>
 </div>
+@push('js')
+    <script>
+        document.addEventListener('livewire:update', function (event) {
+            $(".select2").select2({
+                theme: 'bootstrap-5'
+            });
+        });
+
+        $(document).on('change','.ats-pendataan-nama_sekolah',function(){
+            
+            @this.set('atsPendataans.nama_sekolah', $(this).val())
+        });
+        $(document).on('change','.dataAts-pendidikan_tp',function(){
+            
+            @this.set('dataAts.pendidikan_tp', $(this).val())
+        $(document).on('change','.atsPendataans-nama_sekolah',function(){
+            
+            @this.set('atsPendataans.nama_sekolah', $(this).val())
+        })
+    </script>
+@endpush
