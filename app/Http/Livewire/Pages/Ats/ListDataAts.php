@@ -7,31 +7,83 @@ use Rappasoft\LaravelLivewireTables\Views\Column;
 use App\Models\Ats;
 use Illuminate\Database\Eloquent\Builder;
 use Carbon\Carbon;
+use Rappasoft\LaravelLivewireTables\Views\Filters\SelectFilter;
+
+
+
 
 class ListDataAts extends DataTableComponent
 {
     public $delete_id, $no;
-    protected $listeners = ['deleteConfirmed' => 'rowsDeleted'];
-    protected $model = Ats::class;
+    protected $listeners = ['deleteConfirmed' => 'rowsDeleted', 'pencarian'];
+    public string $tableName = 'ats';
+
+    public $region_kec = null;
+    public $region_kel = null;
+    public $nik = null;
+    public $status = null;
+
+   
+
+    public function pencarian(array $data)
+    {
+       
+            $this->region_kec = $data['region_kec'] ??null;
+        
+        
+            $this->region_kel = $data['region_kel'] ?? null;
+        
+     
+            $this->nik = $data['nik']??null;
+        
+        
+            $this->status = $data['status']??null;
+       
+    }
 
     public function configure(): void
     {
         $this->setPrimaryKey('id');
-        $this->setDefaultSort('nama', 'asc');
+        
+        // $this->setDefaultSort('nama', 'asc');
+        $this->setDebugStatus(true);
+        $this->setDebugEnabled();
     }
+
+    public function filters(): array
+    {
+        return [
+            SelectFilter::make('Status', 'status')
+               
+                ->options([
+                    ''    => 'Any',
+                    'yes' => 'Yes',
+                    'no'  => 'No',
+                ])
+        ];
+    }
+
+   
 
     public function builder(): Builder
     {
         if (auth()->user()->kecamatan) {
-            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+            return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
                 ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
                 ->whereHas('alamatnya', function ($query) {
                     $query->where('region_kec', auth()->user()->kecamatan);
                 });
         } else {
-            return Ats::with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+            $query =  Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
                 ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)");
+               
+                // ->when($this->region_kec ?? null , fn ($query, $name) => dd("asdas")
+                //   ) ;
+               
+
+                
         }
+        return $query;
     }
 
     public function hapus($var)
@@ -90,9 +142,9 @@ class ListDataAts extends DataTableComponent
                 ->format(
                     function ($value, $row, Column $column) {
                         if ($row->status == true) {
-                            return '<label class=" badge bg-success">Sudah</label>';
+                            return '<label class=" badge bg-success">Sudah'.$this->status.'</label>';
                         } else {
-                            return '<label class=" badge bg-danger">Belum</label>';
+                            return '<label class=" badge bg-danger">Belum'.$this->status.'</label>';
                         }
                     }
                 )

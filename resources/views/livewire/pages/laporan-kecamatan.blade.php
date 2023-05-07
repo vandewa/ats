@@ -1,4 +1,7 @@
 <div>
+    {{-- The Master doesn't talk, he acts. --}}
+</div>
+<div>
     <main class="page-content">
     <!--breadcrumb-->
     <div class="mb-3 page-breadcrumb d-none d-sm-flex align-items-center">
@@ -23,20 +26,18 @@
           </div>
           <table class="table">
               <thead>
-                <th>Kecamatan</th>
+                <th>Desa</th>
                 <th>Jumlah</th>
                 <th>Tervalidasi</th>
                 <th>Prosentase</th>
-                <th>Aksi</th>
               </thead>
               <tbody>
                 @foreach ($report??[] as $item)
-                <tr>
-                  <td>{{ $item->region_nm }}</td>
+                <tr @if(!$item->region_nm) class="text-danger" @endif>
+                  <td>{{ $item->region_nm??"Belum Diiketahui" }}</td>
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
-                  <td> <a href="{{ route('laporan.kecamatan.index', $item->region_kec) }}" class="btn btn-primary">Detail</a></td>
                 </tr>
                 @endforeach
                
