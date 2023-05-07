@@ -56,9 +56,14 @@
               </div>
               
               
-              <div class="col-12">
+              <div class="col-6">
                 <div class="d-grid">
-                  <button type="button" class="btn btn-primary">Cari</button>
+                  <button type="button" class="btn btn-danger" wire:click="hapusData">Reset</button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="d-grid">
+                  <button type="button" class="btn btn-primary" wire:click="cari">Cari</button>
                 </div>
               </div>
             </form>
