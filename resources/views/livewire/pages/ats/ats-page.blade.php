@@ -451,15 +451,17 @@
         });
 
         $(document).on('change','.ats-pendataan-nama_sekolah',function(){
-            
             @this.set('atsPendataans.nama_sekolah', $(this).val())
         });
+
         $(document).on('change','.dataAts-pendidikan_tp',function(){
             
             @this.set('dataAts.pendidikan_tp', $(this).val())
+        });
+
         $(document).on('change','.atsPendataans-nama_sekolah',function(){
             
             @this.set('atsPendataans.nama_sekolah', $(this).val())
-        })
+        });
     </script>
 @endpush
