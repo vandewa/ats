@@ -83,7 +83,17 @@ class ListDataAts extends DataTableComponent
                         $query->where('region_kec', auth()->user()->kecamatan);
                     });
             } else {
-
+                return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
+                ->whereHas('alamatnya', function ($query) {
+                    $query->where('region_kec', auth()->user()->kecamatan);
+                })->when($this->region_kel !== null, function($query, $a) {
+                    $query->whereHas('alamatnya', function($a){
+                        $a->where('region_kel', $this->region_kel);
+                    });
+                })
+                ->when($this->nik, fn ($query, $name) => $query->where('nik', 'like', '%' . $name . '%'));
+               
             }
         } else {
             if(!$this->region_kec && !$this->region_kec && !$this->status && !$this->nik){
