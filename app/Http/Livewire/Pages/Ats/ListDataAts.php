@@ -30,39 +30,39 @@ class ListDataAts extends DataTableComponent
     {
         $this->mencari = !$this->mencari;
     }
-   
+
 
     public function pencarian(array $data)
     {
-       
-            $this->region_kec = $data['region_kec'] ??null;
-        
-        
-            $this->region_kel = $data['region_kel'] ?? null;
-        
-     
-            $this->nik = $data['nik']??null;
-        
-        
-            $this->status = $data['status']??null;
-       
+
+        $this->region_kec = $data['region_kec'] ?? null;
+
+
+        $this->region_kel = $data['region_kel'] ?? null;
+
+
+        $this->nik = $data['nik'] ?? null;
+
+
+        $this->status = $data['status'] ?? null;
+
     }
 
     public function configure(): void
     {
         $this->setPrimaryKey('id')
-        ->setSecondaryHeaderTrAttributes(function($rows) {
-            return ['class' => 'bg-gray-100'];
-        })->setSecondaryHeaderTdAttributes(function(Column $column, $rows) {
+            ->setSecondaryHeaderTrAttributes(function ($rows) {
+                return ['class' => 'bg-gray-100'];
+            })->setSecondaryHeaderTdAttributes(function (Column $column, $rows) {
             if ($column->isField('nama')) {
                 return ['class' => 'text-red-500'];
             }
 
             return ['default' => true];
         });
-        
+
         // $this->setDefaultSort('nama', 'asc');
-        
+
     }
 
     public function filters(): array
@@ -70,12 +70,12 @@ class ListDataAts extends DataTableComponent
         return [];
     }
 
-   
+
 
     public function builder(): Builder
     {
         if (auth()->user()->kecamatan) {
-            if(!$this->region_kec && !$this->region_kec && !$this->status && !$this->nik){
+            if (!$this->region_kec && !$this->region_kec && !$this->status && !$this->nik) {
 
                 return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
                     ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
@@ -84,43 +84,43 @@ class ListDataAts extends DataTableComponent
                     });
             } else {
                 return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
-                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
-                ->whereHas('alamatnya', function ($query) {
-                    $query->where('region_kec', auth()->user()->kecamatan);
-                })->when($this->region_kel !== null, function($query, $a) {
-                    $query->whereHas('alamatnya', function($a){
+                    ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
+                    ->whereHas('alamatnya', function ($query) {
+                        $query->where('region_kec', auth()->user()->kecamatan);
+                    })->when($this->region_kel !== null, function ($query, $a) {
+                    $query->whereHas('alamatnya', function ($a) {
                         $a->where('region_kel', $this->region_kel);
                     });
                 })
-                ->when($this->nik, fn ($query, $name) => $query->where('nik', 'like', '%' . $name . '%'));
-               
+                    ->when($this->nik, fn($query, $name) => $query->where('nik', 'like', '%' . $name . '%'));
+
             }
         } else {
-            if(!$this->region_kec && !$this->region_kec && !$this->status && !$this->nik){
-                return  Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
-                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)");
+            if (!$this->region_kec && !$this->region_kec && !$this->status && !$this->nik) {
+                return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+                    ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)");
             } else {
-                return  Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
-                ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
-                ->when($this->status, fn ($query, $name) => $query->where('status', 'like', '%' . $name . '%'))
-                ->when($this->region_kec, function($query, $a){
-                    $query->whereHas('alamatnya', function($a){
-                        $a->where('region_kec', $this->region_kec);
-                    });
-                })
-                ->when($this->region_kel !== null, function($query, $a) {
-                    $query->whereHas('alamatnya', function($a){
-                        $a->where('region_kel', $this->region_kel);
-                    });
-                })
-                ->when($this->nik, fn ($query, $name) => $query->where('nik', 'like', '%' . $name . '%'));
-               
-            }
-            
+                return Ats::query()->with(['pendidikan', 'alamatnya.namaKelurahan', 'alamatnya.namaKecamatan'])
+                    ->whereRaw("(sumber <> 'ATS 2022 NON IRISAN' or sumber is null)")
+                    ->when($this->status, fn($query, $name) => $query->where('status', 'like', '%' . $name . '%'))
+                    ->when($this->region_kec, function ($query, $a) {
+                        $query->whereHas('alamatnya', function ($a) {
+                            $a->where('region_kec', $this->region_kec);
+                        });
+                    })
+                    ->when($this->region_kel !== null, function ($query, $a) {
+                        $query->whereHas('alamatnya', function ($a) {
+                            $a->where('region_kel', $this->region_kel);
+                        });
+                    })
+                    ->when($this->nik, fn($query, $name) => $query->where('nik', 'like', '%' . $name . '%'));
 
-                
+            }
+
+
+
         }
-        
+
     }
 
     public function hapus($var)
@@ -162,14 +162,24 @@ class ListDataAts extends DataTableComponent
             Column::make("NIK", "nik")
                 ->sortable()
                 ->searchable(),
-            Column::make('Alamat', 'alamatnya.region_kec')
-            ->sortable()
+            Column::make('Desa/Kelurahan', 'alamatnya.region_kec')
+                ->sortable()
                 ->format(
                     function ($value, $row, Column $column) {
                         if ($row->alamatnya->namaKelurahan->region_nm ?? "" != "") {
-                            return $row->alamatnya->namaKelurahan->region_nm . ', ' . $row->alamatnya->namaKecamatan->region_nm;
-                        } elseif ($row->alamatnya->namaKecamatan->region_nm ?? "" != "") {
-                            return ' - ,' . $row->alamatnya->namaKecamatan->region_nm ?? '';
+                            return $row->alamatnya->namaKelurahan->region_nm;
+                        } else {
+                            return '-';
+                        }
+                    }
+                )
+                ->html(),
+            Column::make('Kecamatan', 'alamatnya.region_kec')
+                ->sortable()
+                ->format(
+                    function ($value, $row, Column $column) {
+                        if ($row->alamatnya->namaKecamatan->region_nm ?? "" != "") {
+                            return $row->alamatnya->namaKecamatan->region_nm ?? '';
                         } else {
                             return '-';
                         }
@@ -177,7 +187,7 @@ class ListDataAts extends DataTableComponent
                 )
                 ->html(),
             Column::make('Status', 'status')
-            ->sortable()
+                ->sortable()
                 ->format(
                     function ($value, $row, Column $column) {
                         if ($row->status == true) {
