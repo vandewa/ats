@@ -92,7 +92,11 @@
                      </a>
                    </li>
                    <li><hr class="dropdown-divider"></li>
-                   
+                   <li>
+                      <a class="dropdown-item" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleVerticallycenteredModal"><i class="bx bx-cog"></i>
+                        Ganti Password
+                      </a>
+                    </li>
                     <li>
                       <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                          <div class="d-flex align-items-center">
@@ -111,6 +115,34 @@
         </nav>
       </header>
        <!--end top header-->
+
+       <!-- Modal -->
+      <div class="modal fade" id="exampleVerticallycenteredModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ganti Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                {{Form::open(['route' => 'ganti.password','method' => 'post', 'class' => 'row g-3 mt-2', 'files' => true, 'id' => 'my-forms'])}}
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Password Baru</label>
+                        {{Form::password('password', null, ['class' => 'form-control' ])}}
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Konfirmasi Password</label>
+                        {{Form::password('password_confirmation', null, ['class' => 'form-control' ])}}
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                {{Form::close()}}
+            </div>
+        </div>
+      </div>
 
        @include('layouts.sidebar')
        
@@ -275,6 +307,24 @@
         )
     });
 </script>
+<script type="text/javascript">
+  function sweetAlert2() {
+      Swal.fire(
+          'Berhasil!',
+          'Mengedit data.',
+          'success'
+      )
+  }
+
+  @if (session('edit'))
+      sweetAlert2();
+  @endif
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<!-- Laravel Javascript Validation -->
+<script type="text/javascript" src="{{ asset('vendor/jsvalidation/js/jsvalidation.js')}}"></script>
+{!! JsValidator::formRequest('App\Http\Requests\PasswordValidation','#my-forms') !!}
 
  @include('sweetalert::alert')
  @stack('js')

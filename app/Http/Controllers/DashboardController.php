@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ats;
-use App\Models\AtsAddress;
 use App\Models\User;
+use App\Models\AtsAddress;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 
 class DashboardController extends Controller
@@ -31,7 +32,7 @@ class DashboardController extends Controller
         $jml_ats_kec = AtsAddress::where('region_kec', auth()->user()->kecamatan)
             ->whereHas('atsnya', function ($query) {
                 $query->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-                ->orWhere('sumber', null);
+                    ->orWhere('sumber', null);
             })
             ->count();
         $sudah_verif_kec = Ats::where('status', true)
@@ -112,5 +113,14 @@ class DashboardController extends Controller
     public function cetak()
     {
         return response()->download(public_path('template/FORMULIR-PERMOHONAN-BEASISWA-PENDIDIKAN.docx'))->deleteFileAfterSend(false);
+    }
+
+    public function gantiPassword(Request $request)
+    {
+        User::find(auth()->user()->id)->update([
+            'password' => Hash::make($request->password)
+        ]);
+
+        return redirect()->back()->with('edit', 'oke');
     }
 }

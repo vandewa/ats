@@ -50,5 +50,7 @@ Route::middleware([
     Route::get('/cetak', [DashboardController::class, 'cetak'])->name('cetak');
     Route::get('sekolah/{id?}', SekolahPage::class)->name('data-sekolah');
     Route::get('sekolah-index', DaftarSekolah::class)->name('sekolah.index');
+    Route::post('/ganti-password', [DashboardController::class, 'gantiPassword'])->name('ganti.password');
+
 
 });
