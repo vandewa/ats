@@ -18,7 +18,7 @@ class Ats extends Model
         //     fn($value) => auth()->user()->id
         // );
         return Attribute::make(
-        set: fn($value) => auth()->user()->idd,
+        set: fn($value) => auth()->user()->id,
         );
     }
 
