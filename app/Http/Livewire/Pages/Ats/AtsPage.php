@@ -28,6 +28,7 @@ class AtsPage extends Component
     public $listDisabilitasSt;
     public $listJenisDisabilitasTp;
     public $listTingkatSekolahTerakhir;
+    public $listTingkatSekolahTerakhir1;
     public $listKawin;
     public $listJenisKelamin;
     public $listNamaSekolah;
@@ -95,6 +96,11 @@ class AtsPage extends Component
         $this->listNamaSekolah = Sekolah::with(['namaKecamatan'])->where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
     }
 
+    public function updatedAtsPendataansNamaSekolah()
+    {
+        $devan = Sekolah::find($this->atsPendataans["nama_sekolah"]);
+        $this->listTingkatSekolahTerakhir1 = ComCode::where('code_value', $devan->jenjang)->get();
+    }
     public function updatedAtsAddresRw()
     {
         if ($this->atsAddres['rw']) {
