@@ -22,7 +22,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. AL MARSHUF",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307030"
                 
               ],
@@ -32,7 +31,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. AL ALAWIYAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -41,7 +39,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. DARUSSALIKHIN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -50,7 +47,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. AL BAROKAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -59,7 +55,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. TANWIRUSSOBIR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -68,7 +63,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. AL ANWAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -77,7 +71,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS. FATANUGRAHA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -86,7 +79,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PDF ULYA AL-MUBAAROK MANGGISAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -95,7 +87,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Marshuf",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307030"
               ],
               [
@@ -104,7 +95,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Alawiyah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -113,7 +103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Darussalikin",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -122,7 +111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Aziziyah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -131,7 +119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Darul  Ulum",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -140,7 +127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Roudlotul Muttaqin",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -149,7 +135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Mubarok",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -158,7 +143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Barokah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -167,7 +151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Tanwirusshobir",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -176,7 +159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS An Nidzhom",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -185,7 +167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Daruttholibin",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307100"
               ],
               [
@@ -194,7 +175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Fata Nugraha",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -203,7 +183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Anwar",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -212,7 +191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Darunna im",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307020"
               ],
               [
@@ -221,7 +199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PPS Al Ukhuwah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307051"
               ],
               [
@@ -230,7 +207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PDF Wustho Al-Mubaarok Manggisan",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -239,7 +215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Al Ukhuwah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307051"
               ],
               [
@@ -248,7 +223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Al Anwar",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -257,7 +231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Daruttholibin",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307100"
               ],
               [
@@ -266,7 +239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Darul Ulum",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -275,7 +247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "As Syakirin",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307080"
               ],
               [
@@ -284,7 +255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Roudlotuth Tholibin Waththulab",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -293,7 +263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Salafiyah Al Khusna",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307100"
               ],
               [
@@ -302,7 +271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Muadalah Aliyah Pesantren Roudhotuththolibin Waththullab",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -311,7 +279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Pesantren Roudhotuththolibin Waththullab",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -320,7 +287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SPM. SALAF TAWANGSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_01",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307060"
               ],
               [
@@ -329,7 +295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM CATUR SAKTI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307050"
               ],
               [
@@ -338,7 +303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM SUMBER REJEKI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307080"
               ],
               [
@@ -347,7 +311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM CEMERLANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -356,7 +319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM GELORA NUSANTARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307080"
               ],
               [
@@ -365,7 +327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM CIPTA KARYA MANDIRI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -374,7 +335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM CAHAYA ILMU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307030"
               ],
               [
@@ -383,7 +343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM SINDORO SUMBING",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -392,7 +351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM YASMINA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307110"
               ],
               [
@@ -401,7 +359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM PROSPEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307100"
               ],
               [
@@ -410,7 +367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM ULUL ALBAB",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307080"
               ],
               [
@@ -419,7 +375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM SATRIA NEGARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307060"
               ],
               [
@@ -428,7 +383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM BINA ILMU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307031"
               ],
               [
@@ -437,7 +391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM TUNAS MANDIRI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307070"
               ],
               [
@@ -446,7 +399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM AL HUDA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -455,7 +407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SKB KABUPATEN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_03",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307090"
               ],
               [
@@ -464,7 +415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM BERGEMA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307130"
               ],
               [
@@ -473,7 +423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM PELITA NUSANTARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307051"
               ],
               [
@@ -482,7 +431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM Perintis",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307051"
               ],
               [
@@ -491,7 +439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "PKBM AN NIDZHOM",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_02",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_02",
                 "kecamatan" => "3307120"
               ],
               [
@@ -500,7 +447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KWADUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -509,7 +455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KERTEK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -518,7 +463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KEPIL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -527,7 +471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KEMIRIOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -536,7 +479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KEMBARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -545,7 +487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KARANGREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -554,7 +495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KALIWULUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -563,7 +503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KALIKARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -572,7 +511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KALIKAJAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -581,7 +519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KALIGOWONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -590,7 +527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -599,7 +535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -608,7 +543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 ROPOH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -617,7 +551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PERBOTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -626,7 +559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PECEKELAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -635,7 +567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 NGALIAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -644,7 +575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MADURETNO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -653,7 +583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 LUMAJANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -662,7 +591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 LEKSONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -671,7 +599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 SAPURAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -680,7 +607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 KALIBAWANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -689,7 +615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 BATURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -698,7 +623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 BANYUMUDAL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -707,7 +631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -716,7 +639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WONOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -725,7 +647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WONOROTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -734,7 +655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WONOKROMO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -743,7 +663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WONOKAMPIR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -752,7 +671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 BESUKI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -761,7 +679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 BINANGUN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -770,7 +687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 JONGGOLSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -779,7 +695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 JARAKSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -788,7 +703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 JANGKRIKAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -797,7 +711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 GUMELAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -806,7 +719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 GONDOWULAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -815,7 +727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 GARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -824,7 +735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 DEMPEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -833,7 +743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 BUTUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -842,7 +751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WINONGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -851,7 +759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SAWANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -860,7 +767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI CANDIREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -869,7 +775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 8 WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -878,7 +783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 5 WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -887,7 +791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 5 BUTUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -896,7 +799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI ANDONGSILI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -905,7 +807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI CANDI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -914,7 +815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI CAMPURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -923,7 +823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BURAT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -932,7 +831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BUMIRESO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -941,7 +839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BLEDERAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -950,7 +847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BENER",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -959,7 +855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BANJAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -968,7 +863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BALEKAMBANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -977,7 +871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 SAPURAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -986,7 +879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 TRIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -995,7 +887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 TLOGO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1004,7 +895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 TIRIP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1013,7 +903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 TEMPUREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -1022,7 +911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 TANJUNGANOM KECAMATAN KEPIL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1031,7 +919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TANJUNGANOM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1040,7 +927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 SUKOHARJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1049,7 +935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SIGEDANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1058,7 +943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 WADASLINTANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1067,7 +951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 WONOKAMPIR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1076,7 +959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 NGALIAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1085,7 +967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 KWADUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1094,7 +975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 KALIKARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -1103,7 +983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 JARAKSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -1112,7 +991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 GADINGREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1121,7 +999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 BUTUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1130,7 +1007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 4 BINANGUN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1139,7 +1015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 WONOROTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1148,7 +1023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WATUMALANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1157,7 +1031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 RECO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -1166,7 +1039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PARIKESIT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1175,7 +1047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PAGEREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -1184,7 +1055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 NGALIAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1193,7 +1063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 NGADIKUSUMAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -1202,7 +1071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 NGADIKERSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1211,7 +1079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PENGARENGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -1220,7 +1087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PUCUNGKEREP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1229,7 +1095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PURWOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -1238,7 +1103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PUNGANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1247,7 +1111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PULOSAREN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1256,7 +1119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PUCUNGWETAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1265,7 +1127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PLUNJARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1274,7 +1135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PESODONGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1283,7 +1143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MUDAL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1292,7 +1151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MOJOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1301,7 +1159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LANCAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1310,7 +1167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1319,7 +1175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1328,7 +1183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KWADUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1337,7 +1191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KUMEJING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1346,7 +1199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KRINJING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1355,7 +1207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KRASAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1364,7 +1215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KRASAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1373,7 +1223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LENGKONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1382,7 +1231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LIMBANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1391,7 +1239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MLIPAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -1400,7 +1247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MLANDI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1409,7 +1255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MARON",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1418,7 +1263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 MANGUNREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1427,7 +1271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 LUMAJANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -1436,7 +1279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 REJOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1445,7 +1287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WARANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1454,7 +1295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEGESWETAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1463,7 +1303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEGALOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1472,7 +1311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEGALGOT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1481,7 +1319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TANJUNGANOM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1490,7 +1327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TAMBI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1499,7 +1335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SUROYUDAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1508,7 +1343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SURENGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1517,7 +1351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SUMBEREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1526,7 +1359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEMPURANDUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1535,7 +1367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEMPUREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -1544,7 +1375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 WADASLINTANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1553,7 +1383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TRIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1562,7 +1391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TRACAP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1571,7 +1399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TLOGO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1580,7 +1407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TIRIP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1589,7 +1415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TEMPURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1598,7 +1423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SENDANGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1607,7 +1431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SEDAYU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1616,7 +1439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 ROJOIMO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -1625,7 +1447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 ROGOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1634,7 +1455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SERANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1643,7 +1463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SUKOHARJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1652,7 +1471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SOMOGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -1661,7 +1479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SOJOKERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -1670,7 +1487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SLUKATAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1679,7 +1495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SIWURAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1688,7 +1503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SINDUPATEN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -1697,7 +1511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SIMBANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1706,7 +1519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 SIKUNANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1715,7 +1527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 RIMPAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1724,7 +1535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PAKUNCEN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1733,7 +1543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI LARANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1742,7 +1551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KURIPAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1751,7 +1559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KUPANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1760,7 +1567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD KRISTEN BENDUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1769,7 +1575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KREO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1778,7 +1583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KESENENG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1787,7 +1591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KEJAJAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1796,7 +1599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KECIS",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1805,7 +1607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KEBRENGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1814,7 +1615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI LARANGAN KULON",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1823,7 +1623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI LEBAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1832,7 +1631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PAGERKUKUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -1841,7 +1639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI NGASINAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1850,7 +1647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI NGADISALAM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1859,7 +1655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI NGADIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1868,7 +1663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI MUNGKUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -1877,7 +1671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI MERGOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1886,7 +1679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI MENJER",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -1895,7 +1687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI MARONGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -1904,7 +1695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI LIPURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -1913,7 +1703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KARANGANYAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1922,7 +1711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KAPULOGO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -1931,7 +1719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GUNUNG TUGEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1940,7 +1727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GUNUNG TAWANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -1949,7 +1735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GUNTURMADU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -1958,7 +1743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GUMIWANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -1967,7 +1751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GAMBARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -1976,7 +1759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI DURENSAWIT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -1985,7 +1767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI DIENG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -1994,7 +1775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI DERONGISOR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2003,7 +1783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI DAMARKASIYAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2012,7 +1791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI IGIRMRANAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2021,7 +1799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD ISLAM MIFTAHUL HUDA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2030,7 +1807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KALIPURU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2039,7 +1815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KALIANGET",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2048,7 +1823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KALIALANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2057,7 +1831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KAJEKSAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2066,7 +1839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KADIPATEN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2075,7 +1847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI JOLONTORO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2084,7 +1855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI JOJOGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2093,7 +1863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI JOGOYITNAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2102,7 +1871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI JEBENG PLAMPITAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2111,7 +1879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI CLEDOK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -2120,7 +1887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PANCURWENING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2129,7 +1895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TLOGODALEM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2138,7 +1903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TLOGO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2147,7 +1911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEMPUREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2156,7 +1919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TEGALSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2165,7 +1927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TAWANGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2174,7 +1935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TALUNOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2183,7 +1943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SUROJOYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2192,7 +1951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SUMBERWULAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2201,7 +1959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TLOGOMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2210,7 +1967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WILAYU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2219,7 +1975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WULUNGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2228,7 +1983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WRINGINANOM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2237,7 +1991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WONOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2246,7 +1999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WONOREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2255,7 +2007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WONOLELO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2264,7 +2015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI WONOKERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -2273,7 +2023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SUKOREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2282,7 +2031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SOJOPURO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2291,7 +2039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI REJOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2300,7 +2047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI RANDUSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2309,7 +2055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PURWOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -2318,7 +2063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PURBOSONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2327,7 +2071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PULUS",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2336,7 +2079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PUCUNGKEREP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -2345,7 +2087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PLODONGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2354,7 +2095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PLOBANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2363,7 +2103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PENGARENGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2372,7 +2111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SARIYOSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2381,7 +2119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SITIHARJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2390,7 +2127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SINDUAGUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2399,7 +2135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SIMBAREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2408,7 +2143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SIDOREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2417,7 +2151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SEMPOL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2426,7 +2159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SEMBUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2435,7 +2167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SEMAYU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2444,7 +2175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SELOMANIK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -2453,7 +2183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PATAK BANTENG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2462,7 +2191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BESUKI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -2471,7 +2199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD KRISTEN 03",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2480,7 +2207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD ISLAM AL FATAH UTAMA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2489,7 +2215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD MAARIF TIENG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2498,7 +2223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD MUHAMMADIYAH TIENG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2507,7 +2231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BESANI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -2516,7 +2239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BERAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2525,7 +2247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BEJIARUM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2534,7 +2255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BATURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2543,7 +2263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BANYUMUDAL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2552,7 +2271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BANYUKEMBAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2561,7 +2279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 ADIWARNO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2570,7 +2287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD TAKHASUS AL QURAN WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2579,7 +2295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD PIUS WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2588,7 +2303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BOGORAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2597,7 +2311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIKUNING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -2606,7 +2319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KAGUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2615,7 +2327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JONGGOLSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -2624,7 +2335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JLAMPRANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2633,7 +2343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JLAMPRANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -2642,7 +2351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JENGKOL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2651,7 +2359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JARAKSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2660,7 +2367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 JANGKRIKAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2669,7 +2375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GUMELAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -2678,7 +2383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GUMAWANG KIDUL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2687,7 +2391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KURIPAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2696,7 +2399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIBAWANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2705,7 +2407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIKARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2714,7 +2415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIKAJAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -2723,7 +2423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIGUWO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -2732,7 +2431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIGOWONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -2741,7 +2439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIERANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2750,7 +2447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIDESEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2759,7 +2455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIDADAP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -2768,7 +2463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIBENING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2777,7 +2471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIBEBER",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2786,7 +2479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GONDOWULAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2795,7 +2487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI CANDIYASAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2804,7 +2495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 CANDIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2813,7 +2503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BUTUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -2822,7 +2511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BUNTU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -2831,7 +2519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BUMITIRTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -2840,7 +2527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI BUMIROSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2849,7 +2535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BUMIREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2858,7 +2543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BOWONGSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -2867,7 +2551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BOMERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -2876,7 +2559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 DEMPEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2885,7 +2567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 DEPOK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -2894,7 +2575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GONDANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -2903,7 +2583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GLAGAH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -2912,7 +2591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GEMBLENGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2921,7 +2599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GARUNGLOR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -2930,7 +2607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -2939,7 +2615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GADINGREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2948,7 +2623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 GADINGSUKUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -2957,7 +2631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 EROREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -2966,7 +2639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 DERODUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -2975,7 +2647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BOJASARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -2984,7 +2655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BESANI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -2993,7 +2663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BERAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3002,7 +2671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BEJIARUM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3011,7 +2679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BATURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3020,7 +2687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BANYUMUDAL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3029,7 +2695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BANYUKEMBAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3038,7 +2703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KERTEK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3047,7 +2711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 10 WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3056,7 +2719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BESUKI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3065,7 +2727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BOJASARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3074,7 +2735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 CANDIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3083,7 +2743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BUTUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3092,7 +2751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BUNTU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -3101,7 +2759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BUMIREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3110,7 +2767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BOWONGSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3119,7 +2775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BOMERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3128,7 +2783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BOGORAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3137,7 +2791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 BINANGUN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3146,7 +2799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3155,7 +2807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3164,7 +2815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TLOGO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -3173,7 +2823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TIRIP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3182,7 +2831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TIMBANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -3191,7 +2839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEMPURSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3200,7 +2847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEMPURANDUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3209,7 +2855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEGESWETAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3218,7 +2863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEGALOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3227,7 +2871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TEGALGOT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3236,7 +2879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TANJUNGANOM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3245,7 +2887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TLOGOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3254,7 +2895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TRACAP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3263,7 +2903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOROTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3272,7 +2911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOKROMO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3281,7 +2919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOKAMPIR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3290,7 +2927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WINONGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3299,7 +2935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WATUMALANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3308,7 +2943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WARANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3317,7 +2951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WADASLINTANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3326,7 +2959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI TUMENGGUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -3335,7 +2967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TRIMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3344,7 +2975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TANJUNGANOM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3353,7 +2983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 DEMPEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -3362,7 +2991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KEPIL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3371,7 +2999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIWIRO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3380,7 +3007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KALIPUTIH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -3389,7 +3015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIMENDONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -3398,7 +3023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIKARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -3407,7 +3031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIGOWONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3416,7 +3039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIERANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -3425,7 +3047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIDESEL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3434,7 +3055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIWULUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3443,7 +3063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KAPENCAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3452,7 +3071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KEMIRIOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3461,7 +3079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KEMBARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3470,7 +3087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KEDALON",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3479,7 +3095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KAYUGIYANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3488,7 +3103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KAUMAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3497,7 +3111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KARANGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3506,7 +3119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KARANGLUHUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3515,7 +3127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KARANGDUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3524,7 +3135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KARANGANYAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3533,7 +3143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIDADAP",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3542,7 +3151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIBENING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -3551,7 +3159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GLAGAH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3560,7 +3167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GONDOWULAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3569,7 +3175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GEMBLENGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3578,7 +3183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GARUNGLOR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -3587,7 +3191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GARUNG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3596,7 +3199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GADINGREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3605,7 +3207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GADINGSUKUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3614,7 +3215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 EROREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3623,7 +3223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 DERODUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3632,7 +3231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 GUMELAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3641,7 +3239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 JANGKRIKAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3650,7 +3247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIBEBER",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3659,7 +3255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KALIBAWANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -3668,7 +3263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 KAGUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3677,7 +3271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 JLAMPRANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -3686,7 +3279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 JLAMPRANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3695,7 +3287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 JENGKOL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3704,7 +3295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 JARAKSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3713,7 +3303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 TAMBI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -3722,7 +3311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MANGGIS",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -3731,7 +3319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MADURETNO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3740,7 +3327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LUMAJANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3749,7 +3335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LIMBANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3758,7 +3343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LENGKONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3767,7 +3351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LEKSONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -3776,7 +3359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LANCAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3785,7 +3367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3794,7 +3375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 LAMUK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3803,7 +3383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MANGUNREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3812,7 +3391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MARON",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3821,7 +3399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 NGADIKUSUMAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3830,7 +3407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 NGADIKERSO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -3839,7 +3415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MUTISARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3848,7 +3423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MUDAL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3857,7 +3431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MOJOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -3866,7 +3439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MLIPAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -3875,7 +3447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MLANDI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3884,7 +3455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI MERGOLANGU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -3893,7 +3463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 MEDONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3902,7 +3471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KWADUNGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3911,7 +3479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KARANGREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -3920,7 +3487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KARANGLUHUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3929,7 +3495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KARANGDUWUR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -3938,7 +3503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KARANGANYAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -3947,7 +3511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KAPENCAR",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -3956,7 +3519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIWULUH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -3965,7 +3527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIWIRO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -3974,7 +3535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KAYUGIYANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -3983,7 +3543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KRINJING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -3992,7 +3551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KRASAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -4001,7 +3559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KRASAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -4010,7 +3567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI KRAMATAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4019,7 +3575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KEPIL",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4028,7 +3583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KEMIRIOMBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4037,7 +3591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KEMBARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4046,7 +3599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KEJIWAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4055,7 +3607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KEDALON",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4064,7 +3615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KALIMENDONG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -4073,7 +3623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 NGALIAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4082,7 +3631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SURENGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4091,7 +3639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SINDUPATEN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4100,7 +3647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SIMBANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4109,7 +3655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SIKUNANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4118,7 +3663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SIGEDANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4127,7 +3671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SERANG",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4136,7 +3679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SENDANGSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4145,7 +3687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SELOMERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -4154,7 +3695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SELOKROMO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -4163,7 +3703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SEDAYU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -4172,7 +3711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SLUKATAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -4181,7 +3719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SUROYUDAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -4190,7 +3727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SUMBERSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4199,7 +3735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SUMBEREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4208,7 +3743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SUMBERDALEM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4217,7 +3751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SUKORENO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4226,7 +3759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SUKOHARJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -4235,7 +3767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SUDUNGDEWO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4244,7 +3775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SOMOGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4253,7 +3783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SOJOKERTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -4262,7 +3791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SAWANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -4271,7 +3799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SAPURAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -4280,7 +3807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PLUNJARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4289,7 +3815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PESODONGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4298,7 +3823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PERBOTO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4307,7 +3831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PECEKELAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -4316,7 +3839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PASURUHAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -4325,7 +3847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PARIKESIT",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4334,7 +3855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI PANERUSAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4343,7 +3863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PACARMULYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -4352,7 +3871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PAGEREJO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4361,7 +3879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PUCUNGWETAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -4370,7 +3887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PULOSAREN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4379,7 +3895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PUNGANGAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -4388,7 +3903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI SAMBEK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4397,7 +3911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 ROPOH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4406,7 +3919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 ROJOIMO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4415,7 +3927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 ROGOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -4424,7 +3935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 RIMPAK",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -4433,7 +3943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 REJOSARI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4442,7 +3951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 RECO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4451,7 +3959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PURWOJIWO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4460,7 +3967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 PURWOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4469,7 +3975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 ROPOH",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4478,7 +3983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 TLOGOJATI",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4487,7 +3991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD MUHAMMADIYAH SUDAGARAN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4496,7 +3999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 BINANGUN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -4505,7 +4007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 NGADISONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4514,7 +4015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 SURENGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4523,7 +4023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 WONOSROYO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -4532,7 +4031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI GRUGU",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4541,7 +4039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 NGADISONO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4550,7 +4047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 2 PURWOJIWO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4559,7 +4055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 3 SURENGEDE",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4568,7 +4063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD AL MADINA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4577,7 +4071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD IT INSAN MULIA WONOSOBO",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4586,7 +4079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD MBF AL ADZKIYA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -4595,7 +4087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NEGERI 1 KUMEJING",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -4604,7 +4095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TEGALSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4613,7 +4103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF GESING",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4622,7 +4111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TOPENGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4631,7 +4119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KANDANGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4640,7 +4127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALIJERUK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4649,7 +4135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF MARON",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4658,7 +4143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF LARANGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -4667,7 +4151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -4676,7 +4159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA`ARIF KARANGSAMBUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -4685,7 +4167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH KALIALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -4694,7 +4175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH 01 GARUNG BUTUH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4703,7 +4183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH 02 GARUNG BUTUH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4712,7 +4191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -4721,7 +4199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA ARIF TRACAP",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4730,7 +4207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF MEDONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4739,7 +4215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH KARANGMANGU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4748,7 +4223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH.BENDUNGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4757,7 +4231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA ARIF BOWONGSO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4766,7 +4239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA ARIF KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4775,7 +4247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA ARIF CLENGKOM",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4784,7 +4255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF LEBAK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -4793,7 +4263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF CAMPURSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4802,7 +4271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TAMBI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4811,7 +4279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4820,7 +4287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SERANGSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4829,7 +4295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF JOJOGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4838,7 +4303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF PATAKBANTENG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4847,7 +4311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALILEMBU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4856,7 +4319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SEMBUNGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -4865,7 +4327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF BENER",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4874,7 +4335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH BENER",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4883,7 +4343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS ISLAMIYAH GADINGREJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4892,7 +4351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF GADINGREJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4901,7 +4359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4910,7 +4367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH BERAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4919,7 +4375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF REJOSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4928,7 +4383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF NGALIYAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -4937,7 +4391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KARANGLUHUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4946,7 +4399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SUREN GEDE",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4955,7 +4407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH TLOGODALEM",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4964,7 +4415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4973,7 +4423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA`ARIF BUDI LUHUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4982,7 +4431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS RIFAIYAH DALANGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -4991,7 +4439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SOJOKERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5000,7 +4447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5009,7 +4455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH BESANI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5018,7 +4463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF LIPURSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5027,7 +4471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF BESANI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5036,7 +4479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KLESMAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5045,7 +4487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SOJOPURO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5054,7 +4495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF MOJOSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5063,7 +4503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MANGGISAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5072,7 +4511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALIBEBER",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5081,7 +4519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMADIYAH KALIBEBER",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5090,7 +4527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KEBONDALEM",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5099,7 +4535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF WONOKROMO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5108,7 +4543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KEBRENGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5117,7 +4551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SLUKATAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5126,7 +4559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA`ARIF TALUNOMBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5135,7 +4567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA`ARIF BENDOSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5144,7 +4575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS ISLAMIYAH JOLONTORO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5153,7 +4583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH MARONGSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5162,7 +4591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MA`ARIF NGADIKERSO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5171,7 +4599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS GUPPI SUMBERWULAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5180,7 +4607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUH. SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5189,7 +4615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF NGALIAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5198,7 +4623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KARANGANYAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5207,7 +4631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS HIDAYATUSSIBYAN KUMEJING",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5216,7 +4639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS HIDAYATUSSIBYAN LANCAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5225,7 +4647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALIDADAP",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5234,7 +4655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF AL FATAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5243,7 +4663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SOMOGEDE",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5252,7 +4671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TRIMULYO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5261,7 +4679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS HIDAYATUSSIBYAN WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5270,7 +4687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF PUKIRAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5279,7 +4695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALIGOWONG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5288,7 +4703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS GUPPI GUMAWANG LOR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -5297,7 +4711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF GONDANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -5306,7 +4719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KLIWONAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5315,7 +4727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KEJIWAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5324,7 +4735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KALIANGET",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5333,7 +4743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KAPULOGO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5342,7 +4751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TEGALGOT",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5351,7 +4759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH TANJUNGANOM",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5360,7 +4767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF ROPOH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5369,7 +4775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TUMENGGUNGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5378,7 +4783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF TAWANGSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5387,7 +4791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF GUNUNGTAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5396,7 +4799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF NGADIMULYO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5405,7 +4807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF BULUSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -5414,7 +4815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MUHAMMADIYAH MUNGKUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -5423,7 +4823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -5432,7 +4831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF MERGOSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -5441,7 +4839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS MAARIF KADIPATEN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5450,7 +4847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MIS AL QUR`AN AL KAYYIS",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5459,7 +4855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MISMA`ARIF NU SIRANGKEL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -5468,7 +4863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MISMK AN NUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -5477,7 +4871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD NASIONAL KAKUKA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5486,7 +4879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD ABF KHALIFA",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -5495,7 +4887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD TAHFIDZ SA`ADATUL ISLAM",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5504,7 +4895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SD ISLAM BAITUL MUJAHIDIN",
                 "jenjang" => "SD",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5513,7 +4903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MI AN NAWAWI ISLAMIC BOARDING SCHOOL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -5522,7 +4911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MI MA'ARIF AL-FATTAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_05",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -5531,7 +4919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMA NEGERI 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5540,7 +4927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMA NEGERI 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5549,7 +4935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAN 1 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5558,7 +4943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMA NEGERI 1 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5567,7 +4951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAN 1 MOJOTENGAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5576,7 +4959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMA NEGERI 1 KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -5585,7 +4967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAN 1 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -5594,7 +4975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMA NEGERI 1 SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5603,7 +4983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS TAKHASSUS AS SAHRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5612,7 +4991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS KRISTEN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5621,7 +4999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS MA ARIF WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5630,7 +5007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS NU KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -5639,7 +5015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS TAKHASSUS AL-QUR AN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5648,7 +5023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS MA ARIF LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5657,7 +5031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAS MUHAMMADIYAH WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5666,7 +5039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMAN 1 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_08",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -5675,7 +5047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS MUHAMMADIYAH KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5684,7 +5055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAN 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5693,7 +5063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAN 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5702,7 +5071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS TAKHASSUS ALQURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5711,7 +5079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS SATU ATAP AL HIKAM CENDEKIA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -5720,7 +5087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS AL FATAH GONDANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -5729,7 +5095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS Matholi Ul Anwar",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5738,7 +5103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS I ANATUL QUR AN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -5747,7 +5111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS NU DARUL ISLAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -5756,7 +5119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS Ar-Risalah Kepil",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5765,7 +5127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS Ummul Quro",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -5774,7 +5135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS PROGRAM KETRAMPILAN MA ARIF NGALIAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -5783,7 +5143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "Muadalah Ma had Ilmu AlQurán (MIQ) Al Hikam",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -5792,7 +5151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS BERBAUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5801,7 +5159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS AN NAWAWI SARWODADI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5810,7 +5167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MAS BINA'UL-AKRAM GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -5819,7 +5175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MA Alawiyah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5828,7 +5183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MA AS SHOFA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5837,7 +5191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MA TAKHASSUS AL-QUR'AN 1 MOJOTENGAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5846,7 +5199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MA NURUL QUR'AN KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -5855,7 +5207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MA AL MAKSUM WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_09",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5864,7 +5215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKN 1 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -5873,7 +5223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKN 1 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5882,7 +5231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS MUHAMMADIYAH 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5891,7 +5239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS INFORMATIKA WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5900,7 +5247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKN 1 SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -5909,7 +5255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK NEGERI 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5918,7 +5263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS WIRATAMA 45 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5927,7 +5271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS WIRATAMA 45 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5936,7 +5279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS PURNAMA WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -5945,7 +5287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK NEGERI 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5954,7 +5295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS TAKHASSUS AL QURAN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5963,7 +5303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS AL MADANI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -5972,7 +5311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS PELITA AL QURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -5981,7 +5319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK ANDALUSIA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -5990,7 +5327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS GEMA NUSANTARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -5999,7 +5335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK KARYA MANDIRI NU GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6008,7 +5343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS MUHAMMADIYAH 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6017,7 +5351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS MUHAMMADIYAH 3 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6026,7 +5359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKN 1 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6035,7 +5367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS NU KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -6044,7 +5375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS AL GHOZALY",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6053,7 +5383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS JALALUDDIN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6062,7 +5391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS NUSANTARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6071,7 +5399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKN 1 KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6080,7 +5407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMKS TARUNA NEGARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6089,7 +5415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK GARDA NUSA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6098,7 +5423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK AN-NUUR BOARDING SCHOOL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6107,7 +5431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK ANDALUSIA 2 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6116,7 +5439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK TAKHASSUS AS SAHRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6125,7 +5447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMK NEGERI 1 KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_10",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6134,7 +5455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6143,7 +5463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP PGRI 3 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6152,7 +5471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6161,7 +5479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH TIENG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -6170,7 +5487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH 3 LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6179,7 +5495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6188,7 +5503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6197,7 +5511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MUHAMMADIYAH SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6206,7 +5519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MAARIF MLANDI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6215,7 +5527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP MA ARIF KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6224,7 +5535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP PGRI WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6233,7 +5543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP PGRI LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6242,7 +5551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6251,7 +5559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6260,7 +5567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -6269,7 +5575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6278,7 +5583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6287,7 +5591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6296,7 +5599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6305,7 +5607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP TAKHASSUS AL QURAN KALIBEBER",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6314,7 +5615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP PGRI SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6323,7 +5623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP KRISTEN BENDUNGAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6332,7 +5631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP KRISTEN 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6341,7 +5639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP ISLAM WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6350,7 +5647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP ISLAM WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6359,7 +5655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP BHAKTI MULIA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6368,7 +5663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 MOJOTENGAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6377,7 +5671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 6 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6386,7 +5679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -6395,7 +5687,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6404,7 +5695,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 MOJOTENGAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6413,7 +5703,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6422,7 +5711,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6431,7 +5719,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6440,7 +5727,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6449,7 +5735,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6458,7 +5743,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6467,7 +5751,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6476,7 +5759,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6485,7 +5767,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6494,7 +5775,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6503,7 +5783,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6512,7 +5791,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6521,7 +5799,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6530,7 +5807,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6539,7 +5815,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6548,7 +5823,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6557,7 +5831,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6566,7 +5839,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6575,7 +5847,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6584,7 +5855,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6593,7 +5863,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6602,7 +5871,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6611,7 +5879,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6620,7 +5887,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -6629,7 +5895,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6638,7 +5903,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -6647,7 +5911,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6656,7 +5919,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6665,7 +5927,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6674,7 +5935,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -6683,7 +5943,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -6692,7 +5951,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6701,7 +5959,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 MOJOTENGAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6710,7 +5967,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6719,7 +5975,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 2 KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6728,7 +5983,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 1 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6737,7 +5991,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 7 SATU ATAP WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6746,7 +5999,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 LEKSONO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -6755,7 +6007,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -6764,7 +6015,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 SATU ATAP SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6773,7 +6023,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 6 SATU ATAP KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6782,7 +6031,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 SATU ATAP KALIKAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6791,7 +6039,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 SATU ATAP WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6800,7 +6047,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 3 SATU ATAP KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -6809,7 +6055,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 SATU ATAP SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -6818,7 +6063,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 SATU ATAP KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6827,7 +6071,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NUSANTARA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6836,7 +6079,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 6 SATU ATAP KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6845,7 +6087,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP DARUL FALACH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6854,7 +6095,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP RIFAIYAH 01 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6863,7 +6103,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6872,7 +6111,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6881,7 +6119,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 9 SATU ATAP WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6890,7 +6127,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 6 SATU ATAP WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -6899,7 +6135,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 SATU ATAP SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -6908,7 +6143,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 10 SATU ATAP WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -6917,7 +6151,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 SATU ATAP KALIBAWANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307031"
               ],
               [
@@ -6926,7 +6159,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 5 SATU ATAP SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -6935,7 +6167,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 7 SATU ATAP KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -6944,7 +6175,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP TAKHASSUS AL-QUR AN 2",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -6953,7 +6183,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -6962,7 +6191,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 7 SATU ATAP KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -6971,7 +6199,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF GARUNG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6980,7 +6207,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MUH. MLANDI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -6989,7 +6215,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MUH. GARUNG BUTUH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -6998,7 +6223,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF TIENG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -7007,7 +6231,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF KEJAJAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -7016,7 +6239,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AR RISALAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7025,7 +6247,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AS SAHRO REJOSARI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7034,7 +6255,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS TERPADU AL-KAUTSAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7043,7 +6263,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF KERTEK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -7052,7 +6271,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF SOJOKERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -7061,7 +6279,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSN 2 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -7070,7 +6287,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL FUTUHIYYAH BUMIREJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -7079,7 +6295,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MANBA`UL ANWAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -7088,7 +6303,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MA`ARIF SAPURAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -7097,7 +6311,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS HS LANCAR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7106,7 +6319,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF KALIGOWONG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7115,7 +6327,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL FATAH TIRIP",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7124,7 +6335,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS HIDAYATUSSIBYAN WADASLINTANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7133,7 +6343,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF GONDANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -7142,7 +6351,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL GHOZALI SIWATU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -7151,7 +6359,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSN 1 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7160,7 +6367,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF KEPIL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7169,7 +6375,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF KALIWIRO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -7178,7 +6383,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF SUKOHARJO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -7187,7 +6391,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF BAKALAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -7196,7 +6399,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7205,7 +6407,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MAARIF NGALIAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7214,7 +6415,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS SA AL HIKAM CENDEKIA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -7223,7 +6423,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMPS ALAWIYAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307070"
               ],
               [
@@ -7232,7 +6431,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsS AN-NUUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7241,7 +6439,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS Muhammadiyah Bener",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7250,7 +6447,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NEGERI 4 WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_01",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7259,7 +6455,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsS As Shofa",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7268,7 +6463,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP AL-MADINA WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7277,7 +6471,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMPIT INSAN MULIA WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7286,7 +6479,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP TAKHASSUS AL-QURAN AN NIDA SELOMERTO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7295,7 +6487,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsSJALALUDDIN KUMEJING",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307010"
               ],
               [
@@ -7304,7 +6495,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsSNU UNGGULAN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7313,7 +6503,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsS ASWAJA TERPADU",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7322,7 +6511,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsSNURUL CHUSNA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7331,7 +6519,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTsSMA`ARIF AL FIKRI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307051"
               ],
               [
@@ -7340,7 +6527,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP TAKHASSUS AL-QURAN SIROJUS SYUHADA",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -7349,7 +6535,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS Ma arif Ar Ridho",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -7358,7 +6543,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP ALFA ALI MASYKUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -7367,7 +6551,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP NU 1 WATUMALANG",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ],
               [
@@ -7376,7 +6559,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTS BERBAUR",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -7385,7 +6567,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP PELITA AL QUR`AN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307110"
               ],
               [
@@ -7394,7 +6575,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL MAKSUM WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7403,7 +6583,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS TAKHASSUS AL-QUR`AN WONOSOBO",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307060"
               ],
               [
@@ -7412,7 +6591,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP TAKHASSUS AL QURAN AL FATHONIYYAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -7421,7 +6599,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS HIDAYAH AL QUR'AN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -7430,7 +6607,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL MAHFUDZ",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307030"
               ],
               [
@@ -7439,7 +6615,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AL MUTTAQIN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7448,7 +6623,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS AN NAWAWI SARWODADI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307020"
               ],
               [
@@ -7457,7 +6631,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS TAKHASSUS AL-QUR'AN AL MUHIBBIN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -7466,7 +6639,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTSS MULYO ALMUBAROK",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307090"
               ],
               [
@@ -7475,7 +6647,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP DARUSSALAM ISLAMIC BOARDING SCHOOL",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307040"
               ],
               [
@@ -7484,7 +6655,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTs AL-BIRUNI",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307080"
               ],
               [
@@ -7493,7 +6663,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTs Raudlotul Falah",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307050"
               ],
               [
@@ -7502,7 +6671,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP AL-MUNAWAROH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307130"
               ],
               [
@@ -7511,7 +6679,6 @@ class SekolahSeeder extends Seeder
                 "nama" => "SMP AL-ISLAH",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_06",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307120"
               ],
               [
@@ -7520,9 +6687,9 @@ class SekolahSeeder extends Seeder
                 "nama" => "MTs DARUTTHOLIBIN",
                 "jenjang" => "JENJANG_PENDIDIKAN_TP_07",
                 "status_sekolah" => "STATUS_SEKOLAH_TP_02",
-                "jenis" => "SEKOLAH_TP_01",
                 "kecamatan" => "3307100"
               ]
+            
             
         ];
 
