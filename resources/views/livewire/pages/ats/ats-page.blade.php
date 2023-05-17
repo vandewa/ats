@@ -127,14 +127,16 @@
                                         @enderror
                                     </div>
                                 </div>
+
+                                {{-- jika minat kembai sekolah --}}
                                 <div class="mb-3 row">
                                     <label for="inputEnterYourName" class="col-sm-4 col-form-label">Nama Sekolah</label>
                                     <div class="col-sm-4">
-                                        <select name="" id="" class="form-control select2 atsPendataans-nama_sekolah" wire:model.defer="atsPendataans.nama_sekolah">
-                                            <option value="">Pilih Data</option>
-                                            @foreach ($listNamaSekolah1??[] as $p)
+                                        <select name="" id="devan-tai" class="form-control select2 atsPendataans-nama_sekolah" wire:ignore>
+                                            <option value="{{ $sekolahPilihan->id??'' }}">{{ $sekolahPilihan->nama??'' }}</option>
+                                            {{-- @foreach ($listNamaSekolah1??[] as $p)
                                                 <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'--' }})</option>
-                                            @endforeach
+                                            @endforeach --}}
                                         </select>
                                         @error('atsPendataans.nama_sekolah')
                                             <span class="form-text text-danger">{{ $message }}</span>
@@ -144,7 +146,7 @@
                                     <div class="col-sm-3">
                                         <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.kelas">
                                             <option value="">Pilih Kelas Terakhir</option>
-                                            @foreach ($listTingkatSekolahTerakhir as $item)
+                                            @foreach ($listTingkatSekolahTerakhir1??[] as $item)
                                                 <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
                                             @endforeach
                                         </select>
@@ -458,6 +460,31 @@
             
             @this.set('dataAts.pendidikan_tp', $(this).val())
         });
+
+        window.addEventListener('updateValue', event => {
+            // $('.ats-pendataan-nama_sekolah').select2('destroy');
+           
+            arrayObj = event.detail.newName.map(item => {
+                return {
+                    id: item.id,
+                    text: item.nama + " ( " + item.nama_kecamatan.region_nm+ " )"
+                };
+                });
+                $('.atsPendataans-nama_sekolah').empty();
+                $('.atsPendataans-nama_sekolah').append($('<option>', { 
+                        value: "",
+                        text : "Pilih Sekolah" 
+                    }));
+                $.each(arrayObj, function (i, item) {
+                    $('.atsPendataans-nama_sekolah').append($('<option>', { 
+                        value: item.id,
+                        text : item.text 
+                    }));
+                });
+
+                $('.atsPendataans-nama_sekolah').val("");
+            $('.atsPendataans-nama_sekolah').trigger("change");
+        })
 
         $(document).on('change','.atsPendataans-nama_sekolah',function(){
             
