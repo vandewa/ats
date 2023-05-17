@@ -27,6 +27,7 @@
           <table class="table">
               <thead>
                 <th>Desa</th>
+                <th>Sumber</th>
                 <th>Jumlah</th>
                 <th>Tervalidasi</th>
                 <th>Prosentase</th>
@@ -35,6 +36,7 @@
                 @foreach ($report??[] as $item)
                 <tr @if(!$item->region_nm) class="text-danger" @endif>
                   <td>{{ $item->region_nm??"Belum Diiketahui" }}</td>
+                  <td>{{ $item->sumber }}</td>
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
