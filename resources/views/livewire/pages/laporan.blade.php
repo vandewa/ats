@@ -38,7 +38,7 @@
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
-                  <td> <a href="{{ route('laporan.kecamatan.index', $item->region_kec) }}" class="btn btn-primary">Detail</a></td>
+                  <td> <a href="{{ route('laporan.kecamatan.index', $item->region_kec) }}?sumber={{ $item->sumber }}" class="btn btn-primary">Detail</a></td>
                 </tr>
                 @endforeach
                
