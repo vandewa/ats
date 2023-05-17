@@ -63,7 +63,7 @@
                                             <label class="form-label">Kelas</label>
                                             <select name="" id="" class="form-control" wire:model.lazy="atsPendataans.kelas">
                                                 <option value="">Pilih Data</option>
-                                                @foreach ($listTingkatSekolahTerakhir as $item)
+                                                @foreach ($listTingkatSekolahTerakhir1??[] as $item)
                                                     <option value="{{ $item->code_cd }}">{{ $item->code_nm }}</option>
                                                 @endforeach
                                             </select>
