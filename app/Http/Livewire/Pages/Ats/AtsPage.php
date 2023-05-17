@@ -206,7 +206,7 @@ class AtsPage extends Component
         $this->listSekolahTp = ComCode::where('code_group', "sekolah_tp")->get();
         $this->listDisabilitasSt = ComCode::where('code_group', "disabilitas_st")->get();
         $this->listJenisDisabilitasTp = ComCode::where('code_group', "jenis_disabilitas_tp")->get();
-        $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->get();
+        $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->where('code_value', '!=', '')->get();
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
     }

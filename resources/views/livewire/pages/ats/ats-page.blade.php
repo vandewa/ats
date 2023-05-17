@@ -132,7 +132,7 @@
                                     <div class="col-sm-4">
                                         <select name="" id="" class="form-control select2 atsPendataans-nama_sekolah" wire:model.defer="atsPendataans.nama_sekolah">
                                             <option value="">Pilih Data</option>
-                                            @foreach ($listNamaSekolah??[] as $p)
+                                            @foreach ($listNamaSekolah1??[] as $p)
                                                 <option value="{{ $p->id }}">{{ $p->nama }} ({{ $p->namaKecamatan->region_nm??'--' }})</option>
                                             @endforeach
                                         </select>
