@@ -27,7 +27,7 @@
       </a>
     </li>
     <li class="">
-      <a href="#">
+      <a href="https://cloud.wonosobokab.go.id/index.php/s/2va4EDCliRayO1X">
         <div class="parent-icon"><i class="lni lni-download"></i>
         </div>
         <div class="menu-title">Download Surat Pernyataan</div>
