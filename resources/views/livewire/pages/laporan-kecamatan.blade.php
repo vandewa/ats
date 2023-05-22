@@ -40,8 +40,8 @@
                   <td>{{ $item->sumber }}</td>
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
-                  <td>{{  $item->minat_sekolah}}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
+                  <td>{{  $item->minat_sekolah}}</td>
                 </tr>
                 @endforeach
                
