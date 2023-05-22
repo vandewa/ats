@@ -183,10 +183,12 @@ class AtsPage extends Component
         }
 
         Ats::find($this->idnya)->update($this->dataAts);
-        Ats::find($this->idnya)->update([
-            'status' => true,
-            'tanggal_verval' => now()
-        ]);
+        if(!auth()->user()->hasRole(['admin'])){
+            Ats::find($this->idnya)->update([
+                'status' => true,
+                'tanggal_verval' => now()
+            ]);
+        }
         AtsAddress::where('ats_id', $this->idnya)->update($this->atsAddres);
         AtsPendataan::where('ats_id', $this->idnya)->update($this->atsPendataans);
         AtsPendataan::where('ats_id', $this->idnya)->update([
