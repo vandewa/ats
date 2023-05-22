@@ -28,6 +28,7 @@
                 <th>Jumlah</th>
                 <th>Tervalidasi</th>
                 <th>Prosentase</th>
+                <th>Minat Sekolah</th>
                 <th>Aksi</th>
               </thead>
               <tbody>
@@ -38,6 +39,7 @@
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
+                  <td>{{  $item->minat_sekolah}}</td>
                   <td> <a href="{{ route('laporan.kecamatan.index', $item->region_kec) }}?sumber={{ $item->sumber }}" class="btn btn-primary">Detail</a></td>
                 </tr>
                 @endforeach

@@ -42,6 +42,7 @@
       <ul>
         <li class=" {{ Request::segment(1) == 'sekolah' ? 'mm-active' : '' }}"> 
           <a href="{{ route ('laporan.index')}}"><i class="bi bi-circle"></i>Kecamatan</a>
+          <a href="{{ route ('laporan.index')}}"><i class="bi bi-circle"></i>Minat Sekolah</a>
         </li>
       </ul>
     {{-- <li class="{{ Request::segment(1) == 'laporan' ? 'mm-active' : '' }}">

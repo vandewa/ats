@@ -31,6 +31,7 @@
                 <th>Jumlah</th>
                 <th>Tervalidasi</th>
                 <th>Prosentase</th>
+                <th>Minat Sekolah</th>
               </thead>
               <tbody>
                 @foreach ($report??[] as $item)
@@ -39,6 +40,7 @@
                   <td>{{ $item->sumber }}</td>
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
+                  <td>{{  $item->minat_sekolah}}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
                 </tr>
                 @endforeach
