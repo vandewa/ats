@@ -41,7 +41,7 @@
                   <td>{{ $item->jumlah }}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
-                  <td>{{  $item->minat_sekolah}} ({{ round($item->minat_sekolah / $item->jumlah * 100, 3) }} %)</td>
+                  <td class="text-end">{{  $item->minat_sekolah}} ({{ round($item->minat_sekolah / $item->jumlah * 100, 3) }}%)</td>
                 </tr>
                 @endforeach
                
