@@ -12,7 +12,7 @@ class LaporanKecamatan extends Component
     protected $queryString = ['sumber'];
     public function mount($id)
     {
-        $this->report = DB::table('ats')->select(DB::raw("com_regions.region_nm, sumber, count(ats.id) as jumlah, sum(case when status = true  then 1 else 0 end ) as tervalidasi,
+        $this->report = DB::table('ats')->select(DB::raw("DISTINCT com_regions.region_nm, sumber, count(ats.id) as jumlah, sum(case when status = true  then 1 else 0 end ) as tervalidasi,
         sum(case when minat_sekolah_st = 'MINAT_SEKOLAH_ST_01'  then 1 else 0 end ) as minat_sekolah"))
         ->leftJoin('ats_addresses', 'ats_addresses.ats_id', 'ats.id')
         ->leftJoin('com_regions', 'com_regions.region_cd', 'ats_addresses.region_kel')
