@@ -11,6 +11,7 @@ use App\Http\Livewire\Pages\Laporan;
 use App\Http\Livewire\Pages\LaporanKecamatan;
 use App\Http\Livewire\Pages\Master\Sekolah\DaftarSekolah;
 use App\Http\Livewire\Pages\Master\Sekolah\SekolahPage;
+use App\Http\Livewire\Pages\Ats\DetailAts;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +44,7 @@ Route::middleware([
     Route::get('user/{id?}', UserPage::class)->name('user');
     Route::get('user-index', DaftarUser::class)->name('user.index');
     Route::get('laporan', Laporan::class)->name('laporan.index');
+    Route::get('detail-ats', DetailAts::class)->name('detail-ats.index');
     Route::get('laporan/kecamatan/{id}', LaporanKecamatan::class)->name('laporan.kecamatan.index');
     Route::get('/getUser', function () {
         return response()->json(['userId' => auth()->user()->kecamatan]);

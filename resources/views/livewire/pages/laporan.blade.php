@@ -32,11 +32,14 @@
                 <th>Aksi</th>
               </thead>
               <tbody>
+                @php
+                  $z =0 ;
+                @endphp
                 @foreach ($report??[] as $item)
                 <tr>
                   <td>{{ $item->region_nm }}</td>
                   <td>{{ $item->sumber }}</td>
-                  <td>{{ $item->jumlah }}</td>
+                  <td>{{ $item->jumlah }} {{ $z=$z+$item->jumlah}}</td>
                   <td>{{  $item->tervalidasi  }}</td>
                   <td>{{  round($item->tervalidasi / $item->jumlah * 100, 3) }} %</td>
                   <td>{{  $item->minat_sekolah}} ({{ round($item->minat_sekolah / $item->jumlah * 100, 3) }}%)</td>
