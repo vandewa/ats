@@ -1,6 +1,7 @@
 <table>
     <thead>
         <tr>
+        <th>Sumber</th>
         <th>Nik</th>
         <th>Nama</th>
         <th>Tanggal Lahir</th>
@@ -16,6 +17,7 @@
     <tbody>
         @foreach ($items as $item)
             <tr>
+                <td>{{ $item->sumber }}</td>
                 <td>'{{ $item->nik }}</td>
                 <td>{{ $item->nama }}</td>
                 <td>{{ $item->tanggal_lahir }}</td>

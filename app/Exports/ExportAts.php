@@ -35,7 +35,7 @@ class ExportAts implements FromView
             $a->with(['disabilitas', 'alasan', 'jenisDisabilitas', 'statusAts']);
         }, 'alamatnya' => function($a) {
             $a->with('namaKelurahan', 'namaKecamatan');
-        }]);
+        }])->where('sumber', '!=', 'ATS 2022 NON IRISAN');
 
         if($this->verval != 'not'){
             $pencarian = $this->verval;
