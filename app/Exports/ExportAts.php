@@ -1,45 +1,35 @@
 <?php
 
-namespace App\Http\Livewire\Pages\Ats;
+namespace App\Exports;
+use Illuminate\Contracts\View\View;
 
-use App\Exports\ExportAts;
+use Maatwebsite\Excel\Concerns\FromView;
 use App\Models\Ats;
-use App\Models\ComCode;
-use App\Models\ComRegion;
-use Livewire\WithPagination;
-use Maatwebsite\Excel\Facades\Excel;
 
-use Livewire\Component;
-
-class DetailAts extends Component
+class ExportAts implements FromView
 {
-    use WithPagination;
-    protected $paginationTheme = 'bootstrap';
-    public $minatSekolah, $disablitas, $atsSt, $desa, $kecamatan, $alasan;
 
-    public $searchNama, $searchNik, $searchMinat, $searchDisabilitas, $searchAts, $searchKecamatan, $searchDesa, $searchVerval, $searchAlasan, $verval = "not";
+    public $searchNama, $searchNik, $searchMinat, $searchDisabilitas, $searchAts, $searchKecamatan, $searchDesa, $searchVerval, $searchAlasan, $verval;
 
-    public function mount()
+    public function __construct($searchNama, $searchNik, $searchMinat, $searchDisabilitas, $searchAts, $searchKecamatan, $searchDesa, $searchVerval, $searchAlasan, $verval)
     {
-        $this->minatSekolah = ComCode::where('code_group', 'MINAT_SEKOLAH_ST')->get();
-        $this->atsSt = ComCode::where('code_group', 'ATS_ST')->get();
-        $this->disablitas = ComCode::where('code_group', 'DISABILITAS_ST')->get();
-        $this->kecamatan = ComRegion::where('region_level', 3)->get();
-        $this->alasan = ComCode::where('code_group', 'ALASAN_TP')->get();
-      
+        $this->searchNama = $searchNama;
+         $this->searchNik = $searchNik;
+         $this->searchMinat = $searchMinat;
+         $this->searchDisabilitas = $searchDisabilitas;
+         $this->searchAts = $searchAts;
+         $this->searchKecamatan = $searchKecamatan;
+         $this->searchDesa = $searchDesa;
+         $this->searchVerval = $searchVerval;
+         $this->searchAlasan = $searchAlasan;
+         $this->verval = $verval;
+        
     }
 
-    public function exportExcel()
-    {
-        $a = now();
-        return Excel::download(new ExportAts( $this->searchNama, $this->searchNik, $this->searchMinat, $this->searchDisabilitas, $this->searchAts, $this->searchKecamatan, $this->searchDesa, $this->searchVerval, $this->searchAlasan, $this->verval), 'ats-'.$a.'.xlsx');
-    }
-
-    public function updatedSearchKecamatan()
-    {
-        $this->desa = ComRegion::where('region_root', $this->searchKecamatan)->get();
-    }
-    public function render()
+    /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function view(): View
     {
         $ats = Ats::with(['pendataan' => function($a){
             $a->with(['disabilitas', 'alasan', 'jenisDisabilitas', 'statusAts']);
@@ -87,9 +77,10 @@ class DetailAts extends Component
             });
         }
         
-        $ats = $ats->paginate(20);
-        return view('livewire.pages.ats.detail-ats', [
-            'ats' => $ats
+        $ats = $ats->get();
+
+        return view('livewire.pages.ats.detail-ats-export', [
+            'items' => $ats
         ]);
     }
 }
