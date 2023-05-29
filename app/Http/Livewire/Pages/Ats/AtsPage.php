@@ -11,6 +11,7 @@ use App\Models\Sekolah;
 use Livewire\Component;
 use Illuminate\Support\Facades\DB;
 use Livewire\WithFileUploads;
+use Carbon\Carbon;
 
 class AtsPage extends Component
 {
@@ -84,7 +85,10 @@ class AtsPage extends Component
 
     public function updatedDataAtsTanggalLahir()
     {
-        $this->usia = date_diff(date_create($this->dataAts['tanggal_lahir']), date_create('now'))->y;
+ 
+        // $this->usia = date_diff(date_create($this->dataAts['tanggal_lahir']), date_create('now'))->y;
+
+        $this->usia = Carbon::parse($this->dataAts['tanggal_lahir'])->diffInYears(now());
     }
 
     public function updatedAtsAddresRegionKec()
