@@ -92,7 +92,7 @@
 
 	@if (auth()->user()->hasRole('admin')) 
 	<div class="row">
-		<div class="col-6 col-lg-6 col-xl-6 d-flex">
+		<div class="col-sm-12 col-md-6">
 			<div class="card w-100 rounded-4">
 				<div class="card-body">
 					<div class="mb-3 d-flex align-items-center">
@@ -102,7 +102,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 col-lg-6 col-xl-6 d-flex">
+		<div class="col-sm-12 col-md-6">
 			<div class="card w-100 rounded-4">
 				<div class="card-body">
 					<div class="mb-3 d-flex align-items-center">
