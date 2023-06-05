@@ -27,7 +27,7 @@
                 <th>Sumber</th>
                 <th>Jumlah</th>
                 <th>Tervalidasi</th>
-                <th>Prosentase</th>
+                <th>Persentase</th>
                 <th>Minat Sekolah</th>
                 <th>Aksi</th>
               </thead>
