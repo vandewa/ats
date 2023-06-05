@@ -18,8 +18,10 @@ class Laporan extends Component
         ->leftJoin('com_regions', 'com_regions.region_cd', 'ats_addresses.region_kec')
         ->leftJoin('ats_pendataans', 'ats_pendataans.ats_id', 'ats.id')
         // ->whereRaw("(sumber != ATS 2022 NON IRISAN) ")
-        ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-        ->orWhere('sumber',  null)
+        ->where(function ($query) {
+            $query->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+                ->orWhereNull('sumber');
+        })
         ->groupBy('region_kec')
         ->groupBy('ats.sumber')
         ->groupBy('com_regions.region_nm')

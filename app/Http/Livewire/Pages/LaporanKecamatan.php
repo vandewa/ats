@@ -17,8 +17,10 @@ class LaporanKecamatan extends Component
         ->leftJoin('ats_addresses', 'ats_addresses.ats_id', 'ats.id')
         ->leftJoin('com_regions', 'com_regions.region_cd', 'ats_addresses.region_kel')
         ->leftJoin('ats_pendataans', 'ats_pendataans.ats_id', 'ats.id')
-        ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-        ->orWhere('sumber', null)
+        ->where(function ($query) {
+            $query->where('sumber', '!=', 'ATS 2022 NON IRISAN')
+                ->orWhereNull('sumber');
+        })
         ->where('region_kec', $id)
         ->where('sumber', $this->sumber)
         ->groupBy('ats.sumber')
