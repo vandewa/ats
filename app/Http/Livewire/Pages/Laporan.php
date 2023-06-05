@@ -19,7 +19,7 @@ class Laporan extends Component
         ->leftJoin('ats_pendataans', 'ats_pendataans.ats_id', 'ats.id')
         // ->whereRaw("(sumber != ATS 2022 NON IRISAN) ")
         ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-        ->orWhere('sumber', '=', null)
+        ->orWhere('sumber',  null)
         ->groupBy('region_kec')
         ->groupBy('ats.sumber')
         ->groupBy('com_regions.region_nm')
