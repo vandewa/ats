@@ -45,8 +45,8 @@ class DetailAts extends Component
             $a->with(['disabilitas', 'alasan', 'jenisDisabilitas', 'statusAts']);
         }, 'alamatnya' => function($a) {
             $a->with('namaKelurahan', 'namaKecamatan');
-        }])->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-        ->orWhere('sumber',  null);
+        }])->whereNotIn('sumber', ['ATS 2022 NON IRISAN']);
+        // ->orWhere('sumber',  null);
 
         if($this->verval != 'not'){
             $pencarian = $this->verval;
