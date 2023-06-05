@@ -121,7 +121,7 @@
               <th>Nama</th>
               <th>Alamat</th>
               <th>Tanggal Verifikasi</th>
-              <th>ATS</th>
+              <th>Anak Sekolah</th>
               <th>Disabilitas</th>
               <th>Jenis Disabilitas</th>
               <th>Alasan</th>
