@@ -33,7 +33,7 @@
                 <td>{{ $item->alamatnya->namaKecamatan->region_nm??"-" }} </td>
                 <td>{{ $item->pendataan->minatSekolah->code_nm??"-" }} </td>
                 <td>{{ $item->pendataan->sekolahNama->nama??"-" }} </td>
-                <td>{{ $item->pendataan->kelasSekolah->code_nm??"" }} </td>
+                <td>{{ $item->pendataan->kelasSekolah->code_nm??"" == "" ? $item->kelas??"-" : $item->pendataan->kelasSekolah->code_nm??""}} </td>
             </tr>
         @endforeach
     </tbody>
