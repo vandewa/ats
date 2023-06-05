@@ -129,7 +129,7 @@
             <tbody>
               @foreach ($ats as $item)
               <tr>
-                <td>{{ $item->sumber }}</td>
+                <td>{{ $item->sumber??"Pendataan Baru" }}</td>
                 <td>{{ $item->nik }}</td>
                 <td>{{ $item->nama }}</td>
                 <td>Ds. {{ $item->alamatnya->dusun??"-" }}, RT {{ $item->alamatnya->rt??"-" }}, RW {{ $item->alamatnya->rw??"-" }} ,

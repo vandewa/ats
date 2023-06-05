@@ -20,7 +20,7 @@
     <tbody>
         @foreach ($items as $item)
             <tr>
-                <td>{{ $item->sumber }}</td>
+                <td>{{ $item->sumber??"Pendataan Baru" }}</td>
                 <td>'{{ $item->nik }}</td>
                 <td>{{ $item->nama }}</td>
                 <td>{{ $item->tanggal_lahir }}</td>
