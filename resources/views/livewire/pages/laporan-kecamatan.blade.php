@@ -24,7 +24,8 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
           </div>
-          <table class="table">
+          <div class="table-responsive">
+            <table id="example" class="table table-striped table-bordered" style="width:100%">
               <thead>
                 <th>Desa</th>
                 <th>Sumber</th>
@@ -44,9 +45,9 @@
                   <td class="text-end">{{  $item->minat_sekolah}} ({{ round($item->minat_sekolah / $item->jumlah * 100, 3) }}%)</td>
                 </tr>
                 @endforeach
-               
               </tbody>
-          </table>
+            </table>
+          </div>
         </div>
       </div>
     </main>

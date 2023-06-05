@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Ats;
 use App\Models\User;
 use App\Models\AtsAddress;
+use App\Models\AtsPendataan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -47,9 +48,12 @@ class DashboardController extends Controller
             })
             ->where('sumber', '!=', 'ATS 2022 NON IRISAN')
             ->count();
+        
+        $minat = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_01')->count();
+        $tidak_minat = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_02')->count();
 
 
-        return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec'));
+        return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec', 'minat', 'tidak_minat'));
     }
 
     /**

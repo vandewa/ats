@@ -12,7 +12,7 @@
 							<p class="mb-1">Total Data ATS</p>
 							<h4 class="mb-0">{{$total_data_ats}}</h4>
 						</div>
-						<div class="ms-auto widget-icon bg-primary text-white">
+						<div class="text-white ms-auto widget-icon bg-primary">
 							<i class="lni lni-users"></i>
 						</div>
 					</div>
@@ -27,7 +27,7 @@
 							<p class="mb-1">Total User</p>
 							<h4 class="mb-0">{{$total_user}}</h4>
 						</div>
-						<div class="ms-auto widget-icon bg-success text-white">
+						<div class="text-white ms-auto widget-icon bg-success">
 							<i class="lni lni-user"></i>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 							<p class="mb-1">Total Data ATS Kecamatan {{$nama_kecamatan}}</p>
 							<h4 class="mb-0">{{$jml_ats_kec}}</h4>
 						</div>
-						<div class="ms-auto widget-icon bg-primary text-white">
+						<div class="text-white ms-auto widget-icon bg-primary">
 							<i class="lni lni-users"></i>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 							<p class="mb-1">Total User Kecamatan {{$nama_kecamatan}}</p>
 							<h4 class="mb-0">{{$total_user_kec}}</h4>
 						</div>
-						<div class="ms-auto widget-icon bg-success text-white">
+						<div class="text-white ms-auto widget-icon bg-success">
 							<i class="lni lni-user"></i>
 						</div>
 					</div>
@@ -88,11 +88,37 @@
 		</form>
 	</div> --}}
 
+
+
+	@if (auth()->user()->hasRole('admin')) 
+	<div class="row">
+		<div class="col-6 col-lg-6 col-xl-6 d-flex">
+			<div class="card w-100 rounded-4">
+				<div class="card-body">
+					<div class="mb-3 d-flex align-items-center">
+						<div class="fs-5 ms-auto dropdown"></div>
+					</div>
+					<div id="chart-ats"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-lg-6 col-xl-6 d-flex">
+			<div class="card w-100 rounded-4">
+				<div class="card-body">
+					<div class="mb-3 d-flex align-items-center">
+						<div class="fs-5 ms-auto dropdown"></div>
+					</div>
+					<div id="kntl"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	@else
 	<div class="row">
 		<div class="col-12 col-lg-12 col-xl-12 d-flex">
 			<div class="card w-100 rounded-4">
 				<div class="card-body">
-					<div class="d-flex align-items-center mb-3">
+					<div class="mb-3 d-flex align-items-center">
 						<div class="fs-5 ms-auto dropdown"></div>
 					</div>
 					<div id="chart-ats"></div>
@@ -100,6 +126,7 @@
 			</div>
 		</div>
 	</div>
+	@endif
   <!--end row-->
 </main>
 <!--end page main-->
@@ -159,6 +186,45 @@
 		}]
 	};
 	var chart = new ApexCharts(document.querySelector("#chart-ats"), options);
+	chart.render();
+</script>
+<script>
+	var c;
+	var d;
+
+	c = {{$minat}};
+	d = {{$tidak_minat}};
+
+	var options = {
+		title: {
+			text: 'Jumlah Minat dan Tidak Minat Sekolah',
+			align: 'left',
+			style: {
+				fontSize: "17px",
+				color: '#666'
+			}
+		},
+		series: [c, d],
+		labels: ['Minat', 'Tidak Minat'],
+		chart: {
+			foreColor: '#9ba7b2',
+			height: 380,
+			type: 'donut',
+		},
+		colors: ["#0d6efd", "#f41127"],
+		responsive: [{
+			breakpoint: 480,
+			options: {
+				chart: {
+					height: 320
+				},
+				legend: {
+					position: 'bottom'
+				}
+			}
+		}]
+	};
+	var chart = new ApexCharts(document.querySelector("#kntl"), options);
 	chart.render();
 </script>
 @endpush

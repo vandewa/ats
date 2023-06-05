@@ -21,7 +21,8 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
           </div>
-          <table class="table">
+          <div class="table-responsive">
+            <table id="example" class="table table-striped table-bordered" style="width:100%">
               <thead>
                 <th>Kecamatan</th>
                 <th>Sumber</th>
@@ -46,6 +47,7 @@
                
               </tbody>
           </table>
+          </div>
         </div>
       </div>
     </main>

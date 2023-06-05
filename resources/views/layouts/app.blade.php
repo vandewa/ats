@@ -38,6 +38,9 @@
 
 <!-- Scripts -->
 
+<link href="{{ asset('snacked/ltr/assets/plugins/datatable/css/dataTables.bootstrap5.min.css')}}" rel="stylesheet" />
+
+
 
   @stack('css')
   @livewireStyles
@@ -260,6 +263,10 @@
   <script src="{{ asset('snacked/ltr/assets/plugins/select2/js/select2.min.js')}}"></script>
   <script src="{{ asset('snacked/ltr/assets/js/form-select2.js')}}"></script>
   {{-- <script src="{{ asset('snacked/ltr/assets/plugins/apexcharts-bundle/js/apexcharts.min.js')}}"></script> --}}
+
+   <script src="{{ asset('snacked/ltr/assets/plugins/datatable/js/jquery.dataTables.min.js')}}"></script>
+   <script src="{{ asset('snacked/ltr/assets/plugins/datatable/js/dataTables.bootstrap5.min.js')}}"></script>
+   <script src="{{ asset('snacked/ltr/assets/js/table-datatable.js')}}"></script>
 
 	
   <!--app-->

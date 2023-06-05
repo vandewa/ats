@@ -16,15 +16,15 @@
    
     <!--end breadcrumb-->
     <div class="row">
-      <div class="col-xl-12 mx-auto">
+      <div class="mx-auto col-xl-12">
       
         <div class="card">
           <div class="card-body">
-            <div class="border p-3 rounded">
+            <div class="p-3 border rounded">
             <h6 class="mb-0 text-uppercase">Pencarian Data</h6>
             <hr>
             <form class="row g-3">
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Status</label>
                 <select name="" id="" class="form-control" wire:model="status">
                   <option value="">Pilih</option>
@@ -32,11 +32,11 @@
                   <option value="">Belum Di verifikasi</option>
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">NIK</label>
                 <input type="text" class="form-control" wire:model="nik">
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Kecamatan</label>
                 <select name="" id="" class="form-control" wire:model="region_kec">
                   <option value="">Pilih Kecamatan</option>
@@ -45,7 +45,7 @@
                   @endforeach
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Desa / Kelurahan</label>
                 <select name="" id="" class="form-control" wire:model="region_kel">
                   <option value="">Pilih Desa</option>
