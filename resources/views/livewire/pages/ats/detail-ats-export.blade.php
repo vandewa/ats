@@ -14,7 +14,7 @@
         <th>Kecamatan</th>
         <th>Melanjutkan</th>
         <th>Sekolah Tujuan</th>
-        <th>Kelas Tujuan</th>
+        <th>Kelas Tujuan / Kelas Terakhir</th>
         </tr>
     </thead>
     <tbody>
@@ -33,7 +33,7 @@
                 <td>{{ $item->alamatnya->namaKecamatan->region_nm??"-" }} </td>
                 <td>{{ $item->pendataan->minatSekolah->code_nm??"-" }} </td>
                 <td>{{ $item->pendataan->sekolahNama->nama??"-" }} </td>
-                <td>{{ $item->pendataan->kelasSekolah->code_nm??"" == "" ? $item->pendataan->kelas??"" : $item->pendataan->kelasSekolah->code_nm??"" == "" }} </td>
+                <td>{{ $item->pendataan->kelasSekolah->code_nm??"" }} </td>
             </tr>
         @endforeach
     </tbody>
