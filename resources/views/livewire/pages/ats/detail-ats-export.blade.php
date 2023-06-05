@@ -34,7 +34,9 @@
                 <td>{{ $item->pendataan->minatSekolah->code_nm??"-" }} </td>
                 <td>{{ $item->pendataan->sekolahNama->nama??"-" }} </td>
                 <td>
-                    {{ $item->pendataan->kelasSekolah->code_nm??"" }}
+                    @if($item->pendataan->minat_sekolah_st??"" == "MINAT_SEKOLAH_ST_01")
+                        {{ $item->pendataan->kelasSekolah->code_nm??"" }}
+                    @endif
                 </td>
             </tr>
         @endforeach
