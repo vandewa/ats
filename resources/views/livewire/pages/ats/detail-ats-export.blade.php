@@ -5,7 +5,7 @@
         <th>Nik</th>
         <th>Nama</th>
         <th>Tanggal Lahir</th>
-        <th>ATS</th>
+        <th>Anak Sekolah</th>
         <th>Tanggal Verifikasi</th>
         <th>Disabilitas</th>
         <th>Jenis Disabilitas</th>
