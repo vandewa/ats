@@ -49,4 +49,13 @@ class AtsPendataan extends Model
     {
         return $this->belongsTo(ComCode::class, 'sekolah_tp');
     }
+    public function sekolahNama()
+    {
+        return $this->belongsTo(Sekolah::class, 'nama_sekolah');
+    }
+
+    public function kelasSekolah()
+    {
+        return $this->belongsTo(ComCode::class, 'kelas');
+    }
 }

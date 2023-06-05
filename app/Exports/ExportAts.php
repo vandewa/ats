@@ -32,7 +32,7 @@ class ExportAts implements FromView
     public function view(): View
     {
         $ats = Ats::with(['pendataan' => function($a){
-            $a->with(['disabilitas', 'alasan', 'jenisDisabilitas', 'statusAts']);
+            $a->with(['disabilitas', 'alasan', 'jenisDisabilitas', 'statusAts', 'minatSekolah', 'sekolahNama', 'kelasSekolah']);
         }, 'alamatnya' => function($a) {
             $a->with('namaKelurahan', 'namaKecamatan');
         }])->where('sumber', '!=', 'ATS 2022 NON IRISAN');

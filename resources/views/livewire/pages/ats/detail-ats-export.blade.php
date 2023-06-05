@@ -12,6 +12,9 @@
         <th>Alamat</th>
         <th>Desa</th>
         <th>Kecamatan</th>
+        <th>Melanjutkan</th>
+        <th>Sekolah Tujuan</th>
+        <th>Kelas Tujuan</th>
         </tr>
     </thead>
     <tbody>
@@ -28,6 +31,9 @@
                 <td>Ds. {{ $item->alamatnya->dusun??"-" }}, RT {{ $item->alamatnya->rt??"-" }}, RW {{ $item->alamatnya->rw??"-" }} ,</td>
                 <td>{{ $item->alamatnya->namaKelurahan->region_nm??"-" }}</td>
                 <td>{{ $item->alamatnya->namaKecamatan->region_nm??"-" }} </td>
+                <td>{{ $item->pendataan->minatSekolah->code_nm??"-" }} </td>
+                <td>{{ $item->pendataan->sekolahNama->nama??"-" }} </td>
+                <td>{{ $item->pendataan->kelasSekoah->code_nm??"" == "" ? $item->pendataan->kelas??"" : $item->pendataan->kelasSekoah->code_nm??"" == "" }} </td>
             </tr>
         @endforeach
     </tbody>
