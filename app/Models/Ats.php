@@ -37,4 +37,9 @@ class Ats extends Model
     {
         return $this->hasOne(AtsPendataan::class);
     }
+
+    public function kelasTerakhir()
+    {
+        return $this->belongsTo(ComCode::class, 'kelas');
+    }
 }

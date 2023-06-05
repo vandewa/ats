@@ -33,7 +33,20 @@
                 <td>{{ $item->alamatnya->namaKecamatan->region_nm??"-" }} </td>
                 <td>{{ $item->pendataan->minatSekolah->code_nm??"-" }} </td>
                 <td>{{ $item->pendataan->sekolahNama->nama??"-" }} </td>
-                <td>{{ $item->pendataan->kelasSekolah->code_nm??"" == "" ? $item->kelas??"-" : $item->pendataan->kelasSekolah->code_nm??""}} </td>
+                <td>
+                    @if($item->pendataan->kelasSekolah->code_nm??"" == "") 
+
+                        @if($item->kelasTerakhir->code_nm??"" != "")
+                        {{ $item->kelasTerakhir->code_nm??"" }}
+                        @else 
+                        {{ $item->kelas??"" }}
+                        @endif
+
+                    @else 
+                        {{ $item->pendataan->kelasSekolah->code_nm??"" }}
+
+                    @endif
+                </td>
             </tr>
         @endforeach
     </tbody>
