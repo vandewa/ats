@@ -46,7 +46,7 @@ class DetailAts extends Component
         }, 'alamatnya' => function($a) {
             $a->with('namaKelurahan', 'namaKecamatan');
         }])->where('sumber', '!=', 'ATS 2022 NON IRISAN')
-        ->where('sumber', '=', null);
+        ->orWhere('sumber', '=', null);
 
         if($this->verval != 'not'){
             $pencarian = $this->verval;
