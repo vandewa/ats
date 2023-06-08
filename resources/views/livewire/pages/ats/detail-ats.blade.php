@@ -16,24 +16,24 @@
    
     <!--end breadcrumb-->
     <div class="row">
-      <div class="col-xl-12 mx-auto">
+      <div class="mx-auto col-xl-12">
       
         <div class="card">
           <div class="card-body">
-            <div class="border p-3 rounded">
+            <div class="p-3 border rounded">
             <h6 class="mb-0 text-uppercase">Pencarian Data</h6>
             <hr>
             <form class="row g-3">
              
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Nama</label>
                 <input type="text" class="form-control" wire:model="searchNama">
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">NIK</label>
                 <input type="text" class="form-control" wire:model="searchNik">
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Status Verval</label>
                 <select class="form-control" wire:model="verval">
                   <option value="not">Pilih</option>
@@ -41,7 +41,7 @@
                   <option value="belum">Belum Di verifikasi</option>
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Minat Sekolah</label>
                 <select name=""  class="form-control" wire:model="searchMinat">
                   <option value="">Pilih Minat Sekolah</option>
@@ -50,7 +50,7 @@
                   @endforeach
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Kecamatan</label>
                 <select name=""  class="form-control" wire:model="searchKecamatan">
                   <option value="">Pilih Kecamatan</option>
@@ -59,7 +59,7 @@
                   @endforeach
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Desa / Kelurahan</label>
                 <select name=""  class="form-control" wire:model="searchDesa">
                   <option value="">Pilih Desa</option>
@@ -69,7 +69,7 @@
                 </select>
               </div>
               
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Disabilitas</label>
                 <select name=""  class="form-control" wire:model="searchDisabilitas">
                   <option value="">Pilih Disabilitas</option>
@@ -78,7 +78,7 @@
                   @endforeach
                 </select>
               </div>
-              <div class="col-3">
+              <div class="col-sm-6 col-md-3">
                 <label class="form-label">Alasan ATS</label>
                 <select name=""  class="form-control" wire:model="searchAlasan">
                   <option value="">Pilih Alasan</option>
@@ -114,7 +114,8 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
           </div>
-          <table class="table">
+          <div class="table-responsive">
+            <table id="example" class="table table-striped table-bordered" style="width:100%">
             <thead>
               <th>Sumber</th>
               <th>Nik</th>
@@ -145,6 +146,7 @@
               @endforeach
             </tbody>
           </table>
+          </div>
           {{ $ats->links() }}
         </div>
       </div>
