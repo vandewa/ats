@@ -15,6 +15,7 @@
         <th>Melanjutkan</th>
         <th>Sekolah Tujuan</th>
         <th>Kelas Tujuan</th>
+        <th>Alasan</th>
         </tr>
     </thead>
     <tbody>
@@ -38,6 +39,7 @@
                         {{ $item->pendataan->kelasSekolah->code_nm??"" }}
                     @endif
                 </td>
+                <td>{{ $item->pendataan->alasan->code_nm??"" }}</td>
             </tr>
         @endforeach
     </tbody>
