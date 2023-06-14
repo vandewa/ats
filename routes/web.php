@@ -32,6 +32,7 @@ Route::get('docs', function () {
     return File::get(public_path() . '/documentation.html');
 });
 
+Route::group(['middleware' => ['role:admin']], function () {
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -55,4 +56,5 @@ Route::middleware([
     Route::post('/ganti-password', [DashboardController::class, 'gantiPassword'])->name('ganti.password');
 
 
+});
 });
