@@ -246,7 +246,7 @@
 
 	var options = {
 		title: {
-			text: 'Data P3KE',
+			text: 'Minat Sekolah Data P3KE',
 			align: 'left',
 			style: {
 				fontSize: "17px",
