@@ -118,7 +118,7 @@
 					<div class="mb-3 d-flex align-items-center">
 						<div class="fs-5 ms-auto dropdown"></div>
 					</div>
-					<div id="kntl2"></div>
+					<div id="pke"></div>
 				</div>
 			</div>
 		</div>
@@ -253,7 +253,7 @@
 				color: '#666'
 			}
 		},
-		series: [c, d],
+		series: [e, f],
 		labels: ['P3KE', 'Selain P3KE'],
 		chart: {
 			foreColor: '#9ba7b2',
@@ -273,7 +273,7 @@
 			}
 		}]
 	};
-	var chart = new ApexCharts(document.querySelector("#kntl2"), options);
+	var chart = new ApexCharts(document.querySelector("#pke"), options);
 	chart.render();
 </script>
 @endpush

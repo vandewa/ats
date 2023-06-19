@@ -62,6 +62,8 @@ class DashboardController extends Controller
             $query->where('sumber','!=','P3KE PROVINSI');
         })->count();
 
+        // return $minat_pke;
+
         return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec', 'minat', 'tidak_minat', 'minat_pke', 'total_pke'));
     }
 
