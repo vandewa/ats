@@ -58,4 +58,9 @@ class AtsPendataan extends Model
     {
         return $this->belongsTo(ComCode::class, 'kelas');
     }
+
+    public function atsnya()
+    {
+        return $this->belongsTo(Ats::class, 'ats_id');
+    }
 }

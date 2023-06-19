@@ -52,8 +52,19 @@ class DashboardController extends Controller
         $minat = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_01')->count();
         $tidak_minat = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_02')->count();
 
+        $minat_pke = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_01')
+        ->whereHas('atsnya', function ($query) {
+            $query->where('sumber','P3KE PROVINSI')
+                ->orWhere('sumber', null);
+        })->count();
 
-        return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec', 'minat', 'tidak_minat'));
+        $total_pke = AtsPendataan::where('minat_sekolah_st', 'MINAT_SEKOLAH_ST_01')
+        ->whereHas('atsnya', function ($query) {
+            $query->where('sumber','!=','P3KE PROVINSI')
+                ->orWhere('sumber', null);
+        })->count();
+
+        return view('dashboard.index', compact('total_data_ats', 'total_user', 'sudah_verif', 'blm_verif', 'nama_kecamatan', 'jml_ats_kec', 'sudah_verif_kec', 'blm_verif_kec', 'total_user_kec', 'minat', 'tidak_minat', 'minat_pke', 'total_pke'));
     }
 
     /**

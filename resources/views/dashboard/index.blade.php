@@ -92,7 +92,7 @@
 
 	@if (auth()->user()->hasRole('admin')) 
 	<div class="row">
-		<div class="col-sm-12 col-md-6">
+		<div class="col-sm-12 col-md-4">
 			<div class="card w-100 rounded-4">
 				<div class="card-body">
 					<div class="mb-3 d-flex align-items-center">
@@ -102,13 +102,23 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-12 col-md-6">
+		<div class="col-sm-12 col-md-4">
 			<div class="card w-100 rounded-4">
 				<div class="card-body">
 					<div class="mb-3 d-flex align-items-center">
 						<div class="fs-5 ms-auto dropdown"></div>
 					</div>
 					<div id="kntl"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<div class="card w-100 rounded-4">
+				<div class="card-body">
+					<div class="mb-3 d-flex align-items-center">
+						<div class="fs-5 ms-auto dropdown"></div>
+					</div>
+					<div id="kntl2"></div>
 				</div>
 			</div>
 		</div>
@@ -225,6 +235,45 @@
 		}]
 	};
 	var chart = new ApexCharts(document.querySelector("#kntl"), options);
+	chart.render();
+</script>
+<script>
+	var e;
+	var f;
+
+	e = {{$minat_pke}};
+	f = {{$total_pke}};
+
+	var options = {
+		title: {
+			text: 'Data P3KE',
+			align: 'left',
+			style: {
+				fontSize: "17px",
+				color: '#666'
+			}
+		},
+		series: [c, d],
+		labels: ['P3KE', 'Selain P3KE'],
+		chart: {
+			foreColor: '#9ba7b2',
+			height: 380,
+			type: 'donut',
+		},
+		colors: ["#0d6efd", "#f41127"],
+		responsive: [{
+			breakpoint: 480,
+			options: {
+				chart: {
+					height: 320
+				},
+				legend: {
+					position: 'bottom'
+				}
+			}
+		}]
+	};
+	var chart = new ApexCharts(document.querySelector("#kntl2"), options);
 	chart.render();
 </script>
 @endpush
