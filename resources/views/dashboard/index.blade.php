@@ -40,7 +40,7 @@
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="">
-							<p class="mb-1">Total Data ATS Kecamatann {{$nama_kecamatan}}</p>
+							<p class="mb-1">Total Data ATS Kecamatan {{$nama_kecamatan}}</p>
 							<h4 class="mb-0">{{$jml_ats_kec}}</h4>
 						</div>
 						<div class="text-white ms-auto widget-icon bg-primary">

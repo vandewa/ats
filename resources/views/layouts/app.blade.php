@@ -227,7 +227,7 @@
       {{-- DESKTOP ONLY --}}
       <div class="d-none d-md-block">
         <footer class="fixed-bottom" style="right: 0;text-align: center;padding: 7px;color: #000000;font-size: 14px;border-top: 1px solid rgb(255 255 255 / 15%);z-index: 3;">
-            <p class="mb-0">CP. Lintang Pramanasarii : 085227174444 | Zaki Amalia : 08562559427</p>
+            <p class="mb-0">CP. Lintang Pramanasari : 085227174444 | Zaki Amalia : 08562559427</p>
         </footer>
       </div>
 
