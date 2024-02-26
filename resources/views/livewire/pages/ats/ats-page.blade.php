@@ -423,13 +423,16 @@
                                         @enderror
                                     </div>
                                 </div>
-                                @endif  
-                               
+                                @endif
+                                
                                 <div class="row">
                                     <label class="col-sm-3 col-form-label"></label>
                                     <div class="col-sm-12 text-end">
                                         @if($atsPendataans['path_file']??'')
-                                            <a href="{{ asset(str_replace('public', 'storage', $atsPendataans['path_file']))}}" class="px-5 mb-3 btn btn-success" target="_blank">Lihat Surat</a>
+                                            {{-- <a href="{{ asset(str_replace('public', 'storage', $atsPendataans['path_file']))}}" class="px-5 mb-3 btn btn-success" target="_blank">Lihat Surat</a> --}}
+
+                                            <a href="{{ route('helper.show-picture', ['path' => $atsPendataans['path_file']]) }}" class="px-5 mb-3 btn btn-success" target="_blank">Lihat Surat</a>
+                                            
                                         @endif
                                         <a href="{{ route('data-ats.index') }}" class="px-5 mb-3 btn btn-secondary">Kembali</a>
                                         <button type="submit" class="px-5 mb-3 btn btn-primary">Simpan</button>
