@@ -170,7 +170,7 @@ class ListDataAts extends DataTableComponent
                             return $row->alamatnya->namaKelurahan->region_nm;
                         } else {
                             return '-';
-                        }
+                        }   
                     }
                 )
                 ->html(),

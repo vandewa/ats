@@ -85,7 +85,7 @@ class AtsPage extends Component
 
     public function updatedDataAtsTanggalLahir()
     {
- 
+
         // $this->usia = date_diff(date_create($this->dataAts['tanggal_lahir']), date_create('now'))->y;
 
         $this->usia = Carbon::parse($this->dataAts['tanggal_lahir'])->diffInYears(now());
@@ -101,26 +101,26 @@ class AtsPage extends Component
         // dd('aa');
         $this->listNamaSekolah = Sekolah::with(['namaKecamatan'])->where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
 
-        if($this->atsPendataans['minat_sekolah_st'] == "MINAT_SEKOLAH_ST_01") {
-            $this->dispatchBrowserEvent('updateValue', ['newName' =>  $this->listNamaSekolah]);
+        if ($this->atsPendataans['minat_sekolah_st'] == "MINAT_SEKOLAH_ST_01") {
+            $this->dispatchBrowserEvent('updateValue', ['newName' => $this->listNamaSekolah]);
         }
         // $this->listTingkatSekolahTerakhir1 = Sekolah::with(['namaKecamatan'])->where('status_sekolah', $this->atsPendataans['sekolah_tp'])->get();
     }
 
     public function updatedAtsPendataansNamaSekolah()
     {
-        if($this->atsPendataans["nama_sekolah"] != ""){
-        $devan = Sekolah::find($this->atsPendataans["nama_sekolah"]);
-        $this->listTingkatSekolahTerakhir1 = ComCode::where('code_value', $devan->jenjang)->get();
-         }
+        if ($this->atsPendataans["nama_sekolah"] != "") {
+            $devan = Sekolah::find($this->atsPendataans["nama_sekolah"]);
+            $this->listTingkatSekolahTerakhir1 = ComCode::where('code_value', $devan->jenjang)->get();
+        }
     }
     public function updatedAtsPendataansMinatSekolahSt()
     {
-        if($this->atsPendataans["minat_sekolah_st"] == "MINAT_SEKOLAH_ST_02"){
+        if ($this->atsPendataans["minat_sekolah_st"] == "MINAT_SEKOLAH_ST_02") {
             $this->atsPendataans["nama_sekolah"] = "";
             $this->atsPendataans["kelas"] = "";
             $this->atsPendataans["sekolah_tp"] = "";
-         }
+        }
     }
     public function updatedAtsAddresRw()
     {
@@ -146,7 +146,7 @@ class AtsPage extends Component
             ]);
 
             if ($this->path_file) {
-                $path = $this->path_file->store('public/surat-rekomendasi');
+                $path = $this->path_file->store('ats/public/surat-rekomendasi', 'gcs');
             } else {
                 $path = null;
             }
@@ -181,13 +181,13 @@ class AtsPage extends Component
         ]);
 
         if ($this->path_file) {
-            $path = $this->path_file->store('public/surat-rekomendasi');
+            $path = $this->path_file->store('ats/public/surat-rekomendasi', 'gcs');
         } else {
             $path = AtsPendataan::where('ats_id', $this->idnya)->first()->path_file;
         }
 
         Ats::find($this->idnya)->update($this->dataAts);
-        if(!auth()->user()->hasRole(['admin'])){
+        if (!auth()->user()->hasRole(['admin'])) {
             Ats::find($this->idnya)->update([
                 'status' => true,
                 'tanggal_verval' => now()
@@ -218,12 +218,12 @@ class AtsPage extends Component
             }
 
             $this->sekolahPilihan = Sekolah::with(['namaKecamatan'])->find($data->pendataan->nama_sekolah);
-            $this->listTingkatSekolahTerakhir1 = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->where('code_value',  $this->sekolahPilihan->jenjang??'asu')->get();
+            $this->listTingkatSekolahTerakhir1 = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->where('code_value', $this->sekolahPilihan->jenjang ?? 'asu')->get();
             $this->editPage();
         } else {
             $this->createPage();
         }
-      
+
         $this->listNamaSekolah = Sekolah::with(['namaKecamatan'])->get();
         $this->idnya = $id;
         $this->listKecamatan = ComRegion::where('region_level', 3)->get();
@@ -235,7 +235,7 @@ class AtsPage extends Component
         $this->listDisabilitasSt = ComCode::where('code_group', "disabilitas_st")->get();
         $this->listJenisDisabilitasTp = ComCode::where('code_group', "jenis_disabilitas_tp")->get();
         $this->listTingkatSekolahTerakhir = ComCode::where('code_group', "SEKOLAH_TERAKHIR_TP")->where('code_value', '!=', '')->get();
-        
+
         $this->listKawin = ComCode::where('code_group', "KAWIN_ST")->get();
         $this->listJenisKelamin = ComCode::where('code_group', "JENIS_KELAMIN_TP")->get();
 
